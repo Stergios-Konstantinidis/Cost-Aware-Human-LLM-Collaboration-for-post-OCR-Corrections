@@ -1,0 +1,142 @@
+[
+  {
+    "issue_id": 1,
+    "pdf_filename": "NV_1822_12_18.pdf",
+    "newspaper": "Nouvelliste Vaudois",
+    "date": "1822-12-18",
+    "region_count": 19
+  },
+  {
+    "issue_id": 2,
+    "pdf_filename": "FAL_1762_12_07.pdf",
+    "newspaper": "Feuille d'Avis de Lausanne",
+    "date": "1762-12-07",
+    "region_count": 44
+  },
+  {
+    "issue_id": 4,
+    "pdf_filename": "FAL_1763_06_21.pdf",
+    "newspaper": "Feuille d'Avis de Lausanne",
+    "date": "1763-06-21",
+    "region_count": 39
+  },
+  {
+    "issue_id": 7,
+    "pdf_filename": "FAL_1772_07_14.pdf",
+    "newspaper": "Feuille d'Avis de Lausanne",
+    "date": "1772-07-14",
+    "region_count": 44
+  },
+  {
+    "issue_id": 9,
+    "pdf_filename": "NV_1822_12_21.pdf",
+    "newspaper": "Nouvelliste Vaudois",
+    "date": "1822-12-21",
+    "region_count": 53
+  },
+  {
+    "issue_id": 12,
+    "pdf_filename": "NV_1840_07_28.pdf",
+    "newspaper": "Nouvelliste Vaudois",
+    "date": "1840-07-28",
+    "region_count": 18
+  },
+  {
+    "issue_id": 14,
+    "pdf_filename": "FAL_1841_11_23.pdf",
+    "newspaper": "Feuille d'Avis de Lausanne",
+    "date": "1841-11-23",
+    "region_count": 4
+  },
+  {
+    "issue_id": 20,
+    "pdf_filename": "TL_1912_12_11.pdf",
+    "newspaper": "TL",
+    "date": "1912-12-11",
+    "region_count": 62
+  },
+  {
+    "issue_id": 21,
+    "pdf_filename": "TL_1912_12_18.pdf",
+    "newspaper": "TL",
+    "date": "1912-12-18",
+    "region_count": 31
+  },
+  {
+    "issue_id": 22,
+    "pdf_filename": "TL_1912_12_28.pdf",
+    "newspaper": "TL",
+    "date": "1912-12-28",
+    "region_count": 12
+  },
+  {
+    "issue_id": 24,
+    "pdf_filename": "esta_1862_12_15.pdf",
+    "newspaper": "esta",
+    "date": "1862-12-15",
+    "region_count": 19
+  },
+  {
+    "issue_id": 28,
+    "pdf_filename": "ACI_1832_01_01.pdf",
+    "newspaper": "ACI",
+    "date": "1832-01-01",
+    "region_count": 31
+  },
+  {
+    "issue_id": 31,
+    "pdf_filename": "LP_1926_10_23.pdf",
+    "newspaper": "LP",
+    "date": "1926-10-23",
+    "region_count": 32
+  },
+  {
+    "issue_id": 33,
+    "pdf_filename": "ME_1733_05_01.pdf",
+    "newspaper": "ME",
+    "date": "1733-05-01",
+    "region_count": 4
+  },
+  {
+    "issue_id": 34,
+    "pdf_filename": "ME_1738_08_01.pdf",
+    "newspaper": "ME",
+    "date": "1738-08-01",
+    "region_count": 12
+  },
+  {
+    "issue_id": 36,
+    "pdf_filename": "RLP_1943_10_08.pdf",
+    "newspaper": "RLP",
+    "date": "1943-10-08",
+    "region_count": 46
+  },
+  {
+    "issue_id": 39,
+    "pdf_filename": "RL_1875_06_16.pdf",
+    "newspaper": "RL",
+    "date": "1875-06-16",
+    "region_count": 60
+  },
+  {
+    "issue_id": 42,
+    "pdf_filename": "RL_1878_11_27.pdf",
+    "newspaper": "RL",
+    "date": "1878-11-27",
+    "region_count": 8
+  },
+  {
+    "issue_id": 43,
+    "pdf_filename": "RL_1943_10_28.pdf",
+    "newspaper": "RL",
+    "date": "1943-10-28",
+    "region_count": 51
+  },
+  {
+    "issue_id": 44,
+    "pdf_filename": "RL_1945_05_07.pdf",
+    "newspaper": "RL",
+    "date": "1945-05-07",
+    "region_count": 20
+  }
+]

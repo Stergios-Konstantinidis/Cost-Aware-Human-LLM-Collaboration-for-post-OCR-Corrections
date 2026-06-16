@@ -1,0 +1,11 @@
+jiwer
+easyocr
+paddleocr
+pytesseract
+google-generativeai
+numpy
+openai
+python-dotenv
+pyspellchecker
+matplotlib
+scikit-learn

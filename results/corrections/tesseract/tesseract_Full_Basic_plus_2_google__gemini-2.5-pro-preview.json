@@ -1,0 +1,1514 @@
+[
+  {
+    "filename": "issue_1_page_1_region_1218.png",
+    "groundtruth": "L'AMI DE LA VÉRITÉ.\nJOURNAL DU CANTON DE VAUD.",
+    "raw_ocr": "L'AMI DE LA VÉRITÉ.\n\nJOURNAL DU CANTON DE VAUD.\n",
+    "corrected_ocr": "L'AMI DE LA VÉRITÉ.\n\nJOURNAL DU CANTON DE VAUD.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_1_page_1_region_1219.png",
+    "groundtruth": "Tout ce qui concerne\nla rédaction doit être\nenvoyé, franc de port,\nà Lausanne, chez Mr.\nBÉGUE DE ST. GENIÈS,\nAvocat, Rédacteur.",
+    "raw_ocr": "Tout ce qui concf Fn\nla rédaction doit 8e\nenvoyé, franc de ports\nà Lausanne, chez Mr:\nBéGuE DE Sr. GENIÈS,\nAvocat, Rédacteur:\n\n",
+    "corrected_ocr": "Tout ce qui concerne\nla rédaction doit se\nenvoyé, franc de ports\nà Lausanne, chez Mr.\nBÉGUE DE St. GENIÈS,\nAvocat, Rédacteur:",
+    "wer": 0.13636363636363635,
+    "cer": 0.03968253968253968
+  },
+  {
+    "filename": "issue_1_page_1_region_1220.png",
+    "groundtruth": "On s'abonne chez Mr.\nH. FISCHER libraire à\nLausanne, et à tous les\nBureaux de Poste de la\nSuisse.",
+    "raw_ocr": "On s’abonne chez Mr.\nH. Fiscuer libraire à\nLausanne, etàtousles\nBurcaux de Poste dela\nSuisse,\n",
+    "corrected_ocr": "On s’abonne chez Mr.\nH. Fischer libraire à\nLausanne, et à tous les\nBureaux de Poste de la\nSuisse,",
+    "wer": 0.10526315789473684,
+    "cer": 0.07291666666666667
+  },
+  {
+    "filename": "issue_1_page_2_region_1185.png",
+    "groundtruth": "SUISSE.",
+    "raw_ocr": "SUISSE.\n",
+    "corrected_ocr": "SUISSE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_1_page_2_region_1186.png",
+    "groundtruth": "CANTON DE VAUD,\nLAUSANNE, 18 Décembre.",
+    "raw_ocr": "CANTON DE VAuD»\nLausanne, 18 Décembre.\n",
+    "corrected_ocr": "CANTON DE VAUD.\nLausanne, 18 Décembre.",
+    "wer": 0.3333333333333333,
+    "cer": 0.21621621621621623
+  },
+  {
+    "filename": "issue_1_page_2_region_1187.png",
+    "groundtruth": "Par arrêté du Conseil d'Etat en daté du 10 de ce mois, Mr.\nDemolin, citoyen probe et honoré de l'estime générale, a été\nnommé Juge de paix à Lausanné; en remplacement de Mr. Cazenove, décédé. On a procédé hier à son installation.\nMr. Mange fils, de Rougemont, a été nommé notaire au\ndistrict du Pays-d'Enhaut.\nLes examens pour la chaire de droit romain et de législation\ncriminelle ; vacante dans l'Académie de cette ville, ont commencé le 10 de ce mois.",
+    "raw_ocr": "D OS ot nn Fou ee OR SO te ere\nPar arrêté du Conseil d'Etat en date du 10 de ce mois; Mr.\nemolin , citoyen probe et honoré de 'estinie générale, a été\n\nuommé Juge de paix à Lausannié ; en remplacement de Mr. Ca-\n\nzenove ; décédé. On à procédé hier à son installation.\nMr, Mange fils, de Rouÿemont, a été nommé notaire au\ndistrict du Pays-d’Enhaut: |\n‘ Les examens pour la thaire de droit romain et de législation\ncriminelle ; vacante däns PAcadémie de cette ville, ont com-\nmencé le 10 de ce innis.\n",
+    "corrected_ocr": "Par arrêté du Conseil d'Etat en date du 10 de ce mois; Mr. Demolin, citoyen probe et honoré de l'estime générale, a été nommé Juge de paix à Lausanne; en remplacement de Mr. Cazenove; décédé. On a procédé hier à son installation.\nMr. Mange fils, de Rouÿemont, a été nommé notaire au district du Pays-d’Enhaut.\nLes examens pour la chaire de droit romain et de législation criminelle; vacante dans l'Académie de cette ville, ont commencé le 10 de ce mois.",
+    "wer": 0.075,
+    "cer": 0.01327433628318584
+  },
+  {
+    "filename": "issue_1_page_2_region_1188.png",
+    "groundtruth": "ARAU, 15 Décembre.",
+    "raw_ocr": "Anau , 15 Décembre.\n",
+    "corrected_ocr": "Aarau, 15 Décembre.",
+    "wer": 0.3333333333333333,
+    "cer": 0.23529411764705882
+  },
+  {
+    "filename": "issue_1_page_2_region_1189.png",
+    "groundtruth": "La société fondée dans l'Argovie en faveur des Grecs , a déjà\nreçu pour un aussi noble but, et seulement jusqu'au 20 Novembre dernier, la somme de 5,198 francs.",
+    "raw_ocr": "La société fondée dans l'Argovie en faveur des Grecs ; a déjà\nreçu pour un aussi noble but, et seulement jusqu’au 20 No-\nvembre dernier ; la somme de 5,108 francs.\n",
+    "corrected_ocr": "La société fondée dans l'Argovie en faveur des Grecs, a déjà reçu pour un aussi noble but, et seulement jusqu’au 20 Novembre dernier, la somme de 5,108 francs.",
+    "wer": 0.07142857142857142,
+    "cer": 0.012658227848101266
+  },
+  {
+    "filename": "issue_1_page_2_region_1190.png",
+    "groundtruth": "ZURICH, 16 Décembre,",
+    "raw_ocr": "Zunicn ; 16 Décembre.\n",
+    "corrected_ocr": "Zurich, 16 Décembre.",
+    "wer": 0.3333333333333333,
+    "cer": 0.2631578947368421
+  },
+  {
+    "filename": "issue_1_page_2_region_1191.png",
+    "groundtruth": "Des lettres particulières nous annoncent que les empereurs\nd'Autriche et de Russie, renonçant aux voyages de Milan, Venise et Rome; sont repartis chacun pour leurs Etats.",
+    "raw_ocr": "Des lettrés particuliéres noûs annoncent que les empéreurs\nd’Autriche et de Russie ; renonçant aux voyages de Milau , Ve-\naise et Rome ; sont repartis chacun pour leurs Etats.\n",
+    "corrected_ocr": "Des lettres particulières nous annoncent que les empereurs d’Autriche et de Russie, renonçant aux voyages de Milan, Venise et Rome, sont repartis chacun pour leurs Etats.",
+    "wer": 0.07692307692307693,
+    "cer": 0.011834319526627219
+  },
+  {
+    "filename": "issue_1_page_2_region_1192.png",
+    "groundtruth": "COIRE, 14 Décembre.",
+    "raw_ocr": "Come ; 14 Décembre:\n",
+    "corrected_ocr": "Côme, 14 Décembre.",
+    "wer": 0.3333333333333333,
+    "cer": 0.2222222222222222
+  },
+  {
+    "filename": "issue_1_page_2_region_1193.png",
+    "groundtruth": "Les députés Grisons, MM. Albertini et de Salis, ayant appris\nà Milan que S. M. l'empereur d'Autriche ne viendroit pas dans\ncette capitale , se sont rendus à Vérone pour y remplir leur\nmission auprès de ce monarque , relativement aus confiscations\nde la Valteline.",
+    "raw_ocr": "Les députés Grisons, MM. Albertini et de Salis, ayant appris\nà Milan que S. M. l'empereur d’Autriche ne viendroit pas dans\ncette capitale ; se sont rendus x Vérone pour y remplir leur\n\nmission auprès de ce mouarque , relativement aux conlscations\nde la Valteline. e\n",
+    "corrected_ocr": "Les députés Grisons, MM. Albertini et de Salis, ayant appris à Milan que S. M. l'empereur d’Autriche ne viendroit pas dans cette capitale, se sont rendus à Vérone pour y remplir leur mission auprès de ce monarque, relativement aux confiscations de la Valteline.",
+    "wer": 0.046511627906976744,
+    "cer": 0.007692307692307693
+  },
+  {
+    "filename": "issue_1_page_2_region_1194.png",
+    "groundtruth": "FRANCE.",
+    "raw_ocr": "FRANCE.\n",
+    "corrected_ocr": "FRANCE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_1_page_2_region_1195.png",
+    "groundtruth": "PARIS; 12 Décembre.",
+    "raw_ocr": "Paris; 12 Décembre.\n",
+    "corrected_ocr": "Paris, 12 Décembre.",
+    "wer": 0.3333333333333333,
+    "cer": 0.2777777777777778
+  },
+  {
+    "filename": "issue_1_page_2_region_1196.png",
+    "groundtruth": "Les fonds ont éprouvé aujourd'hui un mouvement de hausse\ntrès-prononcé: c'est là le premier résultat de l'article inséré\ndans le Courrier anglais, et du changeient subit qui s'en est\nsuivi dans le langage de nos journaux ministériels. Le maintien\nde la paix est d'une si grande importance pour le commerce et\nle crédit public, que tout ce qui tend à faire croire la guerre\nmoins probable, ranime la confiance, et exerce la plus heureuse influence sur le cours de la rente. On eut mieux aime\ntoutefois devoir cette amélioration aux sages résolutions, et\naux bienveillantes communications du ministère français,\nqu'aux articles émanés de la politique étrangère.\nLa position des journaux ministériels est devenue singulière;\nen se prononçant pour le maintien de la paix, ils continuent\nd'exprimer des vœux pour l'armée de la Foi , et d'exagérer les\nchances de succès qui restent à ces malheureuses bandes, si rudement châtiées par Mina. Ces fenilles auroient-elles changé\nleur plan d'attaque? Croiroient-elles le gouvernement constitutionnel plus susceptible d'être ébranlé par la continuation de\nla guerre civile, que par une invasion étrangère? Leur nou-\nvelle attitude semble autoriser cette conjecture. L'avenir nous\napprendra jusqu'à quel point elle est fondée.",
+    "raw_ocr": "‘ Fu +\n\nLes fonds ont éprouvé aujourd’hui un mouvement de hausse\ntrès-prononcé : c’est l le premier résultat de l'article inséré\ndans le Courrier angläis, et dû changeinent subit qui s’en est\nsuivi dans lc langage de nos journaux ministériels, Le maintien\nde la paix est d’une si grande importance pour le commerce et\nle crédit public, que tout ce qui tend à faire croirela guerre\nmoins probable, ranime la confiance, et exerce la plus heu-\nreuse influence sur le cours de la rente. On eut mieux aimé\ntoutefois devoir cette amélioration aux sages résolutions, et\naux ‘bienyeillantes communications du ministère français,\nqu'aux articles émanés de Lx politique étrangère.\n\nLa position des journaux ministériels est devenue singulière;\ner»-se .prononçant pouf le maintien de Ja paix ; ils continuent\nd'exprimer des vœux pour l’armée de la Foi ; et d’exagérer les\nchances de succès qui restent à ces malheureuses bandes, si ru-\ndemenf châtiées par Mina. Ces feuilles auroient-elles changé\nleur plan d’attaque ? Croiroient-elles le gouvernement consti-\ntutionnel plus susceptible d’être ébranlé par la continuation de\nli guerre civile, que par une invasion étrangère? Leur nou-\nvelle attitude semble autoriser cette conjecture. L'avenir nous\napprendra jusqu’à quel point elle est fondée.\n",
+    "corrected_ocr": "Les fonds ont éprouvé aujourd’hui un mouvement de hausse très-prononcé: c’est le premier résultat de l'article inséré dans le Courrier anglais, et du changement subit qui s’en est suivi dans le langage de nos journaux ministériels. Le maintien de la paix est d’une si grande importance pour le commerce et le crédit public, que tout ce qui tend à faire croire la guerre moins probable, ranime la confiance, et exerce la plus heureuse influence sur le cours de la rente. On eut mieux aimé toutefois devoir cette amélioration aux sages résolutions, et aux bienveillantes communications du ministère français, qu'aux articles émanés de la politique étrangère.\n\nLa position des journaux ministériels est devenue singulière; en se prononçant pour le maintien de la paix, ils continuent d'exprimer des vœux pour l’armée de la Foi, et d’exagérer les chances de succès qui restent à ces malheureuses bandes, si rudement châtiées par Mina. Ces feuilles auroient-elles changé leur plan d’attaque ? Croiroient-elles le gouvernement constitutionnel plus susceptible d’être ébranlé par la continuation de la guerre civile, que par une invasion étrangère? Leur nouvelle attitude semble autoriser cette conjecture. L'avenir nous apprendra jusqu’à quel point elle est fondée.",
+    "wer": 0.07731958762886598,
+    "cer": 0.013481363996827915
+  },
+  {
+    "filename": "issue_1_page_2_region_1197.png",
+    "groundtruth": "Du 13 Décembre.",
+    "raw_ocr": "Du 13 Décembre.\n",
+    "corrected_ocr": "Du 13 Décembre.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_1_page_2_region_1199.png",
+    "groundtruth": "Du 14 Décembre.",
+    "raw_ocr": "Du 14 Décembre:\n",
+    "corrected_ocr": "Du 14 Décembre:",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_1_page_2_region_1200.png",
+    "groundtruth": "Le Drapeau Blanc continue à vouloir la guerre, voici comment Mr. de Martainville termine son dernier discours :\n« La chance la plus favorable pour nous , c'est que la population tout entière de l'Espagne s'abime, noyée dans sou propre\nsang; car si jamais elle puise dans les délirantes fureurs de sa",
+    "raw_ocr": "Le Drapeau Blänc continue à vouloir la guerre, voici com=\nment Mr. de Martainvillé termime son dermier discours :\n\n« La chance la plus favurahle pour noùs , c’est que la popu-\nlation tout entière de l'Espagne s’abime ; noyée dans son propre\nsang } car si jamais elle puise dans les délirantes furehrs de sa\n",
+    "corrected_ocr": "Le Drapeau Blanc continue à vouloir la guerre, voici comment\nMr. de Martainvillé termine son dernier discours :\n\n« La chance la plus favorable pour nous, c’est que la population\ntout entière de l'Espagne s’abime ; noyée dans son propre\nsang, car si jamais elle puise dans les délirantes fureurs de sa",
+    "wer": 0.1,
+    "cer": 0.020202020202020204
+  },
+  {
+    "filename": "issue_9_page_1_region_1239.png",
+    "groundtruth": "L'AMI DE LA VÉRITÉ.\nJOURNAL DU CANTON DE VAUD.",
+    "raw_ocr": "L'AMI DE LA VÉRITÉ.\n\nJOURNAL DU CANTON DE VAUD:\n",
+    "corrected_ocr": "L'AMI DE LA VÉRITÉ.\n\nJOURNAL DU CANTON DE VAUD:",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_1_region_1240.png",
+    "groundtruth": "LAUSANNE. Samedi 21 Décembre 1822.",
+    "raw_ocr": "LAUSANNE. Samedi 21 Décembre 1822.\n",
+    "corrected_ocr": "LAUSANNE. Samedi 21 Décembre 1822.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_1_region_1242.png",
+    "groundtruth": "Tout ce qui concerne\nla rédaction doit être\nenvoyé, franc de port,\nà Lausanne, chez Mr.\nBÉGUE DE ST. GENIÈS,\nAvocat, Rédacteur.",
+    "raw_ocr": "Tout ce qui concerne\nla rédaction doit être\nenvoyé, franc de port,\nà Lausanne , chez Mr.\nBécue DE ST. GENIÈS;\n\n‘ Avocat, Rédacteur:\n\n\\\n",
+    "corrected_ocr": "Tout ce qui concerne\nla rédaction doit être\nenvoyé, franc de port,\nà Lausanne, chez Mr.\nBécue DE ST. GENIÈS;\n\nAvocat, Rédacteur.",
+    "wer": 0.09090909090909091,
+    "cer": 0.03968253968253968
+  },
+  {
+    "filename": "issue_9_page_1_region_1243.png",
+    "groundtruth": "On s'abonne chez Mr.\nH. FISCHER libraire à\nLausanne, et à tous les\nBureaux de Poste de la\nSuisse.",
+    "raw_ocr": "On s’abonne chez Mr.\nH. Fiscuer hbraire à.\nLausanne, et à tousles\nBureaux de Poste dela\nSuisse.\n",
+    "corrected_ocr": "On s’abonne chez Mr.\nH. Fischer libraire à\nLausanne, et à tous les\nBureaux de Poste de la\nSuisse.",
+    "wer": 0.10526315789473684,
+    "cer": 0.07291666666666667
+  },
+  {
+    "filename": "issue_9_page_1_region_1244.png",
+    "groundtruth": "SITUATION POLITIQUE du 18 au 21.\nIl n'y a pas en d'événement de très-haute importance. Les Turcs sont dans une position tous les jours\nplus critique ; battus de toute part par les Perses et par les Grecs, on attend la confirmation des nouvelles\nqui annoncent de sérieux désordres dans leur capitale. La même incertitude règne encore en France sur la\ngrande question de la guerre contre l'Espagne. En attendant, Mina poursuit avec succès ses opérations.",
+    "raw_ocr": "SITUATION POLITIQUE du 18 au 21.\n\nIl n’y a pas en d’événément de très-haute importance. Les Turcs sont dans une position tous les jours\nplus critique ; battus de toute part par les Perses et par les Grecs, on attend la confirmation dés nouvelles\nqui annoncent de sérieux désordres dans leur capitale. La même incertitude règne encore en France sur la\ngrande question de la guerre contre Espagne. En attendant, Mina poursuit ävec succès ses opérations.\n",
+    "corrected_ocr": "SITUATION POLITIQUE du 18 au 21.\n\nIl n’y a pas eu d'événement de très-haute importance. Les Turcs sont dans une position tous les jours\nplus critique ; battus de toute part par les Perses et par les Grecs, on attend la confirmation des nouvelles\nqui annoncent de sérieux désordres dans leur capitale. La même incertitude règne encore en France sur la\ngrande question de la guerre contre Espagne. En attendant, Mina poursuit avec succès ses opérations.",
+    "wer": 0.04,
+    "cer": 0.008888888888888889
+  },
+  {
+    "filename": "issue_9_page_1_region_1250.png",
+    "groundtruth": "La session ordinaire d'hiver du Grand-Conseil de cette ville\na commencé le 12 Décembre. On y a entendu et approuvé le\nrapport fait par le Petit-Conseil sur l'administration des capitaux placés dans l'étranger.\nLa Commission chargée de rédiger un nouveau code civil\ncontinue ses travaux.\nLe célèbre naturaliste J. G. Tralles, ci-devant professeur à\nBerne et ensuite à Berlin, vient de mourir en Angleterre, où\nil voyageoit depuis quelques mois.\nOn parle d'un recrutement de 6000 hommes en Suisse pour\nle service du Roi de Naples. (Nous attendrons la confirmalion\nde cette nouvelle pour l'accompagner de sérieuses réflexions. )",
+    "raw_ocr": "La séssion ordinaire d'hiver du Grand-Conseil de:cette ville\na commencé le 12 Décembre. On y a entendu et approuvé le\nrapport fait par le Petit-Conseil sur l'administration des capi-\ntaux placés dans l'étranger.\n\nLa Commission chargée de rédiger un nouveau code civil\ncontinue ses travaux. :\n\nLe célèbre naturaliste J, G.Tralles ; ci-devant professeur à\nBerne et ensuite à berlin, vient de mourir en Angleterre, où\nil voyageoit depuis quelques, mois, :\n\nOn parle l’un recrutement de 6000 hommes en Suisse pour\nle service du Roi de Naples. (Nous attendrons la confirmalion\nde cette nouvelle pour l’accompagner de sérieuses réflexions. )\n",
+    "corrected_ocr": "La session ordinaire d'hiver du Grand-Conseil de cette ville\na commencé le 12 Décembre. On y a entendu et approuvé le\nrapport fait par le Petit-Conseil sur l'administration des capitaux\nplacés dans l'étranger.\n\nLa Commission chargée de rédiger un nouveau code civil\ncontinue ses travaux.\n\nLe célèbre naturaliste J. G. Tralles ; ci-devant professeur à\nBerne et ensuite à Berlin, vient de mourir en Angleterre, où\nil voyageoit depuis quelques mois.\n\nOn parle d'un recrutement de 6000 hommes en Suisse pour\nle service du Roi de Naples. (Nous attendrons la confirmation\nde cette nouvelle pour l’accompagner de sérieuses réflexions.)",
+    "wer": 0.030612244897959183,
+    "cer": 0.00482315112540193
+  },
+  {
+    "filename": "issue_9_page_1_region_1253.png",
+    "groundtruth": "FRANCE.",
+    "raw_ocr": "FRANCE\n",
+    "corrected_ocr": "FRANCE",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_1_region_1254.png",
+    "groundtruth": "PARIS, 14 Decembre.",
+    "raw_ocr": "Paris, 14 Decembre:\n",
+    "corrected_ocr": "Paris, 14 Décembre:",
+    "wer": 0.6666666666666666,
+    "cer": 0.2777777777777778
+  },
+  {
+    "filename": "issue_9_page_1_region_1255.png",
+    "groundtruth": "Tous les articles des feuilles publiques de l'Europe, toutes\nles notes diplomatiques des cabinets, tous les écrits du jour ont\npour objet de discussion les probabilités positives ou négatives\nd'une guerre contre l'Espagne; mais, comme cette guerre seroit\ndéclarée par le peuple français, qu'il en feroit les premiers frais,\nqu'il y paroîtroit en première ligne, qu'il auroit à en subir les\néventualités et que les succès mème d'une pareille entreprise\nne seroient pas sans périls pour lui, c'est sur-tout en France\nqu'une telle matière a dû fixer fortement l'attention. De là ces\nalternatives de crainte et d'espérance, ces jeux ruineux de\nbourse, ces hausses et ces baisses de fonds publics, propres à\ntroubler l'équilibre des plus grandes fortunes financières ; ces",
+    "raw_ocr": "Tous les articles des feuilles publiques de l'Europe, toutes\nles notes diplomatiques des cabinets , tous les écrits du jour ont\npour objet de discussion les probabilités positives ou négatives\nd’une guerre contre l'Espagne ; mais , comme cette guerre seroit\ndéclürée par le peuple français, qu’il en feroit les premiers frais,\nqu'il ÿ paroîtroit en première ligne , qu’il auroit à en subir les\néventualités et que les succès même d’une pareille entreprise\nne seroicnt pas sans périls pour lui, c’est sur-tout en France\nqu'une telle matière a dù fixer fortement l'attention. De là ces\nalternatives de crainte et d’espérance , ces jeux ruineux de\nbourse, ces hausses et ces baisses de fonds publics, propres à\ntroubler l'équilibre des plus grandes fortunes financières ; ces\n",
+    "corrected_ocr": "Tous les articles des feuilles publiques de l'Europe, toutes\nles notes diplomatiques des cabinets, tous les écrits du jour ont\npour objet de discussion les probabilités positives ou négatives\nd’une guerre contre l'Espagne ; mais, comme cette guerre seroit\ndéclarée par le peuple français, qu’il en feroit les premiers frais,\nqu'il y paroîtroit en première ligne, qu’il auroit à en subir les\néventualités et que les succès même d’une pareille entreprise\nne seroient pas sans périls pour lui, c’est sur-tout en France\nqu'une telle matière a dù fixer fortement l'attention. De là ces\nalternatives de crainte et d’espérance, ces jeux ruineux de\nbourse, ces hausses et ces baisses de fonds publics, propres à\ntroubler l'équilibre des plus grandes fortunes financières ; ces",
+    "wer": 0.06666666666666667,
+    "cer": 0.010443864229765013
+  },
+  {
+    "filename": "issue_9_page_2_region_1430.png",
+    "groundtruth": "Du 16 Décembre.",
+    "raw_ocr": "Du 16 Décembre.\n",
+    "corrected_ocr": "Du 16 Décembre.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1431.png",
+    "groundtruth": "On assure que l'ordonnance du Roi, pour la convocation\ndes chambres au 28 Janvier, sera incessamment publiée. Celle\ndu parlement d'Angleterre est fixée au 4 Février.",
+    "raw_ocr": "On assure que l'ordonnance du Roi, pour la convocation\ndes chambres au 28 Janvier, sera incessamment publiée. Celle\ndu parlemeut d'Angleterre est fixée au 4 Février.\n",
+    "corrected_ocr": "On assure que l'ordonnance du Roi, pour la convocation\ndes chambres au 28 Janvier, sera incessamment publiée. Celle\ndu parlement d'Angleterre est fixée au 4 Février.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1432.png",
+    "groundtruth": "Du 17 Décembre.",
+    "raw_ocr": "Du 17 Décembre:\n",
+    "corrected_ocr": "Du 17 Décembre:",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1433.png",
+    "groundtruth": "S. M. vient de nommer Mr. le lieutenant-général, vicomte\nTirlet, commandant de l'artillerie du corps d'armée des Pirénées occidentales, et Mr. le maréchal de camp baron Berge,\ncommandant l'artillerie du corps d'armée des Pyrénées orientales.",
+    "raw_ocr": "S. M. vient de nommer Mr. le lieutenant-général, vicomte\nTirlet, commandant dé lartillerie du corps d’armée des Piré-\nnées occidentales, et Mr. le maréchal de camp baron Berge,\nà EE SN l'artillerie du corps d'armée des Pyrénées orien-\ntales. .\n",
+    "corrected_ocr": "S. M. vient de nommer Mr. le lieutenant-général, vicomte\nTirlet, commandant de l'artillerie du corps d’armée des Piré-\nnées occidentales, et Mr. le maréchal de camp baron Berge,\nà l'artillerie du corps d'armée des Pyrénées orien-\ntales.",
+    "wer": 0.17142857142857143,
+    "cer": 0.0625
+  },
+  {
+    "filename": "issue_9_page_2_region_1434.png",
+    "groundtruth": "Le Bulletin des Lois contient une ordonnance en date du 27\nNovembre, par laquelle sont appelés à l'activité tous les jeunes soldats de la classe de 1821, qui sont en ce moment disponibles dans les départemens.",
+    "raw_ocr": "Le Bulletin des Lois contient une ordonnance en date du 27\nNovembre, par laquelle sont appelés à l’activité tous les jeu-\nnes soldats de la classe de 1821, qui sont en.ce moment dispo-\nnibles dans les départemens, -\n",
+    "corrected_ocr": "Le Bulletin des Lois contient une ordonnance en date du 27\nNovembre, par laquelle sont appelés à l’activité tous les jeu-\nnes soldats de la classe de 1821, qui sont en ce moment dispo-\nnibles dans les départemens,",
+    "wer": 0.1388888888888889,
+    "cer": 0.02403846153846154
+  },
+  {
+    "filename": "issue_9_page_2_region_1435.png",
+    "groundtruth": "Les départs des jeunes soldats appelés à l'activité devront être\nterminés le 20 Décembre prochain.",
+    "raw_ocr": "Les départs des jeunes soldats appelés à l’activité devront être\n+erminés le 20 Décembre prochain. ;\n",
+    "corrected_ocr": "Les départs des jeunes soldats appelés à l’activité devront être\nterminés le 20 Décembre prochain.",
+    "wer": 0.06666666666666667,
+    "cer": 0.010309278350515464
+  },
+  {
+    "filename": "issue_9_page_2_region_1436.png",
+    "groundtruth": "A cette ordonnance est joint un tableau de la répartition\ndes jeunes soldats de la classe de 1821 dans les divers corps de\nl'armée.",
+    "raw_ocr": ".… À cette ordonnance est joint un tableau de la répartition\ndes jeunes soldats de la classe de 1821 dans les divers corps de\nl'armée.\n",
+    "corrected_ocr": "À cette ordonnance est joint un tableau de la répartition\ndes jeunes soldats de la classe de 1821 dans les divers corps de\nl'armée.",
+    "wer": 0.041666666666666664,
+    "cer": 0.007692307692307693
+  },
+  {
+    "filename": "issue_9_page_2_region_1437.png",
+    "groundtruth": "Le même bulletin contient une ordonnance de réorganisation du train d'artillerie, d'après laquelle chacun des huit escadrons du train d'artillerie de la ligne sera à l'avenir composé\nd'un état-major, de huit compagnies et d'un cadre de compagnie formant dépôt.",
+    "raw_ocr": "‘Le même bulletin contient une ordonnance de réorganisa-\ntion du. train d'artillerie, d’après laquelle chacun des huit es-\ncadrons du train d’artillerie de la ligne sera à l’avenir composé\nd'un état-major, de huit compagnies et d’un cadre de compa-\ngnie formant dépôt, . Ë\n",
+    "corrected_ocr": "Le même bulletin contient une ordonnance de réorganisa-\ntion du train d'artillerie, d’après laquelle chacun des huit es-\ncadrons du train d’artillerie de la ligne sera à l’avenir composé\nd'un état-major, de huit compagnies et d’un cadre de compa-\ngnie formant dépôt,",
+    "wer": 0.2564102564102564,
+    "cer": 0.03861003861003861
+  },
+  {
+    "filename": "issue_9_page_2_region_1438.png",
+    "groundtruth": "FRONTIERES D'ESPAGNE.",
+    "raw_ocr": "FRONTIERES D’ESPAGNE.\n",
+    "corrected_ocr": "FRONTIERES D’ESPAGNE.",
+    "wer": 0.5,
+    "cer": 0.05
+  },
+  {
+    "filename": "issue_9_page_2_region_1439.png",
+    "groundtruth": "PUYCERDA, 4 Décembre.",
+    "raw_ocr": "PuycernA, 4 Décembre.\n",
+    "corrected_ocr": "Puycerda, 4 Décembre.",
+    "wer": 0.3333333333333333,
+    "cer": 0.35
+  },
+  {
+    "filename": "issue_9_page_2_region_1440.png",
+    "groundtruth": "Voici la traduction de la proclamation que Mina a publiée\navant son départ de Puycerda:",
+    "raw_ocr": "LE NV .— 2 004 US 2e Q Gr e- L4\n\n. Voici la traduction de la -proclemation que Mina a publiée\navant son départ dé Puycerda : |\n",
+    "corrected_ocr": "Voici la traduction de la proclamation que Mina a publiée\navant son départ de Puycerda :",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1441.png",
+    "groundtruth": "Habitans de la Cerdagne. Vous soupiriez depuis long-temps\naprès l'arrivée des troupes nationales, qui devoient vous délivrer de l'insupportable joug sous lequel une faction abominable vous faisoit gémir; cet heureux moment est arrivé. A peine\nces troupes mirent-elles le pied sur votre sol, que les traitres,\nles ennemis de leur propre patrie, disparurent comme la fumée.\nVous avéz été témoins des glorieuses journées des 28, 29 Novembre; ils furent détruits à la première, et n'eurent à la seconde d'autre ressource, que de chercher un asile chez une\nnation voisine.",
+    "raw_ocr": "Habitans de la Cerdagne ! Vous soupiriez depuis long-temps\naprès l’arrivée des troupes. nationales , qui devoient vous déli-\nyrer de l'insu portable joug sous lequel une faction abomina-\nble vous faisoit gémir; cet heureux moment est arrivé. A peine\nces troupes mirent-elles le pied sur votre sol, que les traitres,\nles énnemis de leur propre patrie, disparurent comme la fumée,\nVous avez été. témoins des glorieuses journées des 28,29 No-\nyembre; ils furent détruits à la prenuère, et n’eurent.à la se-\ntonde d'autre ressource , que de chercher un asile chez une\nhation voisine. ,\n",
+    "corrected_ocr": "Habitans de la Cerdagne ! Vous soupiriez depuis long-temps\naprès l’arrivée des troupes nationales, qui devoient vous déli-\nvrer de l'insupportable joug sous lequel une faction abomina-\nble vous faisoit gémir; cet heureux moment est arrivé. A peine\nces troupes mirent-elles le pied sur votre sol, que les traitres,\nles ennemis de leur propre patrie, disparurent comme la fumée.\nVous avez été témoins des glorieuses journées des 28, 29 No-\nvembre; ils furent détruits à la première, et n’eurent à la se-\nconde d'autre ressource, que de chercher un asile chez une\nnation voisine.",
+    "wer": 0.1348314606741573,
+    "cer": 0.02120141342756184
+  },
+  {
+    "filename": "issue_9_page_2_region_1442.png",
+    "groundtruth": "C'est aussi là que s'est réfugié le ridicule gouvernement qui,\nsous le titre de Régence , s'étoit établi parmi ces indignes espagnols. Respirez donc, habitans de la Cerdagne. Avec quel plaisir je vous ai entendu répéter vos acclamations patriotiques,\nmême à portée des balles des ennemis de la constitution ; et\ncombien j'ai joui en vous voyant d'une main leur arracher les\narmes, et de l'autre serrer celle des soldats que vous appeliez.\nvos libérateurs.",
+    "raw_ocr": "” Cest aussi là que s’est réfugié le ridicule gouvernement qui,\nsous lé titre de Régence ; s’étoit établi parmi ces indignes espa-\nguols. Réspirez donc, habitans de la Cerdagne! Avec quel D |\nsir je vous ai entendu répéter vos acclamations patriotiques ,\nmême à portée des balles des ennemis de la constitution; et\n\ncombien j'ai joui en vous voyant d’une main leur arracher les\n\narmes, et de l’autre serrer celle des soldats que yous appeliez ;\nvos libérateurs. . |\n",
+    "corrected_ocr": "C'est aussi là que s’est réfugié le ridicule gouvernement qui,\nsous le titre de Régence ; s’étoit établi parmi ces indignes espa-\ngnols. Respirez donc, habitans de la Cerdagne! Avec quel dé-\nsir je vous ai entendu répéter vos acclamations patriotiques,\nmême à portée des balles des ennemis de la constitution; et\n\ncombien j'ai joui en vous voyant d’une main leur arracher les\n\narmes, et de l’autre serrer celle des soldats que vous appeliez\nvos libérateurs.",
+    "wer": 0.1506849315068493,
+    "cer": 0.028761061946902654
+  },
+  {
+    "filename": "issue_9_page_2_region_1443.png",
+    "groundtruth": "Oui, ils le sont; car ils désirent votre prospérité; vous vous\nconvaincrez de cette vérité en comparant leur conduite avec\ncelle des infâmes qui, jusqu'à présent, avoient souillé votre territoire, et le but différent que se proposent les uns et les autres.",
+    "raw_ocr": "Oui, ils le sont; car ils désirent votre prospérité; vous vous\nconvaincrez de cette vérité en comparant leur conduite avec\ncelle des infâmes qui , jusqu’à présent , avoient souillé votre ter-\nritoire , et le But différent que se proposent les unset les autres.\n",
+    "corrected_ocr": "Oui, ils le sont; car ils désirent votre prospérité; vous vous\nconvaincrez de cette vérité en comparant leur conduite avec\ncelle des infâmes qui, jusqu’à présent, avoient souillé votre ter-\nritoire, et le But différent que se proposent les uns et les autres.",
+    "wer": 0.09523809523809523,
+    "cer": 0.01568627450980392
+  },
+  {
+    "filename": "issue_9_page_2_region_1444.png",
+    "groundtruth": "Il faut maintenant que chacun de vous remplisse les devoirs\nauxquels il est non-seulement appelé par son opinion, mais\nencore par son intérêt. Je vais avec l'armée que je commande,\net qui, comme moi, n'a d'autre désir que celui de consolider\nla liberté et l'indépendance de notre nation, achever d'exterminer les satellites de la tyrannie, en quelque lieu que nous puissions les trouver; vous à qui il importe de conserver la paix et\nla tranquillité de vos foyers, veillez à ce que de nouvelles incursions ne viennent plus les troubler; armez-vous; soyez\npleins de courage et de dévouement, et soyez sûrs qu'au besoin\nnous volerions à votre secours.",
+    "raw_ocr": "‘TL faut maintenant que chacun de vous remplisse les devoirs\n-auxquels il est non-seulement appelé par son opinion, mais\nencore par son intérêt. Je vais avec l’armée que je commande,\nét qui, comune moi, n’a d'autre désir que celui de consolider\nla liberté et l'indépendance de notre nation, achever d’exter-\nminer les sätellites de lityrannie, en quelque lieu que nous puis-\nsions les trouver; vous à qui il importe de conserver la paix et\nla tranquillité de vos foyers, veillez à ce que de nouvelles in-\ncursions ne viénnent plus les troubler ; armez- vous ; soyez\npleins de couragé et de dévouement , et soyez sûrs qu’au besoin\nnuus volerions à votre secours.\n",
+    "corrected_ocr": "Il faut maintenant que chacun de vous remplisse les devoirs\nauxquels il est non-seulement appelé par son opinion, mais\nencore par son intérêt. Je vais avec l’armée que je commande,\net qui, comme moi, n’a d'autre désir que celui de consolider\nla liberté et l'indépendance de notre nation, achever d’exter-\nminer les satellites de la tyrannie, en quelque lieu que nous puis-\nsions les trouver; vous à qui il importe de conserver la paix et\nla tranquillité de vos foyers, veillez à ce que de nouvelles in-\ncursions ne viennent plus les troubler ; armez-vous ; soyez\npleins de courage et de dévouement, et soyez sûrs qu’au besoin\nnous volerions à votre secours.",
+    "wer": 0.08333333333333333,
+    "cer": 0.015432098765432098
+  },
+  {
+    "filename": "issue_9_page_2_region_1445.png",
+    "groundtruth": "Habitans de la Cerdagne, je vous remercie de votre conduite\nenvers les troupes nationales; soyez constans jusqu'à la fin :\nVive la Constitution Espagnole, et guerre éternelle aux étres\navilis qui veulent contrarier ses salutaires effets.\nQuartier-général de Puycerda, le 4 Décembre 1822,\nLe général en chef de l'armée d'opération du 7e. district,\nF. Espos y MINA.",
+    "raw_ocr": "Habitans de la Cerdagne , je vous remercie de votre conduite\nenvers les troupës nationales ; soyez constans jusqu’à la fin :\nVive la Constitution Espagnole , et guerre éternelle aux étres\n‘avilis qui veulent contrariér ses salutaires effets.\n* Quartier-généräl de Puÿcerda, le 4 Décembre 1822,\nLe général en chef de l’armée d’opération du 7°. district ,\ns F. Espos x Mina\n",
+    "corrected_ocr": "Habitans de la Cerdagne, je vous remercie de votre conduite\nenvers les troupës nationales ; soyez constans jusqu’à la fin :\nVive la Constitution Espagnole, et guerre éternelle aux êtres\navilis qui veulent contrarier ses salutaires effets.\nQuartier-général de Puÿcerda, le 4 Décembre 1822,\nLe général en chef de l’armée d’opération du 7°. district,\nS. F. Espoz y Mina",
+    "wer": 0.17857142857142858,
+    "cer": 0.038781163434903045
+  },
+  {
+    "filename": "issue_9_page_2_region_1446.png",
+    "groundtruth": "DES ENVIRONS DE PUYCERDA, 6 Décembre.\nLa garnison de Puycerda se trouve maintenant composée\nde 600 hommes d'infanterie et de 50 chevaux.\nDans toute la Cerdagne on s'arme et on s'organise. On dit\nque Misas et Malavilla réunissent leurs troupes à Dosès et\nDoria.",
+    "raw_ocr": "Des ENVIRONS DE PuycerDA ; 6 Décembre:\nLa garnison de Puycerda se trouve maintenant composée\nde 600 hommes d'infanterie et de 50 chevaux.\n: Dans toute la Cerdagne on s’arme et on s'organise. On dit\nque Misas et Malayilla réunissent leurs troupes à Dosès et\nDoria, k ï\n",
+    "corrected_ocr": "Des ENVIRONS DE Puycerda, 6 Décembre:\nLa garnison de Puycerda se trouve maintenant composée\nde 600 hommes d'infanterie et de 50 chevaux.\nDans toute la Cerdagne on s’arme et on s'organise. On dit\nque Misas et Maravilla réunissent leurs troupes à Dosès et\nDoria,",
+    "wer": 0.11363636363636363,
+    "cer": 0.04633204633204633
+  },
+  {
+    "filename": "issue_9_page_2_region_1448.png",
+    "groundtruth": "PERPIGNAN, 7 Décembre:",
+    "raw_ocr": "PERPIGNAN, 7 Décembre:\n",
+    "corrected_ocr": "PERPIGNAN, 7 Décembre:",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1449.png",
+    "groundtruth": "La régence s'est mise en route ce matin pour Toulouse. Romanillo est ici depuis le 5. Nous voyons passer chaque jour des\nrestes de l'armée de la Foi, qu'on envoie dans les environs de\nSaint-Laurent de la Salanque, etc.; d'autres ont été cantonnés\nau pied des Pyrénées, à la Roque, Sorède et autres villages.\nNous avons dans ce département environ 3,600 hommes, plongés dans la plus affreuse misère.",
+    "raw_ocr": "La régence s’est mise en route ce matin pout Toulouse, Ro-\nmanillo est ici depuis le 5. Nous voyons passer chaque juur des\nrestes de l’armée de la Foi, qu’on envoie dans les environs de\nSaint-Laurent de la Salanque , etc. ; d’autres ont été cantonnés\nau pied des Pyrénées, à la Roque, Sorède et autres villages.\nNous avons dans ce département environ 3,600 hommes, pin\ngés dans la plus affreuse misère.\n",
+    "corrected_ocr": "La régence s’est mise en route ce matin pour Toulouse, Ro-\nmanillo est ici depuis le 5. Nous voyons passer chaque jour des\nrestes de l’armée de la Foi, qu’on envoie dans les environs de\nSaint-Laurent de la Salanque, etc. ; d’autres ont été cantonnés\nau pied des Pyrénées, à la Roque, Sorède et autres villages.\nNous avons dans ce département environ 3,600 hommes, plongés dans la plus affreuse misère.",
+    "wer": 0.10294117647058823,
+    "cer": 0.017632241813602016
+  },
+  {
+    "filename": "issue_9_page_2_region_1450.png",
+    "groundtruth": "Deux bataillons du 32.e régiment de ligne sont rentrés dans\ncette place les 5 et 6.",
+    "raw_ocr": "Deux bataillons du 32.° régiment de PRoee soht rentrés dans\ncette place les 5 et M.\n",
+    "corrected_ocr": "Deux bataillons du 32.° régiment de Ligne sont rentrés dans\ncette place les 5 et 11.",
+    "wer": 0.1875,
+    "cer": 0.04878048780487805
+  },
+  {
+    "filename": "issue_9_page_2_region_1451.png",
+    "groundtruth": "Les deux escadrons de la Sarthe sont aussi venus reprendre\nleurs cantonnemens à Thuir.\nLe général Vasserot est de retour.",
+    "raw_ocr": "_ Les deux escadrons de la Sarthe sont aussi venus reprendre\nleurs cantonnemens à Thuir.\nLe général Vassernt est de retour.\n",
+    "corrected_ocr": "Les deux escadrons de la Sarthe sont aussi venus reprendre\nleurs cantonnemens à Thuir.\nLe général Vasserot est de retour.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1452.png",
+    "groundtruth": "Du 8 Décembre.",
+    "raw_ocr": "Du 8 Décembre,\n",
+    "corrected_ocr": "Du 8 Décembre,",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1453.png",
+    "groundtruth": "Les troupes de l'armée de la Foi se trouvent encore cantonnées dans les villages des premier et deuxième arrondissement\nde ce département.\nL'arrivée des moines et prêtres des environs d'Olot, a été aujourd'hui très-nombreuse.\nL'archevêque de Tarragone se trouve toujours ici.",
+    "raw_ocr": "Les troupés de l’armée de Ja Foi se trouvent encore canton\nnées dans Îles villages des premier et deuxième arrondissement\nde ce département. |\n\nL’arrivée des moines et prètres des environs d’Olot , a été au-\njourd’hui très-nombreuse. | |\n\nL’archevèque de Tarragone se trouve toùjours ici.\n",
+    "corrected_ocr": "Les troupes de l’armée de la Foi se trouvent encore cantonnées dans les villages des premier et deuxième arrondissement\nde ce département.\n\nL’arrivée des moines et prêtres des environs d’Olot, a été au-\njourd’hui très-nombreuse.\n\nL’archevêque de Tarragone se trouve toujours ici.",
+    "wer": 0.14634146341463414,
+    "cer": 0.025547445255474453
+  },
+  {
+    "filename": "issue_9_page_2_region_1454.png",
+    "groundtruth": "TOULOUSE, 13 Décembre. La régence, partie le 7 de Perpignan, est arrivée le 9 à Toulouse. Mr. l'Archevêque de Tarragone est resté dans le Roussillon : on ignore absolument les\ndesseins ultérieurs de la Régence. S'il falloit s'arrêter à des\nconjectures plus ou moins hasardées, on pourroit avancer\nqu'elle se propose de se rendre dans la Navarre; mais la situation de cette province ne permet guères d'ajouter foi à de pareils bruits. Elle est peut-être à la veille d'éprouver le sort de\nla Catalogne, car le général Torrijos va prendre le commandement d'une division de l'armée constitutionnelle, et marcher\nsur cette province.",
+    "raw_ocr": "Toviovse , 13 Décembre. La régence, partie le 7 de Perpi-\nguan , est arrivée le 9 à Toulouse. Mr. l'Archevèque de Tarra-\ngone est resté datis le. Roussillon : on ignore absolument les\ndesseins ultérieurs dé la Régence. S'il falloit s'arrêter à des\nconjectures plus ou moins hasardées , on: pourroit avancer\nqu’elle se propose de se rendre dans la Navarre; mais la situa\ntion de cette province ne permet guères d'ajouter foi à de pa-\nreils bruits. Elle est peut-être à la veille d’éprouver le sort de\nla Catalogne, car le général Torrijos va prendre le comman-\n dement d’une division de l’armée constitutionnelle’, et marcher\nsur cette province. |\n",
+    "corrected_ocr": "Toulouse, 13 Décembre. La régence, partie le 7 de Perpi-\ngnan, est arrivée le 9 à Toulouse. Mr. l'Archevêque de Tarra-\ngone est resté dans le Roussillon : on ignore absolument les\ndesseins ultérieurs de la Régence. S'il falloit s'arrêter à des\nconjectures plus ou moins hasardées, on pourroit avancer\nqu’elle se propose de se rendre dans la Navarre; mais la situa\ntion de cette province ne permet guères d'ajouter foi à de pa-\nreils bruits. Elle est peut-être à la veille d’éprouver le sort de\nla Catalogne, car le général Torrijos va prendre le comman-\ndement d’une division de l’armée constitutionnelle, et marcher\nsur cette province.",
+    "wer": 0.1485148514851485,
+    "cer": 0.032
+  },
+  {
+    "filename": "issue_9_page_2_region_1455.png",
+    "groundtruth": "ESPAGNE.",
+    "raw_ocr": "ESPAGNÉ,.\n",
+    "corrected_ocr": "ESPAGNE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1456.png",
+    "groundtruth": "MADRID, 5 Décembre.",
+    "raw_ocr": "Mann, 5 Décembre:\n",
+    "corrected_ocr": "Madrid, 5 Décembre:",
+    "wer": 0.3333333333333333,
+    "cer": 0.2777777777777778
+  },
+  {
+    "filename": "issue_9_page_2_region_1457.png",
+    "groundtruth": "SOCIÉTÉ LANDABURIENNE.",
+    "raw_ocr": "Soctéré LANDABURIENNÉ.\n",
+    "corrected_ocr": "Société LANDABURIENNE.",
+    "wer": 0.5,
+    "cer": 0.2857142857142857
+  },
+  {
+    "filename": "issue_9_page_2_region_1458.png",
+    "groundtruth": "N. B. (L'espace ne nous a pas permis dans notre premier\nN.o de rendre compte de ces assemblées, dont l'influence devient tous les jours plus puissante. )",
+    "raw_ocr": ".N. B. (L'espace ne nous a pas permis dans notre premie*\nN° de rendre compte de ces assemblées , dont influence de<\nvient tous les jours plus puissante. )\n",
+    "corrected_ocr": "N. B. (L'espace ne nous a pas permis dans notre premier\nN° de rendre compte de ces assemblées, dont l'influence devient tous les jours plus puissante.)",
+    "wer": 0.038461538461538464,
+    "cer": 0.013333333333333334
+  },
+  {
+    "filename": "issue_9_page_2_region_1459.png",
+    "groundtruth": "Dans les séances des 27 et 28 on a agité les mêmes questions\net débattu les mêmes points que dans les séances précédentes,\navec une ardeur toujours croissante. On a beaucoup parlé de\nl'intervention des étrangers dans les affaires intérieures de la\npéninsule. Les déclarations de la Sainte-Alliance, disent les orateurs, sont enfin connues, nous voyons qu'on cherche les\nmoyens de s'entendre pour nous faire une guerre ouverte, mais\nnous la préférons à ces menées sourdes par lesquelles nos voisins cherchent à détruire notre système de gouvernement en\nfomentant chez nous la guerre civile. Les seules craintes que\nnous puissions avoir viennent des modérés qui voudroient modifier notre constitution. Nous avons devant les yeux l'exemple des maux qu'un changement, en apparence indifférent, dans\nle mode d'élection a produits en France. Jugeons par-là de la\nréserve qu'on doit mettre dans de telles opérations. Envisageons\nla constitution comme l'Arche-Sainte sur laquelle on ne peut\nporter la main sans se rendre coupable et sacrilège, sans porter sur-le-champ la peine d'un pareil crime.",
+    "raw_ocr": "Dans les séances des 27 et 28 on a agité les mêmes questions\net débattu les mêmes points que ae lee séances précédentes,\n\navec unë ardeur toujours croissante. On a beaucoup parlé de,\nPintervéntion des étrangers dans les affaires intérieures de la\n\npéninsule. Les déclärations dé la Sainte-Alliance ,-disent les ora-\n\nteurs, sont enfin éonnues , nous voyons qu’on cherche les\n\nmoyens de $’entendre pour nous faire une guerre ouverte, mais,\nnous la préférohs à ces menées sourdes par lesquelles nos voi-.\nsins cherchent à détruire notre système de gouvernement en.\nfomentant chez nuus la guerre civile. Les seules craintes que.\nnous puissions avoir viennent des modérés qui voudroient mo-\n\ndifier notre constitution: Nous avons devant les yeux l’exem-\n\nple des maux qu’un changement , én apparence indifférent, dans\nle mode d'élection a produits en France. Jugeons pär-lä de la\n\nréserve qu’on doit mettre dans de telles opérations. Énvisageons\n\nla constitution comme l’Arche-Sainte sur laquelle on ne peut\n\nporter la main sans se rendre coüpable et sacrilège , sans por-\n\nter sur-le-champ la peine d’un pareil crime:\n",
+    "corrected_ocr": "Dans les séances des 27 et 28 on a agité les mêmes questions\net débattu les mêmes points que dans les séances précédentes,\n\navec une ardeur toujours croissante. On a beaucoup parlé de l'intervention des étrangers dans les affaires intérieures de la\n\npéninsule. Les déclarations de la Sainte-Alliance, disent les ora-\n\nteurs, sont enfin connues, nous voyons qu’on cherche les\n\nmoyens de s’entendre pour nous faire une guerre ouverte, mais\nnous la préférons à ces menées sourdes par lesquelles nos voi-\nsins cherchent à détruire notre système de gouvernement en\nfomentant chez nous la guerre civile. Les seules craintes que\nnous puissions avoir viennent des modérés qui voudroient mo-\n\ndifier notre constitution: Nous avons devant les yeux l’exem-\n\nple des maux qu’un changement, en apparence indifférent, dans\nle mode d'élection a produits en France. Jugeons par-là de la\n\nréserve qu’on doit mettre dans de telles opérations. Envisageons\n\nla constitution comme l’Arche-Sainte sur laquelle on ne peut\n\nporter la main sans se rendre coupable et sacrilège, sans por-\n\nter sur-le-champ la peine d’un pareil crime:",
+    "wer": 0.10059171597633136,
+    "cer": 0.01655933762649494
+  },
+  {
+    "filename": "issue_9_page_2_region_1460.png",
+    "groundtruth": "Nous ne craignons pas l'agression étrangère, mais si elle avait\nlieu, malheur à tous ceux qui ne penseroient pas franchement\ncomme nous : des amis sans arrière-pensée ou des ennemis ouverts, voila les hommes qu'il nous faut.",
+    "raw_ocr": "Nous ne craignons pas l’agression étrangère ; mais si elle avait\nlieu , malheur à tous ceux qui ne penseroient pas franchement\ncomme nous : des amis sans arrière-pensée ou des ennemis ou-=\nverts, voilà les hommes qu’il nous faut:\n",
+    "corrected_ocr": "Nous ne craignons pas l’agression étrangère ; mais si elle avait\nlieu, malheur à tous ceux qui ne penseroient pas franchement\ncomme nous : des amis sans arrière-pensée ou des ennemis ou-\nverts, voilà les hommes qu’il nous faut:",
+    "wer": 0.16666666666666666,
+    "cer": 0.02702702702702703
+  },
+  {
+    "filename": "issue_9_page_2_region_1461.png",
+    "groundtruth": "On annonce à la société que le Roi a donné sa sanction au décret qui autorise la formation des sociétés patriotiques. De nombreux applaudissemens témoignent la satisfaction des membres\nde la société. Quelques-uns en remercient hautement les minitres, le Roi et les cortès.\n- Le lieutenant-général comte de Case-Soria, qui tenoit\ncompagnie à S. M. C. dans les appartemens du Roi, pendant la\njournée du 7 Juillet, s'est sauvé à Gibraltar.",
+    "raw_ocr": "On annonce à la société que le Roi a donné sa sanction au dé-\ncret qui autorise la formation des sociétés patriotiques. De nom-\"\nbreux applaudissemens témoignent la satisfaction des membres\nde la-société. Quelques-uns en remercient hautement les mitiis-\ntres ; le Roi et les cortès. '\n\n— Le lieutenant-général comte de Case-Soria, qui tenoit\nçompagnie à S: M. C. däns lés appartémens du Roi, pendant la\njournée du 7 Juillet , s’est sauvé à Gibraltar.\n",
+    "corrected_ocr": "On annonce à la société que le Roi a donné sa sanction au dé-\ncret qui autorise la formation des sociétés patriotiques. De nom-\nbreux applaudissemens témoignent la satisfaction des membres\nde la société. Quelques-uns en remercient hautement les minis-\ntres ; le Roi et les cortès.\n\nLe lieutenant-général comte de Case-Soria, qui tenoit\ncompagnie à S. M. C. dans les appartemens du Roi, pendant la\njournée du 7 Juillet, s’est sauvé à Gibraltar.",
+    "wer": 0.11267605633802817,
+    "cer": 0.02528735632183908
+  },
+  {
+    "filename": "issue_9_page_2_region_1462.png",
+    "groundtruth": "ANGLETERRE.",
+    "raw_ocr": "ANGLETERRE,\n",
+    "corrected_ocr": "ANGLETERRE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_2_region_1463.png",
+    "groundtruth": "LONDRES, 14 Décembre.",
+    "raw_ocr": "Lonores ; 14 Décembre:\n",
+    "corrected_ocr": "Londres, 14 Décembre:",
+    "wer": 0.3333333333333333,
+    "cer": 0.3
+  },
+  {
+    "filename": "issue_9_page_2_region_1464.png",
+    "groundtruth": "La nouvelle du retour instantané du duc de Wellington dans\nce pays n'est nullement vraie. Il demeure à Paris pour presser\nles négociations, qui, comme nous l'avons dit, devoient commencer entre la Grande-Bretagne, la France, l'Autriche, la\nRussie et la Prusse, relativement aux affaires d'Espagne. Les\nconférences entre Sa Grace et les ministres français avancent\nd'une manière si amicale que l'espoir de conserver la paix ne\nfait que croître.\nDes conseils du cabinet se tiennent toujours à Paris, d'où",
+    "raw_ocr": "La nouvelle du retour instantané du duc de Wellington dans\nce pays n’est nullement vraie, 11 demeure ä Paris pour presser\nles négociations ; qui, comme nous l’avoñs dit, devoient com-\nmencer entre la Grande-Bretagne , la France ; l’Autriche , la\nRussie et la Prusse , relativement aux afluires d’Espagne. Les\nconférences entre Sa Grace et les ministres français avancent\nd’une manière si amicale que l'espoir de conserver la paix ne\nfait que croître.\n\nDes conseils du cabinet se tiennent toujours à Paris; d'où\n",
+    "corrected_ocr": "La nouvelle du retour instantané du duc de Wellington dans\nce pays n’est nullement vraie, Il demeure à Paris pour presser\nles négociations ; qui, comme nous l’avons dit, devoient com-\nmencer entre la Grande-Bretagne, la France ; l’Autriche, la\nRussie et la Prusse, relativement aux affaires d’Espagne. Les\nconférences entre Sa Grâce et les ministres français avancent\nd’une manière si amicale que l'espoir de conserver la paix ne\nfait que croître.\n\nDes conseils du cabinet se tiennent toujours à Paris; d'où",
+    "wer": 0.1518987341772152,
+    "cer": 0.02390438247011952
+  },
+  {
+    "filename": "issue_9_page_3_region_1467.png",
+    "groundtruth": "ALLEMAGNE.",
+    "raw_ocr": "ALLEMAGNE.\n",
+    "corrected_ocr": "ALLEMAGNE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_3_region_1468.png",
+    "groundtruth": "HAMBOURG, 6 Décembre:",
+    "raw_ocr": "Hamsourc , 6 Décembre:\n",
+    "corrected_ocr": "Hambourg, 6 Décembre:",
+    "wer": 0.3333333333333333,
+    "cer": 0.35
+  },
+  {
+    "filename": "issue_9_page_3_region_1469.png",
+    "groundtruth": "Suivant ce que nous annonce notre correspondance à Vérone , M. de Tatitscheff auroit été envoyé à Constantinople par\nl'empereur de Russie, en qualité d'ambassadeur. Cette nouvelle\navoit fait à Vérone une forte sensation:\nFRANCFORT, 12 Décembre.\nM. le général Savary, duc de Rovigo, est arrivé ici venant\nde Paris; il se rend à Berlin.\nMAYENCE, 13 Décembre.\nLe nouveau système des douanes donne lieu de tout côté aux\nplaintes les plus amères.",
+    "raw_ocr": "Suivant ce que nous annonce notre correspondance à Vé-\nrone , M. de Tatitscheff auroit.été envoyé à Constantinople par\nlempcreur de Russie, en qualité d’ambassadeur. Cette nouvelle\navoit fait à Vérone une forte sensation:\n\nFRANCrORT ; 12 Décembre.\n\nM. le général Savary ; duc de Rovigo, est arrivé ici venant\n\nde Paris ; 1l se rend à Berlin. EL : '\nMaxence , 13 Décembre. |\n\nLe nouveau Système des douanes donne lieu de tout côté aux\n\nplaintes les plus amères: à\n",
+    "corrected_ocr": "Suivant ce que nous annonce notre correspondance à Vé-\nrone, M. de Tatitscheff auroit été envoyé à Constantinople par\nl'empereur de Russie, en qualité d’ambassadeur. Cette nouvelle\navoit fait à Vérone une forte sensation:\n\nFRANCFORT, 12 Décembre.\n\nM. le général Savary, duc de Rovigo, est arrivé ici venant\nde Paris ; il se rend à Berlin.\n\nMayence, 13 Décembre.\n\nLe nouveau Système des douanes donne lieu de tout côté aux\nplaintes les plus amères:",
+    "wer": 0.06944444444444445,
+    "cer": 0.022779043280182234
+  },
+  {
+    "filename": "issue_9_page_3_region_1470.png",
+    "groundtruth": "SUÈDE.",
+    "raw_ocr": "SUEDE:\n",
+    "corrected_ocr": "SUEDE:",
+    "wer": 1.0,
+    "cer": 0.2
+  },
+  {
+    "filename": "issue_9_page_3_region_1471.png",
+    "groundtruth": "STOCKHOLM, 29 Novembre:\nLe Roi est arrivé avant-hier dans la soirée. S. M. a dissout la\nrégence établie pour le temps de son absence.",
+    "raw_ocr": "SrocrkHoLM; 29 Novembre:\nLe Roi est arrivé avant-hier dans la soirée. S: M a dissout la :\nrégence établie pour le temps de son absence:\n",
+    "corrected_ocr": "STOCKHOLM, 29 Novembre:\nLe Roi est arrivé avant-hier dans la soirée. S. M. a dissout la\nrégence établie pour le temps de son absence:",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_3_region_1472.png",
+    "groundtruth": "RUSSIE.",
+    "raw_ocr": "RUSSIE:\n",
+    "corrected_ocr": "RUSSIE:",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_3_region_1473.png",
+    "groundtruth": "PETERSBOURG, 26 Novembre:\nL'adjudant-général prince de Menzikow; est parti pour rémplir une mission en Moldavie et en Valachie.",
+    "raw_ocr": "Pérerssource , 26 Novembre:\nL’adjudant-général prince de Menzikow ; est parti pour rérh-\nplir une mission en Moldavie et en Valachie:\n",
+    "corrected_ocr": "Pétersbourg, 26 Novembre:\nL’adjudant-général prince de Menzikow, est parti pour rem-\nplir une mission en Moldavie et en Valachie:",
+    "wer": 0.2777777777777778,
+    "cer": 0.11904761904761904
+  },
+  {
+    "filename": "issue_9_page_3_region_1477.png",
+    "groundtruth": "TRIESTE, 7 Décembre:",
+    "raw_ocr": "TRIÈSTE ; 7 Décembre: .\n",
+    "corrected_ocr": "TRIESTE, 7 Décembre:",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_3_region_1478.png",
+    "groundtruth": "On reçoit d'Hidra, sous la date du 23 Novembre, des nouvelles propres à répandre la joie dans le cœur de tous les Chrétiens. Poursuivie par les Grecs, la flotte turque avait jeté l'ancre devant Ténédos; mais n'écoutant que leur courage et leur dévouement; ces mêmes marins Grecs qui avoient fait subir\nun sort si funeste au dernier Capitan-Pacha, se présentent au",
+    "raw_ocr": "a Le dé “ee à he A\n\nOn reçoit d’'Hidra, sous la date du 23 Noyembre, des nou-\nvelles propres à répandre la joie dans le cœur de tous les Chré-\ntiens. Poursuivie par les Grecs, la flotte turque avait jeté l’an-\ncre dévant Ténédos ; mais n’écoutant que leur courage et leur\ndévouement ; ces mèmes marins Grecs qui avoïent fait subir\nun sort si funeste au dernier Capitan-Pacha, se présentent au\n",
+    "corrected_ocr": "On reçoit d'Hydra, sous la date du 23 Novembre, des nou-\nvelles propres à répandre la joie dans le cœur de tous les Chré-\ntiens. Poursuivie par les Grecs, la flotte turque avait jeté l’an-\ncre devant Ténédos ; mais n’écoutant que leur courage et leur\ndévouement ; ces mêmes marins Grecs qui avoient fait subir\nun sort si funeste au dernier Capitan-Pacha, se présentent au",
+    "wer": 0.13114754098360656,
+    "cer": 0.024793388429752067
+  },
+  {
+    "filename": "issue_9_page_4_region_1487.png",
+    "groundtruth": "FONDS PUBLICS.",
+    "raw_ocr": "FoNps PUBLICS,\n",
+    "corrected_ocr": "FONDS PUBLICS,",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_9_page_4_region_1488.png",
+    "groundtruth": "Londres, le 14 Décembre 1822. — Actions de la banque, —\nTrois pour cent réduits 79 3/4. Trois pour cent consolidés, fermés.\nTrois pour cent impériaux, 78 3/4. Trois et demi pour cent,\nQuatre pour cent 97 1/4; dito nouveaux, — Cinq pourcent français, 88.\nParis, le 16 Décembre 1822, — Cinq pour cent consolidés, au\ncomptant, fr. 89,80. fr. 89,55 ; dito on compte, fr. 89,75. Actions\nde la banque, 1641. 50. Rentes de Naples, 77 7/8. Rentes d'Espagne, 57 1/2",
+    "raw_ocr": "Londres ; le 14 Décembre 1822. Actions dela banque, ——\n\nrois pour cent réduits 794. Trois pour cent consolidés; fermés.\nTrois pour cétit impériaux, 75£, Trois ët demi pour cent, ——\nQuatre pour cent 97 !; dito nouveaux, —— Cinq pour cent fran.\nçais, 88, .\n\nParis, le16 Décembre 1822. — Cinq pour cent consolidés , au\ncomptant, fr. 89,80. fr. 89,55 ; dito on compte, fr. 89,75. Actions\n\nde la banque, 1641. 50. Rentes de Naples, 774. Rentes d'Espa. ;\n\ngné, 51 4.\n",
+    "corrected_ocr": "Londres, le 14 Décembre 1822. Actions de la banque, --\nTrois pour cent réduits 79 1/4. Trois pour cent consolidés, fermés.\nTrois pour cent impériaux, 75 1/2, Trois et demi pour cent, --\nQuatre pour cent 97 1/4; dito nouveaux, -- Cinq pour cent fran-\nçais, 88.\nParis, le 16 Décembre 1822. — Cinq pour cent consolidés, au\ncomptant, fr. 89,80, fr. 89,55 ; dito fin courant, fr. 89,75. Actions\nde la banque, 1641,50. Rentes de Naples, 77 1/4. Rentes d'Espa-\ngne, 51 1/4.",
+    "wer": 0.2716049382716049,
+    "cer": 0.07472527472527472
+  },
+  {
+    "filename": "issue_12_page_1_region_1656.png",
+    "groundtruth": "EXTERIEUR.",
+    "raw_ocr": "EXTERIEUR.\n",
+    "corrected_ocr": "EXTERIEUR.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_12_page_1_region_1657.png",
+    "groundtruth": "AFRIQUE.",
+    "raw_ocr": "AFRIQUE.\n",
+    "corrected_ocr": "AFRIQUE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_12_page_1_region_1658.png",
+    "groundtruth": "ALGER, 16 juillet. Depuis quelques jours les bruits du prochain changerent du gouverneur qui avaient pris d'abord\nune certaine consistance on fait place à des bruits entièrement\nopposés. On assure que M. Le maréchal Valée a offert sa démission et qu'on l'a déterminé à la retirer, mais il parait impossible\nque le gouvernement lui confie la direction des grandes opérations qui doivent avoir lieu en Algérie après les fortes chaleurs.\nIl parait certain que la prise de possession de la petite ville de\nDellis est arrêtée ; c'est un point important qui sera dans l'est ce\nqu'est Cherchell dans l'ouest; un port de ravitaillement pour les\ncolonnes qui opéreront de ce côté.",
+    "raw_ocr": "Arcen, 16 juillet. Depuis quelques jours les bruits du pro-\nchain changement du gouverneur qui avaient pris d'abord\nune certaine consistance on fait place à des bruits entièrement\nopposés. On assure que M. Le maréchal Valée a offert sa démis-\nsion ct qu’on l’a déterminé à la retirer, mais il paraît impossible\nque le gouvernement lui confie la direction des grandeS opéra-\ntions qui doivent avoir licu en Algérie après les fortes chaleurs.\n\nII parait certain que la prise de possession de la petite ville de\nBellis est arrétée ; c’est un point important qui sera dans l’est ce\nqu'est Cherchell dans l’ouest ; un port de ravitaillement pour les\ncolonnes qui opérerout de çe côté.\n",
+    "corrected_ocr": "Alger, 16 juillet. Depuis quelques jours les bruits du pro-\nchain changement du gouverneur qui avaient pris d'abord\nune certaine consistance ont fait place à des bruits entièrement\nopposés. On assure que M. le maréchal Valée a offert sa démis-\nsion et qu’on l’a déterminé à la retirer, mais il paraît impossible\nque le gouvernement lui confie la direction des grandes opéra-\ntions qui doivent avoir lieu en Algérie après les fortes chaleurs.\n\nIl parait certain que la prise de possession de la petite ville de\nBellis est arrêtée ; c’est un point important qui sera dans l’est ce\nqu'est Cherchell dans l’ouest ; un port de ravitaillement pour les\ncolonnes qui opéreront de ce côté.",
+    "wer": 0.15315315315315314,
+    "cer": 0.029895366218236172
+  },
+  {
+    "filename": "issue_12_page_1_region_1659.png",
+    "groundtruth": "Le gouvernement s'est décidé enfin à faire connaître le rapport si long-temps attendu du maréchal Valée. Il est difficile de\nse rendre compte du motif qui a fait ajourner de 24 heures cette\npublication. Elle pouvait avoir lieu dans les journaux d'hier\naussi bien que dans ceux d'aujourd'hui. Il semble pourtant que\nle maréchal avait mis la patience publique à une assez longue\népreuve sans que le ministère lui en fit subir une nouvelle.",
+    "raw_ocr": "Le gouvernement s’est décidé enfir à faire connaître le rap-\nport si long-temps attendu du maréchal Valée. Il est difficile de\nse rendre compte du motif qui a fail ajourner de 24 heures cette\npublication. Elle pouvait avoir lieu dans les journaux d’hier\naussi bien que dans ceux d'aujourd'hui. 11 semble pourtant que\nle maréchal avait mis la patience publique à une assez longue\népreuve saus que le ministère lai en fit subir une nouvelle.\n",
+    "corrected_ocr": "Le gouvernement s’est décidé enfin à faire connaître le rapport si long-temps attendu du maréchal Valée. Il est difficile de\nse rendre compte du motif qui a fait ajourner de 24 heures cette\npublication. Elle pouvait avoir lieu dans les journaux d’hier\naussi bien que dans ceux d'aujourd'hui. Il semble pourtant que\nle maréchal avait mis la patience publique à une assez longue\népreuve sans que le ministère lui en fit subir une nouvelle.",
+    "wer": 0.02702702702702703,
+    "cer": 0.0045871559633027525
+  },
+  {
+    "filename": "issue_12_page_1_region_1660.png",
+    "groundtruth": "A la première lecture du récit de cette seconde expédition\ncontre Abd-el-Kader, qui absorbe 9 colonnes du Moniteur,\non est frappé de la modestie inaccoutumée que le maréchal Valée\naffecte dans son rapport. Loin de chercher à s'y faire valoir, le\nmaréchal semble avoir pris à tâche de s'y effacer. Ce n'est pas\nson plan; c'est celui du gouvernement, ou du moins le plan approuvé par le gouvernement dès le mois d'avril dernier, qu'il a\nmis à exécution. Ensuite il fait la plus belle part au général\nChangarnier, qui paraît, au reste, avoir dirigé les opérations les\nplus difficiles et les plus périlleuses. Nous en faisons d'autant\nplus volontiers l'observation, que jusqu'ici le maréchal avait\ntoujours sacrifié les autres officiers à son gendre, et que cette\nfois il ne parle de celui-ci que pour mémoire et sur le rapport\ndu général Schramm. Enfin, nous ferons remarquer que, pour\nla première fois, le maréchal s'est inquiété de la santé des soldats, et a parlé des soins qu'il en a pris.",
+    "raw_ocr": "Al première lecture du récit de cette seconde expédition\ncontre Abd-el-Kader, qui absorbe 9 colonnes du Moniteur,\non est frappé de la modestie inaccoutumée que le maréchal Valée\naffecte dans son rapport. Loin de chercher à s’y faire valoir, le\nmaréchal semble avoir pris à tâche de s'y effacer. Ce n’est pas\nson plan; c'est celui du gouvernement, ou du moins le plan ap-\nprouvé par le gouveruement dès le mois d'avril dernier, qu'il a\nmis à exécution. Ensuite il fait la plus belle part au général\nChangarnier, qui paraît, au resle, avoir dirigé les opérations les\nplus difficiles et les plus périlleuses. Nous en faisons d’autant\nplus volontiers l'observation, que jusqu'ici le maréchal avait\ntoujours sacrifié les autres officiers à son gendre, et que cetle\nfois il ne parle de celui-ci que pour mémoire et sur le rapport\ndu général Schramm. Enfin, nous ferons remarquer que, pour\nJa première fois, le maréchal s’est inquiété de la santé des sol-\ndats, et a parlé des soins qu’il en a pris.\n",
+    "corrected_ocr": "A la première lecture du récit de cette seconde expédition\ncontre Abd-el-Kader, qui absorbe 9 colonnes du Moniteur,\non est frappé de la modestie inaccoutumée que le maréchal Valée\naffecte dans son rapport. Loin de chercher à s’y faire valoir, le\nmaréchal semble avoir pris à tâche de s'y effacer. Ce n’est pas\nson plan; c'est celui du gouvernement, ou du moins le plan approuvé par le gouvernement dès le mois d'avril dernier, qu'il a\nmis à exécution. Ensuite il fait la plus belle part au général\nChangarnier, qui paraît, au resle, avoir dirigé les opérations les\nplus difficiles et les plus périlleuses. Nous en faisons d’autant\nplus volontiers l'observation, que jusqu'ici le maréchal avait\ntoujours sacrifié les autres officiers à son gendre, et que cette\nfois il ne parle de celui-ci que pour mémoire et sur le rapport\ndu général Schramm. Enfin, nous ferons remarquer que, pour\nla première fois, le maréchal s’est inquiété de la santé des sol-\ndats, et a parlé des soins qu’il en a pris.",
+    "wer": 0.047337278106508875,
+    "cer": 0.008088978766430738
+  },
+  {
+    "filename": "issue_12_page_1_region_1661.png",
+    "groundtruth": "Si l'on cherche les résultats de la campagne au milieu de cette\nlongue énumération d'engagemens qui se sont renouvelés presque chaque jour, on les trouve indiqués dans le résumé qui termine ce volumineux rapport. Ils consistent moins dans la déroute des Arabes, qui, sans cesse battus, se représentent sans\ncesse; que, dans la prise de Miliana et dans sa mise en état de\ndéfense, dans le ravitaillement de Medeah et dans l'établissement\nd'un télégraphe, qui met ces deux villes en communication avec\nBlidah et par conséquent avec Alger. Ces résultats consistent\naussi dans l'incendie et la destruction d'une partie des récoltes\ndes Arabes, ainsi que dans la perte d'une assez grande quantité\nde leurs bestiaux. Certes, ce ne sont point là les bienfaits de la\ncivilisation qu'on leur a portés, mais c'est le seul moyen d'atteindre ces peuples nomades, et avec le caractère de la guerre\nqu'ils nous font, il ne s'agit plus de montrer de la générosité\nenvers de pareils ennemis.",
+    "raw_ocr": "Si l’on cherche les résultats de la campagne au milieu de cette\nlongue énuméralion d’engagemens qui se sont renouvelés pres-\nqe chaque jour, on les trouve indiqués dans le résumé qui ter-\nmine ce volumineux rapport. Ils consistent moins dans la dé-\nroute des Arabes, qui, sans cesse ballus, se représentent sans\ncesse; que, dans la prise de Miliana et dans sa mise en élat de\ndéfense, dans le ravitaillement de Medeah et dans l'établissement\nd'un télégraphe, qui met ces deux villes en communication avec\nBlidah et par conséquent avec Alger. Ces résultats consistent\naussi dans l'incendie et la destruction d’une partie des récoltes\ndes Arabes, ainsi que dans la perte d’une assez grande quantité\nde leurs bestiaux. Certes, ce ne sont point là les bienfaits de la\ncivilisation qu'on leur a portés, mais c’est le seul moyen d'at-\nteindre ces peuples nomades, et avec le caractère de la guerre\nqu'ils nous font, il ne s'agit plus de montrer de la générosilé\ncuvers de pareils ennemis.\n",
+    "corrected_ocr": "Si l’on cherche les résultats de la campagne au milieu de cette\nlongue énumération d’engagemens qui se sont renouvelés presque chaque jour, on les trouve indiqués dans le résumé qui termine ce volumineux rapport. Ils consistent moins dans la déroute des Arabes, qui, sans cesse ballus, se représentent sans\ncesse; que, dans la prise de Miliana et dans sa mise en état de\ndéfense, dans le ravitaillement de Medeah et dans l'établissement\nd'un télégraphe, qui met ces deux villes en communication avec\nBlidah et par conséquent avec Alger. Ces résultats consistent\naussi dans l'incendie et la destruction d’une partie des récoltes\ndes Arabes, ainsi que dans la perte d’une assez grande quantité\nde leurs bestiaux. Certes, ce ne sont point là les bienfaits de la\ncivilisation qu'on leur a portés, mais c’est le seul moyen d'atteindre ces peuples nomades, et avec le caractère de la guerre\nqu'ils nous font, il ne s'agit plus de montrer de la générosité\ncuvers de pareils ennemis.",
+    "wer": 0.043209876543209874,
+    "cer": 0.009240246406570842
+  },
+  {
+    "filename": "issue_12_page_1_region_1662.png",
+    "groundtruth": "ORIENT.",
+    "raw_ocr": "ORIENT.\n",
+    "corrected_ocr": "ORIENT.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_12_page_1_region_1663.png",
+    "groundtruth": "Nous apprenons par la voie de Malte que la dernière expédition dirigée d'Egypte contre la Syrie se compose de 24 vaisseaux\nde guerre portant 20,000 charges de poudre et des vivres pour\ncinq mois. Dix-huit bâtimens de transport accompagnent l'expé-",
+    "raw_ocr": "Nous apprenons par la voie de Malte que la dernière expédi-\ntion dirigée d'Egypte contre la Syrie se compose de 24 vaisseaux\nde guerre portant 20,000 charges de poudre et des vivres pour\ncinq mois. Dix-huit bâtimens de transport accompagnent l'expé-\n",
+    "corrected_ocr": "Nous apprenons par la voie de Malte que la dernière expédition dirigée d'Egypte contre la Syrie se compose de 24 vaisseaux\nde guerre portant 20,000 charges de poudre et des vivres pour\ncinq mois. Dix-huit bâtimens de transport accompagnent l'expédition",
+    "wer": 0.025,
+    "cer": 0.024390243902439025
+  },
+  {
+    "filename": "issue_12_page_1_region_1664.png",
+    "groundtruth": "dition avec des munitions. L'expédition se compose de 15,400\nhommes; les frais sont élevés à 50,000 talaris. Abbas-Pacha,\npetit-fils du vice-roi, qui doit être généralissime de l'expédition,\na reçu 1,000 bourses en argent et des provisions pour une valeur\nde 15,000 piastres. Il est destiné pour la Syrie un grand nombre d'autres bâtimens ; il ne restera à Alexandrie que la flotte de\nConstantinople et quatre navires égyptiens.",
+    "raw_ocr": "dition ‘aveé des munitions. L'expédition, se compose de 15,400\nhommes ; les frais sont élevés à 30,000 talaris. Abbas-Pacha,\npetit-fils du vice-roi, qui. doit être généralissime de l'expédition,\na reçu 4000 bourses en argent et des provisions pour une valeur\nde 15,000 pidsires. Il est destiné pour la Syrie un grand nom-\nbre d'autres bâlimens ; il ne restera à Alexandrie que la flotte de\nConstantinople et quatre navires égyptiens.\n",
+    "corrected_ocr": "avec des munitions. L'expédition se compose de 15,400\nhommes ; les frais sont élevés à 30,000 talaris. Abbas-Pacha,\npetit-fils du vice-roi, qui doit être généralissime de l'expédition,\na reçu 4000 bourses en argent et des provisions pour une valeur\nde 15,000 pidsires. Il est destiné pour la Syrie un grand nombre d'autres bâlimens ; il ne restera à Alexandrie que la flotte de\nConstantinople et quatre navires égyptiens.",
+    "wer": 0.07462686567164178,
+    "cer": 0.03051643192488263
+  },
+  {
+    "filename": "issue_12_page_1_region_1665.png",
+    "groundtruth": "Le vice-roi a prié les consuls de Frange et d'Agleterre d'ordonner à leurs agens en Syrie de ne pas se mêler de l'insurrection,\nparce qu'il avait appris que les chrétiens du Liban s'étaient révoltés et avaient arboré le drapeau français. Le consul de France\na, dit-on, écrit en Syrie à ce sujet, mais il a prévenu, en même\ntemps, le vice-roi que la France était la protectrice du catholicisme en Orient, et il a engagé le vice-roi à ne pas intervenir dans\nles affaires du couvent du Liban, dont la France est la protectrice. Les consuls d'Angleterre et de Russie voudraient, dit-on,\naider les marins de l'escadre turque à se sauver ; ils paieraient\nmême les frais du passage. En Syrie règne une grande activité :\nSoliman-Pacha est à Seide avec 5000 hommes d'infanterie et 1000\ncavaliers, sans compter trois régimens à Acri. Méhémet, pacha\nde Hafeld, marchait vers Zaleh avec 8000 hommes; 5000\nmontagnards devaient le rejoindre.",
+    "raw_ocr": "Le vice-roi a prié les consuls de,Frange et d'Agleterre d’or-\ndonner à leurs‘agens en Syrie de ne pas se mêler de l'insurrection,\nparce qu’il avait appris que les chrétiens du Liban s'étaient ré-\nvoltés el avaient arboré le drapeau français. Le consul de France\n\na, dit-on , écrit en Syrie à ce sujet, mais il a prévenu, en même\n\ntemps, le vice-roi que la France était la protectrice du catholi-\ncisme en Orient, ct il a engagé le vice-roi à ne pas intervenir dans\nles affaires du couvent du Liban, dont la France est la protec-\ntrice. Les consuls d’Anglelerre et de Russie voudraient, dit-on,\naider les marins de l’escadre turque à se sauver ; ils paieraient\nméme les frais du passage. Eu Syrie règne une grande activité :\nSoliman-Pacha cstà Setdeavec 5000 hommes d'infanterie et 1000\ncavaliers, sans compter trois régimens à Acri. Méhémet, pacha\nde Hafeld, marchait vers Zaleh avec 8000 hommes ; 5000\nmontagnards devaient le rejoindre.\n",
+    "corrected_ocr": "Le vice-roi a prié les consuls de France et d'Angleterre d’ordonner à leurs agens en Syrie de ne pas se mêler de l'insurrection,\nparce qu’il avait appris que les chrétiens du Liban s'étaient révoltés et avaient arboré le drapeau français. Le consul de France\na, dit-on, écrit en Syrie à ce sujet, mais il a prévenu, en même\ntemps, le vice-roi que la France était la protectrice du catholicisme en Orient, et il a engagé le vice-roi à ne pas intervenir dans\nles affaires du couvent du Liban, dont la France est la protectrice. Les consuls d’Angleterre et de Russie voudraient, dit-on,\naider les marins de l’escadre turque à se sauver ; ils paieraient\nmême les frais du passage. En Syrie règne une grande activité :\nSoliman-Pacha est à Setde avec 5000 hommes d'infanterie et 1000\ncavaliers, sans compter trois régimens à Acri. Méhémet, pacha\nde Hafeld, marchait vers Zaleh avec 8000 hommes ; 5000 montagnards devaient le rejoindre.",
+    "wer": 0.04487179487179487,
+    "cer": 0.007575757575757576
+  },
+  {
+    "filename": "issue_12_page_1_region_1672.png",
+    "groundtruth": "HANOVRE.",
+    "raw_ocr": "HANOVRE.\n",
+    "corrected_ocr": "HANOVRE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_12_page_1_region_1673.png",
+    "groundtruth": "Le roi de Hanovre vient d'interdire dans ses états la Gazette\ndes villages, feuille populaire qui s'imprime dans une petite\nprincipauté allemande, et qui s'était permis quelques allusions\npolitiques. Le roi vient aussi de créer une charge exprès d'examinateur des gazettes ; cette triste fonction est échue à un employé du ministère qui a pour mission de dénoncer à l'instant\nchaque allusion qui se trouverait dans les feuilles allemandes, et\npar l'intermédiaire des diplomates hanovriens une plainte est\naussitôt adressée au gouvernement du pays dans lequel les feuilles s'impriment.",
+    "raw_ocr": "Le roi de Hanovre vient d'interdire dans ses états la Gazette\ndes villages, feuille populaire qui s'imprime dans une petite\nprincipauté allemande , et qui s'était permis quelques allusions\npolitiques. Le roi vient aussi de créer une chàrge exprès d’exa-\n\n_mipateur des gazelles ; celte triste fonction est échue à un em-\n\n_ployé du ministère qui a pour mission de dénoncer à l'instant\nchaque allusion qui se trouverait dans les feuilles allemaudes, et\npar l'intermédiaire des diplomates hanovriens une plainte est\naussitôt adressée au gouvernement du pays dans lequel les feuil-\nles s'impriment.\n",
+    "corrected_ocr": "Le roi de Hanovre vient d'interdire dans ses états la Gazette\ndes villages, feuille populaire qui s'imprime dans une petite\nprincipauté allemande, et qui s'était permis quelques allusions\npolitiques. Le roi vient aussi de créer une charge exprès d’examinateur des gazettes ; cette triste fonction est échue à un employé du ministère qui a pour mission de dénoncer à l'instant\nchaque allusion qui se trouverait dans les feuilles allemandes, et\npar l'intermédiaire des diplomates hanovriens une plainte est\naussitôt adressée au gouvernement du pays dans lequel les feuilles s'impriment.",
+    "wer": 0.011363636363636364,
+    "cer": 0.001718213058419244
+  },
+  {
+    "filename": "issue_12_page_1_region_1674.png",
+    "groundtruth": "GRANDE-BRETAGNE.",
+    "raw_ocr": "GRANDE-BRETAGNE.\n",
+    "corrected_ocr": "GRANDE-BRETAGNE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_12_page_1_region_1675.png",
+    "groundtruth": "LONDRES, 21 juillet. Dans la séance de la chambre des communes du 20, sir Robert Inglis et les défenseurs des priviléges\nde l'église anglicane ont éprouvé deux échecs successifs. Dans\nles deux cas, il s'agissait d'étendre encore ces priviléges, et,\nsur chaque point, la majorité a fait justice des prétentions exagérées de l'ultra-torisme. Le résultat de cette séance semblerait\nprouver que la chambre des communes est fermement décidée\nà s'opposer désormais aux empiétements incessans de l'église\nanglicane.",
+    "raw_ocr": "Lovones, 21 juillet. Dans la séance de la chambre des com-\nmunes du 20 , sir Robert Inglis et les défenseurs des priviléges\nde l’église anglicane ont éprouvé deux échecs successifs. Dans\nles deux cas, il s'agissait d'étendre encore ces priviléges, et,\nsur chaque point, la majorité a fait justice des prétentions exa-\ngérées de l’ultra-torisme. Le résultat de cette séance semblerait\nprouver que la chambre des communes est fermement décidée\nà s'opposer désormais aux empiétements incessans de l'église\nanglicanc. :\n",
+    "corrected_ocr": "Londres, 21 juillet. Dans la séance de la chambre des communes du 20, sir Robert Inglis et les défenseurs des priviléges\nde l’église anglicane ont éprouvé deux échecs successifs. Dans\nles deux cas, il s'agissait d'étendre encore ces priviléges, et,\nsur chaque point, la majorité a fait justice des prétentions exagérées de l’ultra-torysme. Le résultat de cette séance semblerait\nprouver que la chambre des communes est fermement décidée\nà s'opposer désormais aux empiètements incessans de l'église\nanglicane.",
+    "wer": 0.05194805194805195,
+    "cer": 0.01972386587771203
+  },
+  {
+    "filename": "issue_12_page_1_region_1676.png",
+    "groundtruth": "On écrit de Dublin, en date du 17 courant : « Aujourd'hui,\nles membres de l'association pour le rappel de l'Union se sont\nréunis dans la grande salle de Court-Exchange. M. Robert\nM'Clelland a été appelé à présider l'assemblée. M. O'Connel a\nouvert la séance par le discours suivant: « Vous reconnaissez tous\nque nous n'avons aucune chance d'obtenir justice de l'Angleterre. Comment pourriez-vous donc espèrer obtenir le rappel de\nl'Union des mains du parlement britannique, si mes efforts avaient\npour but l'égalité d'une partie de la nation ; mais, en demandant\nle rappel de l'Union, je puis hardiment compter sur l'appui de",
+    "raw_ocr": "— On écrit de Dublin, en date du 17 courant: « Aujourd’hui,\nles membres de l'association pour le rappel de l’Union se sont\nréunis dans la grande salle de Court-Exchange. M. Robert\nM'Clelland a été appelé à présider l'assemblée. M. O'Connel a\nouvert la séance par le discours suivant: « Vous reconnaissez tous\nque nons n'avons aucune chance d'obtenir justice de l'Angle-\nterre. Comment pourriez-vous donc espèrer obtenir le rappel de\nUnion des mains du parlement britannique, si mes efforts avaient\npour but l'égalité d'une partie de la nation ; mais, en demandant\nle rappel de l'Union , je puis hardiment compter sur l'appui de\n",
+    "corrected_ocr": "On écrit de Dublin, en date du 17 courant: « Aujourd’hui,\nles membres de l'association pour le rappel de l’Union se sont\nréunis dans la grande salle de Court-Exchange. M. Robert\nM'Clelland a été appelé à présider l'assemblée. M. O'Connell a\nouvert la séance par le discours suivant: « Vous reconnaissez tous\nque nous n'avons aucune chance d'obtenir justice de l'Angleterre. Comment pourriez-vous donc espérer obtenir le rappel de\nl'Union des mains du parlement britannique, si mes efforts avaient\npour but l'égalité d'une partie de la nation ; mais, en demandant\nle rappel de l'Union, je puis hardiment compter sur l'appui de",
+    "wer": 0.039603960396039604,
+    "cer": 0.006420545746388443
+  },
+  {
+    "filename": "issue_12_page_1_region_1677.png",
+    "groundtruth": "FEUILLETON DU NOUVELLISTE VAUDOIS.",
+    "raw_ocr": "FEUILLETON DU NOUVELLISTE VAUDOIS.\n",
+    "corrected_ocr": "FEUILLETON DU NOUVELLISTE VAUDOIS.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_12_page_1_region_1678.png",
+    "groundtruth": "LA PESTE A BORD DU BRICK L'ESPIRITO-SANTO.\n(Suite.)",
+    "raw_ocr": "LA PESTE À BORD DU BRICK L'ESPIRITO-SANTO.\n(Suile.)\n",
+    "corrected_ocr": "LA PESTE À BORD DU BRICK L'ESPIRITO-SANTO.\n(Suite.)",
+    "wer": 0.125,
+    "cer": 0.02040816326530612
+  },
+  {
+    "filename": "issue_12_page_1_region_1679.png",
+    "groundtruth": "Je ne sais combien de temps je restai dans cet état d'insensibilité; mais\nlorsque je m'éveillai j'entendis un bruit de chaines qui roulaient sur le pont;\net l'instant d'après le retentissement d'une lourde masse qui tombait à l'eau.\nA l'immobilité du brick je crus que nous venions de mouiller nos ancres. Mais\nle bruit cessa tout à coup et fit place à des gémissemens plaintifs. Etonné de\nce qui se passait, je ramassai tout ce qui me restait de forces, j'ouvris la porte\nde ma cabine et m'avançai sur mes mains et sur mes genoux jusqu'au milieu\ndu pont sans rencontrer personne. Des gémissemens partaient seulement à de\nlongs intervalles du pied du matereau que j'avais fait placer sur l'avant; je\nm'approchai et je vis enveloppes dans leurs couvertes le cook et trois autres\nmatelots qui se livraient au désespoir et se frappaient la poitrine. J'appris\nd'eux que le second et ceux des matelots et de l'équipage qui étaient en bonne\nsanté s'étaient emparés du canot, qu'ils l'avaient mis à la mer, et qu'ils s'étaient jetés dans ce frêle esquif pour gagner la terre; alors, faisant un effort\npour me dresser sur mes genoux, je découvris le canot qui s'éloignait de nous;\nmais le docteur n'y était point. Je m'informai de lui à mes compagnons d'infortune, et j'appris d'eux que le pauvre docteur avait été emporté par le mal en quelques heures. Jetant ensuite les yeux sur la chaloupe qui était maintenant le long du bord, je la vis occupée par deux cadavres, au milieu desquels\nșe trouvait un passager italien qui depuis trois jours habitait celle triste demeure et poussait des gémissemens plaintifs.",
+    "raw_ocr": "Je ne sais combien de temps je restai dans cet état d’insensibilité; mais\nlorsque je m’éveillai j’entendis un bruit de chaines qui roulaient sur le pont;\net l'instant d’après le retentissement d’une lourde masse qui tombait à l’eau.\nA l'immobilité du brick je ç#®$ que nous venions de mouiller nos ancres. Mais\nle bruit cessa tout à coxf et fit place à des gémissemens phaintifs. Etonné de\nce qui se passait, jemassai tout ce qui me restait de forces, j'ouvris la porte\nde ma cabine et n'avançai sur mes mains et sur mes genoux jusqu’au milieu\ndu pont sans rencontrer personne. Des gémissemens partaient seulement à de\nlongs intervalles du pied du mätereau que j'avais fait, placer sur l'avant ; je\nm'approchai et je vis enveloppés dans leurs couvertes le cook et trois autres\nmatclots qui se livraient au désespoir et se frappaient la poitrine. J'appris\nd'eux que le second et ceux des matelots et de l’équipage qui étaient en bonne\nsanté s'étaient emparés du canot , qu'ils l’avaient mis à la mer, el qu'ils s'é-\ntaient jetés dans ce fréle esquif pour gagner la terre ; alors, faisant un effort\npour me dresser sur mes genoux, je découy ris le canot qui s’éloignait de nous;\nmais Je docteur n ÿ élait point, Je m'informai de lui à mes compagnons d’in-\nfortune, et j'appris d'enx que le pauvre docteur avait été emporté par le mal\nen quelques heures. Jetant ensuite les yeux sur la chaloupe qui était mainte -\ntant le long du bord, je la vis occupée par deux cadavres, au milicu desquels\nse frouvait un passager italien qui depuis trois jours habitait cette triste de\nmeure et poussait dés gémissemens plaintifs.\n\n",
+    "corrected_ocr": "Je ne sais combien de temps je restai dans cet état d’insensibilité; mais\nlorsque je m’éveillai, j’entendis un bruit de chaines qui roulaient sur le pont;\net l'instant d’après le retentissement d’une lourde masse qui tombait à l’eau.\nA l'immobilité du brick je compris que nous venions de mouiller nos ancres. Mais\nle bruit cessa tout à coup et fit place à des gémissemens plaintifs. Etonné de\nce qui se passait, je massai tout ce qui me restait de forces, j'ouvris la porte\nde ma cabine et m'avançai sur mes mains et sur mes genoux jusqu’au milieu\ndu pont sans rencontrer personne. Des gémissemens partaient seulement à de\nlongs intervalles du pied du mâtereau que j'avais fait placer sur l'avant ; je\nm'approchai et je vis enveloppés dans leurs couvertes le cook et trois autres\nmatelots qui se livraient au désespoir et se frappaient la poitrine. J'appris\nd'eux que le second et ceux des matelots et de l’équipage qui étaient en bonne\nsanté s'étaient emparés du canot, qu'ils l’avaient mis à la mer, et qu'ils s'étaient jetés dans ce frêle esquif pour gagner la terre ; alors, faisant un effort\npour me dresser sur mes genoux, je découvris le canot qui s’éloignait de nous;\nmais le docteur n'y était point. Je m'informai de lui à mes compagnons d'infortune, et j'appris d'eux que le pauvre docteur avait été emporté par le mal\nen quelques heures. Jetant ensuite les yeux sur la chaloupe qui était maintenant le long du bord, je la vis occupée par deux cadavres, au milieu desquels\nse trouvait un passager italien qui depuis trois jours habitait cette triste demeure et poussait des gémissemens plaintifs.",
+    "wer": 0.058394160583941604,
+    "cer": 0.01373283395755306
+  },
+  {
+    "filename": "issue_4_page_1_region_1706.png",
+    "groundtruth": "PAR PERMISSION REQUISE\nAprouvée de LEURS EXCELLENCES.",
+    "raw_ocr": "PAR PERMISSION RÉQUISE\nAprouvée de LEURS EXCELLENCES.\n",
+    "corrected_ocr": "PAR PERMISSION RÉQUISE\nAprouvée de LEURS EXCELLENCES.",
+    "wer": 0.14285714285714285,
+    "cer": 0.019230769230769232
+  },
+  {
+    "filename": "issue_4_page_1_region_1707.png",
+    "groundtruth": "ANNONCES,\nET AVIS DIVERS.\nXXVNE. FEUILLE PÉRIODIQUE.\nLAUSANNE\nDu Mardi 21. Juin 1763.",
+    "raw_ocr": "ANNONCES,\nET AVIS DIVERS 2\"\nXXVur FEUILLE PÉRIODIQUE.\nLAUSANNE\nDu Mardi 21. Juin 1763.\n",
+    "corrected_ocr": "ANNONCES,\nET AVIS DIVERS\nXXVe FEUILLE PÉRIODIQUE.\nLAUSANNE\nDu Mardi 21. Juin 1763.",
+    "wer": 0.15384615384615385,
+    "cer": 0.047619047619047616
+  },
+  {
+    "filename": "issue_4_page_1_region_1708.png",
+    "groundtruth": "ANNONCES ET AVIS DIVERS.",
+    "raw_ocr": "AVIS DIVERS.\n",
+    "corrected_ocr": "AVIS DIVERS.",
+    "wer": 0.5,
+    "cer": 0.5217391304347826
+  },
+  {
+    "filename": "issue_4_page_1_region_1709.png",
+    "groundtruth": "1. On donne avis qu'étant arrivé des désordres sur les Monts de la Paroisse de Vilette, commis par des misérables pervers qui ont coupé la queue\nde 22 Cheveaux qui y paturoient la nuit du 7 au 8 du courant : LL. EE.\nNos Souverains Seigneurs de la Ville & République de Berne, dans la\nvue d'en découvrir les auteurs, & pour ne pas laisser de telles actions\nimpunies ont chargé Sa Très Noble Magnifique Seigneurie Ballivale de\nLausanne de faire savoir qu'Elle accorde une Récompense de 200 Florins à celui qui les dénoncera, & que si même le dénonciateur se trouve\ncomplice non seulement son nom demeurera caché, mais aussi on lui accordera son pardon & la même Récompense.",
+    "raw_ocr": "1. On donne avis qu'étant arrivé des défordres fur les Monts de la Pa-\nroïfle de Vilette, commis par des miférables pervers qui ont coupé la queue\nde 22 Cheveaux qui y paturoïent la nuit du 7 au 8 du couränt : LL. EE.\nNos Souverains Scigneurs de la Ville & République de Berne, dans la\nvue d’en découvrir les auteurs, & pour ne pas laïfler de telles aétions\nimpunies ont chargé Sa Très Noble Magnifique Seigneurie Ballivale de\nLaufanne de faire favoir qu'Elle accorde une Récompenfe de 200 Flo-\nrins à celui qui les dénoncera, & que fi même le dénonciateur fe trouve\ncomplice non feulement fon nom demeurera caché, maïs aufli on lui ac-\ncordera fon pardon & la même Récompenfe. -\n",
+    "corrected_ocr": "1. On donne avis qu'étant arrivé des défordres fur les Monts de la Paroïfle de Vilette, commis par des miférables pervers qui ont coupé la queue\nde 22 Cheveaux qui y paturoïent la nuit du 7 au 8 du courant : LL. EE.\nNos Souverains Scigneurs de la Ville & République de Berne, dans la\nvue d’en découvrir les auteurs, & pour ne pas laïfler de telles aétions\nimpunies ont chargé Sa Très Noble Magnifique Seigneurie Ballivale de\nLaufanne de faire favoir qu'Elle accorde une Récompenfe de 200 Florins\nà celui qui les dénoncera, & que fi même le dénonciateur fe trouve\ncomplice non feulement fon nom demeurera caché, maïs aufli on lui accordera\nfon pardon & la même Récompenfe.",
+    "wer": 0.16806722689075632,
+    "cer": 0.03736920777279522
+  },
+  {
+    "filename": "issue_4_page_1_region_1710.png",
+    "groundtruth": "2. Les Proprietaires des Contracts sur le Dannemarck sont priés d'envoyer leurs quitances le 1er. de Juillet au Bureau de Messieurs Marcuard\n& Compagnie à Berne pour y recevoir l'intérêt échu le dit jour.",
+    "raw_ocr": "2. Les Proprietaires des Contraëts fur le Dannemarck font priés d’en-\nvoyer leurs quitances le 1%. de Juillet au Bureau de Meflieurs Marcuard\n& Compagnie à Berne pour y recevoir l'intérêt échu le dir jour.\n",
+    "corrected_ocr": "2. Les Proprietaires des Contraëts fur le Dannemarck font priés d’envoyer\nleurs quitances le 1er. de Juillet au Bureau de Meflieurs Marcuard\n& Compagnie à Berne pour y recevoir l'intérêt échu le dit jour.",
+    "wer": 0.14705882352941177,
+    "cer": 0.029556650246305417
+  },
+  {
+    "filename": "issue_4_page_1_region_1711.png",
+    "groundtruth": "3. Le Sieur Florent Maitre de Danse ayant appris que plusieurs personnes de Considération de cette Ville souhaiteroient qu'il vint s'y établir pendant cet Eté pour donner des leçons, fait avertir qu'il est très disposé de\ns'y rendre moyennant qu'il trouve un nombre suffisant d'Écoliers : il prie\nceux qu'il voudront profiter de ses leçons d'en donner avis au présent Bureau.\nIl procurera aussi de la Musique nouvelle tant en François qu'en Allemand\n& Italien.",
+    "raw_ocr": "3. Le Sieur' Florent Maitre de Danfe ayant appris que plufieurs perfon-\nnes de Confidération de cette Ville fouhaiteroient qu’il vint s’y établir pen-\ndant cet Eté pour donner des leçons, fait avertir qu'il eft très difpofé de\nsy rendre moyennant qu'il trouve un nombre {ufhñlant d’Ecoliers : il prie\nceux qu’il voudront profiter de fes leçons d’en donnér avis au préfent Bureau,\nPA a rer aufli de la Mufique nouvelle tant en François qu’en Allemand ”\n\ntalien. : TU\n",
+    "corrected_ocr": "3. Le Sieur Florent Maitre de Danfe ayant appris que plufieurs personnes\nde Confidération de cette Ville fouhaiteroient qu’il vint s’y établir pendant\ncet Eté pour donner des leçons, fait avertir qu'il eft très difpofé de\ns'y rendre moyennant qu'il trouve un nombre suffifant d’Ecoliers : il prie\nceux qu’il voudront profiter de fes leçons d’en donnér avis au préfent Bureau.\nOn trouvera aussi de la Musique nouvelle tant en François qu’en Allemand et\nItalien.",
+    "wer": 0.25675675675675674,
+    "cer": 0.05458515283842795
+  },
+  {
+    "filename": "issue_4_page_1_region_1712.png",
+    "groundtruth": "4. On demande à louer ou emprunter pour quelques mois un Clavessin\nou Epinette, avec promesse & sureté d'en avoir tour le soin possible. On\ns'adr. au Bureau.",
+    "raw_ocr": "4. On demande à louer ou emprunter pour quelques mois un Clavefin\n\nou Épinette, avec promefle & füureté d’en avoir tout le foin poflible, On\nS'adr. au Bureau. ;\n",
+    "corrected_ocr": "4. On demande à louer ou emprunter pour quelques mois un Clavefin\nou Épinette, avec promefle & sûreté d’en avoir tout le foin poflible, On\nS'adr. au Bureau.",
+    "wer": 0.32142857142857145,
+    "cer": 0.08333333333333333
+  },
+  {
+    "filename": "issue_4_page_1_region_1713.png",
+    "groundtruth": "5. On demande à emprunter 150 francs sur de bonnes Hypothèques,\nsituées à une lieue de Lausanne, consistant en Record & Champ.",
+    "raw_ocr": "$+ On demande à emprunter 1$0 francs fur de bonnes Hypothèques ,\nfituces à une lieue de Laufanne, confifant en Record & Champ.\n",
+    "corrected_ocr": "5. On demande à emprunter 150 francs fur de bonnes Hypothèques,\nsituées à une lieue de Laufanne, confifant en Record & Champ.",
+    "wer": 0.13636363636363635,
+    "cer": 0.04
+  },
+  {
+    "filename": "issue_4_page_2_region_1721.png",
+    "groundtruth": "6. On prie toute personne à qui on offriroit une Bague de Grenat montée en or en forme de cœur, dont il y en a un assez gros au milieu, entouré\nde plusieurs autres petits, de la retenir, & d'en aviser Monsieur le Banneret\nBergier à Lausanne, soit Madame son Epouse.",
+    "raw_ocr": "6. On prie toute perfonne à qui on offriroit une Bague de Grenat mon-\ntée en or en forme de cœur, dont il yen aun aflez gros au milieu, entouré\nde plufieurs autres petits, de la retenir, & d’en avife: Monfieur le Banneret\nBergier à Laufanne , foit Madame fon Epoufe.\n",
+    "corrected_ocr": "6. On prie toute perfonne à qui on offriroit une Bague de Grenat montée\nen or en forme de cœur, dont il y en a un aflez gros au milieu, entouré\nde plufieurs autres petits, de la retenir, & d’en aviser Monfieur le Banneret\nBergier à Laufanne, foit Madame fon Epoufe.",
+    "wer": 0.17647058823529413,
+    "cer": 0.03787878787878788
+  },
+  {
+    "filename": "issue_4_page_2_region_1722.png",
+    "groundtruth": "7. On donne avis que la Loterie des Chapeaux bordés & autres du Sr.\nMouton & Compagnie se tirera sans renvoir aujourd'hui à deux heures.",
+    "raw_ocr": "y À On donne avis que la Loterie des Chapeaux bordés & autres du Sr,\nMouton & Compagnie fe tirera fans renvoir aujourd’hui à deux heures.\n",
+    "corrected_ocr": "7. On donne avis que la Loterie des Chapeaux bordés & autres du Sr.\nMouton & Compagnie fe tirera fans renvoi aujourd’hui à deux heures.",
+    "wer": 0.16,
+    "cer": 0.02962962962962963
+  },
+  {
+    "filename": "issue_4_page_2_region_1723.png",
+    "groundtruth": "8. Les biens de feû Pierre Abraham Luquins de Juriens sont mis en décret, les hoirs ayant renoncé à son hérédité par la voye de leurs Tuteurs,\nles intéressés du dit sont ajournés de produire leurs titres par devant la Noble Justice de Romainmotier, les jours des interventions étant fixées au 24\ndu courant, le premier & huit Juillet: & les fonds se miseront au dit Romainmotier à la derniere juridique.",
+    "raw_ocr": ". 8. Les biens de feù Pierre Abraham kuquins de Juriens {ont mis en dé-\ncret, les hoïrs ayant renoncé à fon hérédité par la voye de leurs Tuteurs,\nles intéreffés du dit font ajournés de produire leurs titres par devant la No-\nbie Juftice de Romainmotier, les jours des interventions étant fixées au 24\ndu courant, le premier & huit Juillet: & les fonds fe miferont au-dit Ro-\nmainmotier à la derniere juridique.\n",
+    "corrected_ocr": "8. Les biens de feù Pierre Abraham kuquins de Juriens sont mis en décret,\nles hoïrs ayant renoncé à fon hérédité par la voye de leurs Tuteurs,\nles intéreffés du dit font ajournés de produire leurs titres par devant la Nobie\nJuftice de Romainmotier, les jours des interventions étant fixées au 24\ndu courant, le premier & huit Juillet: & les fonds fe miferont au-dit Romainmotier\nà la derniere juridique.",
+    "wer": 0.16901408450704225,
+    "cer": 0.029850746268656716
+  },
+  {
+    "filename": "issue_4_page_2_region_1724.png",
+    "groundtruth": "9. Tous prétendans ayant droits & titres sur les biens délaissé par feû le\nSr. Albert Godfroi Cramer d'Ulm, en son vivant Hôte du Logis de la Galère de Morges: comme les parents du defunt ne se sont point encore présentés pour accept ou refut de son hérédité, il a été déterminé par la Noble Justice de Morges d'établir l'état de l'avoir & du devoir de cette succession: à ces fins les dits sont ajournés à produire leurs titres en bonne\ndue & forme, & qu'ils puissent les soutenir par serment par devant la Noble\nJustice, Jeudi le 23 du courant sur les dix heures du matin, puisqu'en cas\nde discution il ne sera point donné d'avis pour éviter des fraix",
+    "raw_ocr": "9. Tous prétendans ayant droits & titres fur les biens délaiflé par feû le\nSr. Albert Godfroi Cramer d'Ulm;, en fon vivant Hôre du Logis de la Ga-\nlère de Morges: comme les parens du défunt ne fe font point encore pré-\nfentés pour accept ou refut de fon hérédité, il a été déterminé par la No-\ntle Juflice de Morges d'établir l’état de lavoir & du devoir de cette luc-\nceffion : à ces fins les dits font ajournés à produire leurs titres en bonne\ndue & forme, & qu'ils puiffent les foutenir par ferment par devant la Noble\nJuflice, Jeudi le 23 du courant fur les dix-heures du matin, puifqu’en cas\nde difcution il ne fera point donné d'avis, pour éviter des fraix.\n",
+    "corrected_ocr": "9. Tous prétendans ayant droits & titres fur les biens délaissés par feû le\nSr. Albert Godfroi Cramer d'Ulm, en fon vivant Hôte du Logis de la Galère\nde Morges: comme les parens du défunt ne fe font point encore présentés\npour accept ou refut de fon hérédité, il a été déterminé par la Noble\nJuflice de Morges d'établir l’état de lavoir & du devoir de cette succession\n: à ces fins les dits font ajournés à produire leurs titres en bonne\ndue & forme, & qu'ils puiffent les foutenir par ferment par devant la Noble\nJuflice, Jeudi le 23 du courant fur les dix-heures du matin, puifqu’en cas\nde discussion il ne fera point donné d'avis, pour éviter des fraix.",
+    "wer": 0.19008264462809918,
+    "cer": 0.04134762633996937
+  },
+  {
+    "filename": "issue_4_page_2_region_1725.png",
+    "groundtruth": "10. On donne avis que les biens d'Adam Samuel Margues Officier de la juridique de Dommartin sont mis en dêcret, en conséquence de quoi les interressés\nsont ajournés de faire productions de leurs titres devant la Noble Justice du dit\nDommartin les interventions étant fixées aux Mardi le 14. 21. & 28. &\naux Jeudi le 16. 23. & 30. avant midi au Greffe Ballival de Lausanne:\npour ceux qui seront plus à portée du dit Lausanne, s'il veulent s'éviter d'aller au dit Dommartin.",
+    "raw_ocr": "10. On donne avis que Loos bionce 4’ A daim Camnal Mar griot Offciar dela ju-\nridique de Dommartin font mis en dêcret, en conféquece de quoi les interrefiés\nfont ajurnés de faire produétions de leurs titres devant la Noble Juftice du dit\nDommartin les interventions étant fixées aux Mardi le 14. 21. & 28. &\naux Jeudi le 16. 23. & 30. avant midi au Greffe Billival de Laufanne:\npour ceux qui feront plus à portée du dit Laufanne ; s’il veulent s’éviter d’al-\n\nler au dit Dommartin. .\n",
+    "corrected_ocr": "10. On donne avis que les biens de feu Adam Camal Margriot, Officier de la juridique\nde Dommartin font mis en dêcret, en conséquence de quoi les interressés\nfont ajournés de faire productions de leurs titres devant la Noble Juftice du dit\nDommartin les interventions étant fixées aux Mardi le 14. 21. & 28. &\naux Jeudi le 16. 23. & 30. avant midi au Greffe Ballival de Laufanne:\npour ceux qui feront plus à portée du dit Laufanne ; s'ils veulent s’éviter d’aller\nau dit Dommartin.",
+    "wer": 0.16666666666666666,
+    "cer": 0.050955414012738856
+  },
+  {
+    "filename": "issue_4_page_2_region_1726.png",
+    "groundtruth": "11. On donne avis que les biens de feû Egrege Abraham, fils de feû Pierre\nCurchod, vivant Curial de la Noble Justice de Dommartin, sont mis en\ndiscution; la famille du dit feû Egrege Curchod ayant fait une répudiation\njuridique de sa successision à la discution de ses biens, il a été ordonné par\nMandat Ballival à tous Créanciers interressés de faire production de leurs\ntitres devant la Noble Justice de Dommartin; les jours des interventions\nétant fixés au Mécredi 15. & 22. du courant pour ceux qui feront à portée\nde cet endroit, & le Vendredi 17. & Lundi 20me. du dit, au Greffe Ballival de Lausanne : pour ceux qui seront plus à portée s'il veulent s'éviter\nd'aller au dit Dommartin, de l'une ou l'autre de ces deux manieres à leur\nchoix, sous peine aux défaillans d'être forclos de leurs droits.",
+    "raw_ocr": "11. On donne avis que les biens de feù Egrege Abraham, fils de feù Pierre\nCurchod, vivant Curial de la Noble Juftice de Dommartin, font mis en\ndifcution; la famille du dit feû Egrege Curchod ayant fait une répudiation\njuridique de fa fucceflifion à la diicution de fes biens, il a eté ordonné par\nMandat Ballival-à tous Créanciers interreflés de faire produdtion de leurs\ntitres devant la Noble Juftice de Dommartin; les jours des interventions\nétant fixés au Mécredi 15. & 22. du courant pour ceux qui feront à portée\nde cet endroit, & le Vendredi 17. & Lundi 20%, du dit, au Greffe Bal-\nlival de Laufanne : pour ceux qui feront plus à portée s'il veulent s’éviter\nd'aller au dit Dommartin, de l’une ou l’autre de ces deux manieres à leur\nchoix, fous peine aux défaillans d’être forclos de leurs droits.\n\nPA. ge\n",
+    "corrected_ocr": "11. On donne avis que les biens de feù Egrege Abraham, fils de feù Pierre\nCurchod, vivant Curial de la Noble Juftice de Dommartin, font mis en\ndiscussion; la famille du dit feû Egrege Curchod ayant fait une répudiation\njuridique de fa succession à la discussion de fes biens, il a été ordonné par\nMandat Ballival à tous Créanciers interressés de faire production de leurs\ntitres devant la Noble Juftice de Dommartin; les jours des interventions\nétant fixés au Mercredi 15. & 22. du courant pour ceux qui feront à portée\nde cet endroit, & le Vendredi 17. & Lundi 20. du dit, au Greffe Ballival\nde Laufanne : pour ceux qui feront plus à portée s'ils veulent s’éviter\nd'aller au dit Dommartin, de l’une ou l’autre de ces deux manières à leur\nchoix, fous peine aux défaillants d’être forclos de leurs droits.",
+    "wer": 0.15492957746478872,
+    "cer": 0.033707865168539325
+  },
+  {
+    "filename": "issue_4_page_2_region_1727.png",
+    "groundtruth": "12. On donne avis que les biens de Claude Joseph, fils de feu le Sr.\nJusticier & Notaire Pierre de Cheneaux Durzy au Balliage de Rue, sont\nmis en Décret, en conséquence de quoi ceux qui ont de légitimes prétentions font sommés de les produire à Monsieur le Curial Conuz entre ci & le",
+    "raw_ocr": "12. On donne avis que les biens de Claude Joleph, his de ïeu le or.\nJuficier & Notaire Pierre de Cheneaux Durzy au Balliage de Rue, font\nmis en Décret, en conféquence de quoi ceux qui ont de légitimes préten-\ntions font fommés de les produire à Monfieur le Curiai Conuz entre ci &\n\nle\n",
+    "corrected_ocr": "12. On donne avis que les biens de Claude Joseph, fils de feu le Sr.\nJusticier & Notaire Pierre de Cheneaux Durzy au Balliage de Rue, font\nmis en Décret, en conféquence de quoi ceux qui ont de légitimes prétentions\nfont fommés de les produire à Monfieur le Curial Conuz entre ci &\nle",
+    "wer": 0.07407407407407407,
+    "cer": 0.014134275618374558
+  },
+  {
+    "filename": "issue_4_page_3_region_1754.png",
+    "groundtruth": "le 15 Juillet prochain, & de paroitre le dit jour à 9. heures du matin par devant\nla Noble Cour Ballivale du dit Rue, sous peine aux défaillants de forclusion.",
+    "raw_ocr": "le 15 Juillet prochain, & de paroitre le dit jour à 9. heures du matin par devant\nla is Cour Ballivale du dit Rue, fous peine aux défaillants de forclufion,\n",
+    "corrected_ocr": "le 15 Juillet prochain, & de paroitre le dit jour à 9. heures du matin par devant la Cour Ballivale du dit Rue, fous peine aux défaillants de forclufion,",
+    "wer": 0.1,
+    "cer": 0.05063291139240506
+  },
+  {
+    "filename": "issue_4_page_3_region_1755.png",
+    "groundtruth": "VENTES.",
+    "raw_ocr": "V ENT ES.\n",
+    "corrected_ocr": "VENTES.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_4_page_3_region_1756.png",
+    "groundtruth": "MAISON ou EMPLACEMENT à VENDRE.",
+    "raw_ocr": "MAISON ou EMPLACEMENT à VENDRE...\n",
+    "corrected_ocr": "MAISON ou EMPLACEMENT à VENDRE...",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_4_page_3_region_1757.png",
+    "groundtruth": "1. On offre à vendre un Domaine à la Côte situé à Villars Bougys,\nconsistant en une Maison pour le Maitre & Vigneron, Cave, Pressoir,\nEcurie, Grenier à Foin, Cuve & meubles pour les Vendanges, avec un\nJardin, une Fontaine devant la maison, & un Verger de dix Ouvriers\ntout à clos, & de plus environ huitante Ouvriers de très bonne Vignes\nen divers piéces au meilleur endroit, dont on fera un prix raisonnable du\ntout: on s'adr. au présent Bureau pour le prix & les conditions.",
+    "raw_ocr": "x. On offre à vendre un Domaine à la Côte fitué à Villars Bougys;,\nconfiflant en nne Maifon pour le Maître & Vigneron, Cave, Prefloir,\nEcurie, Grenier à Foin, Cuve & Meubles pour les Vendarges, avec un\n\nJardin , une Fontaine devant la maïfon, & un Verger de dix Ouvriers\ntout à clos, & de plus environ huitante Ouvriers de très bonne Vignes\nen divers piéces au meilleur endroit, dont on fera un prix raifonnable du\ntout: on s'adr. au préfent Bureau pour ie prix & les conditions.\n",
+    "corrected_ocr": "x. On offre à vendre un Domaine à la Côte fitué à Villars Bougys; confiflant en une Maifon pour le Maître & Vigneron, Cave, Prefloir, Ecurie, Grenier à Foin, Cuve & Meubles pour les Vendarges, avec un\n\nJardin, une Fontaine devant la maïfon, & un Verger de dix Ouvriers tout à clos, & de plus environ huitante Ouvriers de très bonne Vignes en divers piéces au meilleur endroit, dont on fera un prix raifonnable du tout: on s'adr. au préfent Bureau pour le prix & les conditions.",
+    "wer": 0.13793103448275862,
+    "cer": 0.03368421052631579
+  },
+  {
+    "filename": "issue_4_page_3_region_1758.png",
+    "groundtruth": "CONDITIONS DEMANDÉES.",
+    "raw_ocr": "CONDITIONS DEMANDEES.\n",
+    "corrected_ocr": "CONDITIONS DEMANDEES.",
+    "wer": 0.5,
+    "cer": 0.05
+  },
+  {
+    "filename": "issue_4_page_3_region_1759.png",
+    "groundtruth": "1. On misera Samedi 25. du courant à une heure, à la Maison de Ville,\nles fonds délaissés par feû Jean François Sueur, consistant en deux maisons\nsituées à la Cité avec leurs Jardins & Vergers: Item une pose de Vigne\nen St. Laurent, trois Ouvriers dit en Palaire, quatre Ouvriers en Contigny.",
+    "raw_ocr": "1. On mifera Samedi 25. du courant à une heure, à la Maïfon de Ville,\nles fonds délaïtfés par feû Jean François Sueur, confifiant en deux maï{ons\nfituées à la Ciié avec leurs J-rdins & Vergers: Item une pole de Vigne\nen St. Laurent, trois- Ouvriers dit en Palaire, quatre Ouvriers en Contigny,\n",
+    "corrected_ocr": "1. On mifera Samedi 25. du courant à une heure, à la Maïfon de Ville, les fonds délaïtfés par feû Jean François Sueur, confifiant en deux maïfons fituées à la Cité avec leurs Jardins & Vergers: Item une pose de Vigne en St. Laurent, trois Ouvriers dit en Palaire, quatre Ouvriers en Contigny,",
+    "wer": 0.11320754716981132,
+    "cer": 0.041237113402061855
+  },
+  {
+    "filename": "issue_4_page_3_region_1760.png",
+    "groundtruth": "2. on offre à vendre un Fusil de Chasse tout neuf, à double\ncoup, damasquiné pour le prix de cent francs à sa juste valeur. On s'adr.\nau Bureau",
+    "raw_ocr": "2. On offre à vendre un très beau Fufl de Chaffe tout neuf, à double\ncoup; darmafquiné pour le prix de cent francs à fa jufte valeur. On sadr,\nau Bureau. ‘\n",
+    "corrected_ocr": "2. On offre à vendre un très beau Fufil de Chaffe tout neuf, à double coup; damasquiné pour le prix de cent francs à fa jufte valeur. On s'adr. au Bureau.",
+    "wer": 0.27586206896551724,
+    "cer": 0.11888111888111888
+  },
+  {
+    "filename": "issue_4_page_3_region_1761.png",
+    "groundtruth": "2. Une Table propre pour faire le Chocolat avec son Rouleau.",
+    "raw_ocr": "2. Une Table propre pour faire le Chocolat avec fon Rouleau.\n",
+    "corrected_ocr": "2. Une Table propre pour faire le Chocolat avec fon Rouleau.",
+    "wer": 0.09090909090909091,
+    "cer": 0.01694915254237288
+  },
+  {
+    "filename": "issue_4_page_3_region_1762.png",
+    "groundtruth": "4. A vendre à Ouchy de la feuille de Meurier à un prix raisonnable.",
+    "raw_ocr": "4. À vendre à Ouchy de la feuille de Meurier à un prix raïfonnable,\n",
+    "corrected_ocr": "4. À vendre à Ouchy de la feuille de Meurier à un prix raïfonnable,",
+    "wer": 0.14285714285714285,
+    "cer": 0.045454545454545456
+  },
+  {
+    "filename": "issue_4_page_3_region_1763.png",
+    "groundtruth": "5. Deux belle Malle neuve, bien serrée & bien garnie, de différente\ngrandeur.",
+    "raw_ocr": "s- Deux belle Malle neuve, bien ferrée & bien garnie, de différente\ngrandeur.\n",
+    "corrected_ocr": "5. Deux belle Malle neuve, bien ferrée & bien garnie, de différente grandeur.",
+    "wer": 0.07692307692307693,
+    "cer": 0.013157894736842105
+  },
+  {
+    "filename": "issue_4_page_3_region_1764.png",
+    "groundtruth": "6. De la feuille de Meurier blanc à la Perrodette, on en fera un\njuste prix.",
+    "raw_ocr": ". 6. De Ia feuille de Meurier blanc à là lerrodette, on en fera un\njufte prix.\n",
+    "corrected_ocr": "6. De la feuille de Meurier blanc à la Perrodette, on en fera un jufte prix.",
+    "wer": 0.0625,
+    "cer": 0.013333333333333334
+  },
+  {
+    "filename": "issue_4_page_3_region_1765.png",
+    "groundtruth": "7. Des Pistolets de Selle très propres garnis en Léton à un prix raisonnable. On peut les voir au Bureau.",
+    "raw_ocr": "7. Des Piflolets de Selle très propres garnis en Léton à un prix raïfonna-\nble. On peut les voir au Bureau.\n",
+    "corrected_ocr": "7. Des Piflolets de Selle très propres garnis en Léton à un prix raïfonnable. On peut les voir au Bureau.",
+    "wer": 0.1,
+    "cer": 0.038461538461538464
+  },
+  {
+    "filename": "issue_4_page_3_region_1766.png",
+    "groundtruth": "1. On demande dans la Ville de Colmar en Alsace un brave garçon pour\napprentif dans une Fabrique de Tanerie & Chamoiserie; on promet la nourriture , l'habillement, tout l'entretien nécessaire, le défrayement du voyage;\nil fera regardé comme l'enfant de la Maison, moyennant une bonne conduite. On s'adr. à Mr. Brioux Marchand Taneur à Luçens qui en fera\nl'arrangement.",
+    "raw_ocr": "1. On demande dans la Ville de Colmar en Alface un brave garçon pour\napprentif dans une Fabrique de Tanerie & Chamoïferie; on promet la nour-\nriture ; l’habillement, tout l'entretien nécefläire, le défrayement du voyage;\nil fera regardé comme l'enfant de la Maïfon, moyennant une bonne con-\nduite. On s'adr. à Mr. Brioux Marchand Taneur à Luçens qui en fera\n- l’'arrangement.\n",
+    "corrected_ocr": "1. On demande dans la Ville de Colmar en Alface un brave garçon pour apprentif dans une Fabrique de Tanerie & Chamoïferie; on promet la nourriture; l’habillement, tout l'entretien nécefläire, le défrayement du voyage; il fera regardé comme l'enfant de la Maïfon, moyennant une bonne conduite. On s'adr. à Mr. Brioux Marchand Taneur à Luçens qui en fera l'arrangement.",
+    "wer": 0.1016949152542373,
+    "cer": 0.0273224043715847
+  },
+  {
+    "filename": "issue_4_page_3_region_1767.png",
+    "groundtruth": "2. Une bonne servante pour la Campagne. On s'adr. au Bureau.",
+    "raw_ocr": "2. Une bonne fervante pour la Campagne, On sadr. au Bureau.\n",
+    "corrected_ocr": "2. Une bonne fervante pour la Campagne, On s'adr. au Bureau.",
+    "wer": 0.18181818181818182,
+    "cer": 0.03389830508474576
+  },
+  {
+    "filename": "issue_4_page_3_region_1768.png",
+    "groundtruth": "3. Un jeune garçon d'environ 12 à 13 ans, sage & fidèle appartenant à de\nbrave gens, qui fui propre à faire des messages & à copier; on lui donnera le\ntems nécessaire pour son instruction, & même s'il se conduit bien on pourra\npar la suite lui apprendre un genre d'ouvrage à pouvoir gagner sa vie.",
+    "raw_ocr": "3- Un jeune garçon d'environ 12 à 13 ans, fage & fidèle appartenant à de\nbrave gens, qui fut propre à faire des meflages & à copier ; on lui donnera le\ntems néceflaire pour fon inftruétion, & même s’ik fe conduit bien on pourra\npar la fuite lui apprendre un genre d’ouvrage à pouvoir gagner fà vie.\n",
+    "corrected_ocr": "3. Un jeune garçon d'environ 12 à 13 ans, fage & fidèle appartenant à de brave gens, qui fut propre à faire des meflages & à copier ; on lui donnera le tems néceflaire pour fon inftruétion, & même s'il fe conduit bien on pourra par la fuite lui apprendre un genre d’ouvrage à pouvoir gagner fà vie.",
+    "wer": 0.17543859649122806,
+    "cer": 0.0472972972972973
+  },
+  {
+    "filename": "issue_4_page_3_region_1769.png",
+    "groundtruth": "4. On demande pour la St. Martin prochaine un Granger ou Admodieur pour un bien de Campagne situé près d'Ouchy, qui s'entende a la\nCulture des Prés, Vignes & Champs; on lui fera des conditions honnêres:\nmais",
+    "raw_ocr": "4 On demande pour la St. Martin prochaine un Granger ou Admo-\ndieur pour un bien de Campagne fitué près d'Ouchy, qui s'entende à: la\nCulture des Prés, Vignes & Champs; on lui fera des conditions hcnnêtes:\n\n‘mais\n",
+    "corrected_ocr": "4 On demande pour la St. Martin prochaine un Granger ou Admodieur pour un bien de Campagne fitué près d'Ouchy, qui s'entende à la\nCulture des Prés, Vignes & Champs; on lui fera des conditions honnêtes:",
+    "wer": 0.13513513513513514,
+    "cer": 0.04830917874396135
+  },
+  {
+    "filename": "issue_4_page_4_region_1770.png",
+    "groundtruth": "CONDITION OFFERTE.",
+    "raw_ocr": "CONDITION OFFERTE.\n",
+    "corrected_ocr": "CONDITION OFFERTE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_4_page_4_region_1771.png",
+    "groundtruth": "1. Un jeune homme de Bienne âgé de 25 ans, robuste & de bonnes\nmœurs, qui parle Allemand & François, souhaiteroit d'entrer dans une\nbonne Maison pour Valet de Chambre ou autres occupations, pouvant produire de bons Témoignages, & donner des Répondans si l'on l'exige; prie\nceux à qui il pourroit convenir d'en donner avis au Bureau le plutôt possible,\nn'étant ici que quelques jours.",
+    "raw_ocr": "1. Un jeune ‘homme de Bienne âgé de 25 ans, robufle & de bonnes\nmœurs , qui pârle Allemand & François, fouhaiteroit d’entrer dans une\nbonne Maïfon pour Valet de Chambre ou autres occupations , pouvant pro-\nduire de bons Témoignages, & donner des Répondans fi l'on l'exige; prie\nceux à qui il pourroit convenird’en dorer avis au Bureau le plutôt poffible,\nn'étant ici que quelques jours.\n",
+    "corrected_ocr": "1. Un jeune homme de Bienne âgé de 25 ans, robufle & de bonnes\nmœurs, qui pârle Allemand & François, fouhaiteroit d’entrer dans une\nbonne Maïfon pour Valet de Chambre ou autres occupations, pouvant produire\nde bons Témoignages, & donner des Répondans fi l'on l'exige; prie\nceux à qui il pourroit convenir d’en donner avis au Bureau le plutôt poffible,\nn'étant ici que quelques jours.",
+    "wer": 0.12307692307692308,
+    "cer": 0.028795811518324606
+  },
+  {
+    "filename": "issue_4_page_4_region_1772.png",
+    "groundtruth": "VENTES DES BLEDS, PAIN ET VINS",
+    "raw_ocr": "VENTES DES BLED;>5, PAIN ET VINS\n",
+    "corrected_ocr": "VENTES DES BLEDS, PAIN ET VINS",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_4_page_4_region_1775.png",
+    "groundtruth": "NOMBRE des PINTES de chaque RUE.",
+    "raw_ocr": "NOMBRE des PINTES de chaque RUE.\n",
+    "corrected_ocr": "NOMBRE des PINTES de chaque RUE.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_4_page_4_region_1777.png",
+    "groundtruth": "COURS DU CHANGE de Genève du Vendredi 10 Juin 1763.",
+    "raw_ocr": "Cours Du CHANGE de Genève du Vendredi 10 Juin 1763.\n",
+    "corrected_ocr": "Cours Du CHANGE de Genève du Vendredi 10 Juin 1763.",
+    "wer": 0.2,
+    "cer": 0.1
+  },
+  {
+    "filename": "issue_4_page_4_region_1779.png",
+    "groundtruth": "mais on voudroit qu'il eut quelque bien pour pouvoir faire valoir les dits\nfonds & pour les maintenir dans le même état dans lequel on les lui remettra.\nOn s'adr. au Bureau.",
+    "raw_ocr": "mais on voudroit qui eut quelque bien pour pouvoir faire valoi: les dits\nfonds &c pour les imaintenir dans le même état dans lequel on les lui re-\nmettre. On s'adr, au Bureau.\n",
+    "corrected_ocr": "mais on voudroit qu'il eut quelque bien pour pouvoir faire valoir les dits\nfonds &c pour les maintenir dans le même état dans lequel on les lui remettre.\nOn s'adr. au Bureau.",
+    "wer": 0.0625,
+    "cer": 0.011627906976744186
+  },
+  {
+    "filename": "issue_4_page_4_region_1780.png",
+    "groundtruth": "5. Un Vigneron expert pour cultiver deux poses & demi de bonnes vignes dans le parchet d'Ouchy, mais on souteroit qu'il eut un Pressoir en\nVille, c'est pour la St. Martin",
+    "raw_ocr": "$- Un Vigneron expert pour cultiver deux poles & demi de bonnes Vi-\ngnes dans le parchet d’Ouchy, maïs 6: fouhaiteroit qu’il eut un Prefloir en\nVille, c’eft pour la St. Martin.\n",
+    "corrected_ocr": "5. Un Vigneron expert pour cultiver deux poles & demi de bonnes Vignes\ndans le parchet d’Ouchy, maïs on fouhaiteroit qu’il eut un Prefloir en\nVille, c’eft pour la St. Martin.",
+    "wer": 0.25806451612903225,
+    "cer": 0.07647058823529412
+  },
+  {
+    "filename": "issue_4_page_4_region_1781.png",
+    "groundtruth": "6. On demande pour le présent dans un Logis de Campagne une bonne\nCuisinière; on lui fera de très bonnes conditions, moyennant de bons Témoignages.",
+    "raw_ocr": "6. On demande pour le préfent dans un Logis de Campagne une bonne\nCuiïfinière; on lui fera de très bonnes conditions; moyennant de bons Té-\nmoignages. :\n",
+    "corrected_ocr": "6. On demande pour le préfent dans un Logis de Campagne une bonne\nCuiïfinière; on lui fera de très bonnes conditions; moyennant de bons Témoignages.",
+    "wer": 0.12,
+    "cer": 0.0273972602739726
+  },
+  {
+    "filename": "issue_7_page_1_region_1802.png",
+    "groundtruth": "PAR PERMISSION REQUISE\nApprouvée de LEURS EXCELLENCES.",
+    "raw_ocr": "PAR PERMISSION REQUISE\n_ Approuvée de LEURS EXCELLENCES. -\n",
+    "corrected_ocr": "PAR PERMISSION REQUISE\nApprouvée de LEURS EXCELLENCES. -",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_7_page_1_region_1803.png",
+    "groundtruth": "XXVIIIME FEUILLE PERIODIQUE\nA LAUSANNE,\nDu Mardi 14. Juillet 1772.",
+    "raw_ocr": "Ve FEUILLE: PER TO DIQUE.\nnd À D AO pi pere:\n“Du Mardi 14. Juillet 1772.\n",
+    "corrected_ocr": "Ve FEUILLE PERIODIQUE.\nDu Mardi 14. Juillet 1772.",
+    "wer": 0.4,
+    "cer": 0.2923076923076923
+  },
+  {
+    "filename": "issue_7_page_1_region_1804.png",
+    "groundtruth": "VENTES.",
+    "raw_ocr": "VENTES.\n",
+    "corrected_ocr": "VENTES.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_7_page_1_region_1805.png",
+    "groundtruth": "1. Mécredi 15 du courant, à 9 heures du matin, & à 2 heures après midi, & les jours suivans, aux mêmes heures, on misera dans la maison de feu\nMr. le Capitaine Rosset, divers meubles, effets, & argenterie, une excellente\nmontre en or, à répétition; une très belle épée en argent, ciselée, un ossecol\nd'argent, une médaille d'or très rare; plusieurs excellents vases de chêne, reliés en fer, de la contenance de 3 à 5 chars piece, environ 14 à 15 septiers\nd'excellent vin vieux de plusieurs feuilles; le tout sous les conditions qui seront lues aux miseurs.",
+    "raw_ocr": "1. MéGreditp$ du courant, à 9: heures, du,matin, & à 2 heures après mi-\ndi, & les jours füuivans , aux mêmes heures, on mifera dans la maifon de feu\nnMr. lé Capitaine Roflet; divers meubles, effets; & argenterie, une excellente\nMontre en of;.à répétition; une très belle“épée en argent, cifelée, un offecol\n\"d'argent, ue médaille d'or très rare; plufiéurs excellents vafes de chène, re.\nMiés en fe, de ‘la contenance; de 3 à $ chars iece, environ 14 à 15. feptiers\n“d’éxcellent vin: vieux de plufèurs feuilles; lé tout fous les conditions qui fe.\nfront lüessaugemileurame\"# ru. LE UT. sf\n\n",
+    "corrected_ocr": "1. Mercredi du courant, à 9 heures du matin, & à 2 heures après midi, & les jours füuivans, aux mêmes heures, on mifera dans la maifon de feu Mr. le Capitaine Roflet; divers meubles, effets, & argenterie, une excellente Montre en or à répétition; une très belle épée en argent, cifelée, un hausse-col d'argent, une médaille d'or très rare; plufiéurs excellents vafes de chène, reliés en fer, de la contenance de 3 à 5 chars pièce, environ 14 à 15 feptiers d’éxcellent vin vieux de pluféurs feuilles; lé tout fous les conditions qui seront lues.",
+    "wer": 0.21212121212121213,
+    "cer": 0.07927927927927927
+  },
+  {
+    "filename": "issue_7_page_1_region_1806.png",
+    "groundtruth": "2. Le 15 Aoust 1774, le matin à 10 heures, on misera publiquement à\nMontricher pour le terme de 9 ans, à commencer depuis la St. Denis 1772,\nles montagnes de Montendroz, & Anselme, avec 3 grands chalets de rechange ; les dites, montagnes sont de 80 vaches de contenance, avec un apré miprintanier & leurs écuries ; on pourra savoir les conditions chez Mr. le Curial Wagnon à Lille, & à Montricher chez le Seigneur Baron.",
+    "raw_ocr": ": Fe 725 te S;--on-mifera-publiquement à\nMontricher pour le térme de 9 ans, à commencer depuis la St. Denis 1772,\n\nles. montagnes de Montendroz, &. Anfelme , avec 3; grands chalets. de rechan-\nge ; les dites, montagnes {ont de 8o vaches de Contenance , avec, un apré mi-\nprintanier & leurs écuries ; on poutra favoir les conditions chez Mr. le Cu-\nœial Wagnon à Lille, :& à Montricher chez le Seigneur Baron.\n",
+    "corrected_ocr": "2. On misera publiquement à\nMontricher pour le térme de 9 ans, à commencer depuis la St. Denis 1772,\n\nles montagnes de Montendroz, & Anfelme, avec 3 grands chalets de rechange;\nles dites montagnes font de 80 vaches de Contenance, avec un apré mi-printanier\n& leurs écuries; on poutra favoir les conditions chez Mr. le Curial\nWagnon à Lille, & à Montricher chez le Seigneur Baron.",
+    "wer": 0.24,
+    "cer": 0.11750599520383694
+  },
+  {
+    "filename": "issue_7_page_1_region_1807.png",
+    "groundtruth": "3. Chez Mrs. Francillon freres, on trouvera encore d'ici à Lundi prochain\ndes billets de la loterie de Geneve, soit pour la 3me. classe seule, soit pour\nles deux classes refsantes,",
+    "raw_ocr": "3. Chez Mrs. Francillon freres, on trouvera encore d’ici à Lundi prochain\ndes billets de la loterie de Geneve, foit pour la 3me. clafe feule, {oit pour\nles deux claffes reftantes,\n",
+    "corrected_ocr": "3. Chez Mrs. Francillon freres, on trouvera encore d’ici à Lundi prochain\ndes billets de la loterie de Geneve, foit pour la 3me. clafe feule, foit pour\nles deux claffes reftantes,",
+    "wer": 0.22580645161290322,
+    "cer": 0.05027932960893855
+  },
+  {
+    "filename": "issue_7_page_1_region_1808.png",
+    "groundtruth": "4. On offre à vendre chez Mr. Francillon Bugnion au Pont, des quartiers\nde pierre, soit mottes, à bon prix.",
+    "raw_ocr": "4. On offre à vendre chez Mr. Francillon Bugnion au Pont, des quartiers\n‘le pierré, foit mottes.=à bon prix.\n",
+    "corrected_ocr": "4. On offre à vendre chez Mr. Francillon Bugnion au Pont, des quartiers\nde pierré, foit mottes, à bon prix.",
+    "wer": 0.1,
+    "cer": 0.018867924528301886
+  },
+  {
+    "filename": "issue_7_page_1_region_1809.png",
+    "groundtruth": "5. L'opticien Saxon, qui s'est rendu recommendable dès l'année passée, est\nrevenu avec plusieurs Telescopes, Lunettes à longue vue de Dollond, Anglais,\n& autres Tubes & Lorgnettes &c. Il occupera pendant 8 jours la boutique\nde Ringger, relieur dans la maison de Mr. De la Grange, Architecte en Bourg.\nLes personnes qui voudront voir de plus près ce qu'il débite, pourront lui\nadresser leurs orders; outre ce qui est marqué ce dessus, il est pourvu de plusieurs autres articles.",
+    "raw_ocr": "s.° L'opticien Saxon, qui s'elt rendu recommendable dès l’année pañlée, eft\nrevenu avec plufeurs Felefcopes, Lunettes à longue vue de Dollond, Anglais\n& autres Tübes & Lorgnettes &c. Il occupera pendant $ jours la boutique\nde Ringger, relieur dans la maifon de Mr. De la Grange, Architecte en Bourg.\nLes perfonnes qui voudront voir de:plus près ce qu’il, débite, pourront, lui\nadrefer leurs ordres; outre ce qui eft, marqué ci-deflus, il eft pourvu de plu.\nfiéuts aütres articles, : Re\n",
+    "corrected_ocr": "5. L'opticien Saxon, qui s'eft rendu recommendable dès l’année passée, eft\nrevenu avec plufeurs Telescopes, Lunettes à longue vue de Dollond, Anglais\n& autres Tübes & Lorgnettes &c. Il occupera pendant 8 jours la boutique\nde Ringger, relieur dans la maifon de Mr. De la Grange, Architecte en Bourg.\nLes perfonnes qui voudront voir de plus près ce qu’il débite, pourront lui\nadrefer leurs ordres; outre ce qui eft marqué ci-deflus, il eft pourvu de plufieurs autres articles.",
+    "wer": 0.20253164556962025,
+    "cer": 0.04411764705882353
+  },
+  {
+    "filename": "issue_7_page_1_region_1810.png",
+    "groundtruth": "6. J. Louis Placer a 4 ou 5 tas de bois en perches & fregalle, de foyard,\nà Ouchy, qu'il remettra à prix d'emplette, parce qu'on le lui vole.",
+    "raw_ocr": "6. ]. Louis Place'a 4 ou $ tas de bois en, perches & fregalle, de foyard,\nà Ouchy; qu’il remettra à prix d’emplette, parce qu’on le lui vole.\n",
+    "corrected_ocr": "6. J. Louis Place a 4 ou 5 tas de bois en perches & fregalle, de foyard,\nà Ouchy; qu’il remettra à prix d’emplette, parce qu’on le lui vole.",
+    "wer": 0.1724137931034483,
+    "cer": 0.03571428571428571
+  },
+  {
+    "filename": "issue_7_page_1_region_1811.png",
+    "groundtruth": "7. La veuve Peller, à la Cité, offre à vendre un fond de boutique en épicerie, & autres articles,",
+    "raw_ocr": "LL La veuve Peller, à la Cité, offre à vendre un a fond de Ponge, en épis\ngerie , & autres articles, |\n",
+    "corrected_ocr": "7. La veuve Peller, à la Cité, offre à vendre un fond de Ponge, en épis-\ngerie & autres articles.",
+    "wer": 0.15789473684210525,
+    "cer": 0.125
+  },
+  {
+    "filename": "issue_7_page_2_region_1876.png",
+    "groundtruth": "ANNONCES.",
+    "raw_ocr": "A -NEN ON: GE 5:\n",
+    "corrected_ocr": "ANNONCES",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_7_page_2_region_1877.png",
+    "groundtruth": "8. A vendre, Nouvelle traduction française de l'amitié du Tasse, avec l'italien\nà côté, 16 fois. Dissertation sur le mouvement diurne de la terre, qui a\nremporté le prix, 10 fois. Une Bible italienne. L. I.",
+    "raw_ocr": "8. À vendre, Nouvelle tradufion françaife de l'amitié du Tale, avec l'italien\nà côté, 16 fois. Différtation fur le mouvement diurne de. la terré, qui a\nyeimporté le prix, 10 Îols. Une Bible italienue, L. x.\n",
+    "corrected_ocr": "8. À vendre, Nouvelle traduction françaife de l'amitié du Tasse, avec l'italien\nà côté, 16 sols. Dissertation fur le mouvement diurne de la terre, qui a\nremporté le prix, 10 sols. Une Bible italienne, L. 10.",
+    "wer": 0.19444444444444445,
+    "cer": 0.04878048780487805
+  },
+  {
+    "filename": "issue_7_page_2_region_1878.png",
+    "groundtruth": "9. Chez Poudret fils, au bas de St. Laurent, du vin blanc, à 15 cruches\nle pot, en bouteille.",
+    "raw_ocr": "9. Chez Poudret fils, au bas de Ste Laurent, du vin blanc, à 1$ cruches\nle pot, en bouteille.\n",
+    "corrected_ocr": "9. Chez Poudret fils, au bas de Ste Laurent, du vin blanc, à 15 cruches\nle pot, en bouteille.",
+    "wer": 0.05263157894736842,
+    "cer": 0.010869565217391304
+  },
+  {
+    "filename": "issue_7_page_2_region_1879.png",
+    "groundtruth": "10. De la bonne biere, à 10 cruches le pot, chez Mr. Chapuis en Pépinet.",
+    "raw_ocr": "10. De la bonne biere, à 10 cruches le pot, chez Mr. Chapuis en Pépinet,\n",
+    "corrected_ocr": "10. De la bonne bière, à 10 cruches le pot, chez Mr. Chapuis en Pépinet,",
+    "wer": 0.06666666666666667,
+    "cer": 0.014084507042253521
+  },
+  {
+    "filename": "issue_7_page_2_region_1880.png",
+    "groundtruth": "11. A vendre une paire de Rênes en foye, de plusieurs couleurs, toutes\nneuves, assortiment très joli & propre, pour un ou deux chevaux. On les\nverra au Bureau d'Avis.",
+    "raw_ocr": "11. À vendre une paire de Rènes en foye, de plufieurs couleurs , toutes\nneuves, aflortiment très joli & propre, pour un ou deux chevaux. On les\nverra au Bureau d'Avis. - “\n",
+    "corrected_ocr": "11. À vendre une paire de rênes en foye, de plusieurs couleurs, toutes\nneuves, aflortiment très joli & propre, pour un ou deux chevaux. On les\nverra au Bureau d'Avis.",
+    "wer": 0.1,
+    "cer": 0.024242424242424242
+  },
+  {
+    "filename": "issue_7_page_2_region_1881.png",
+    "groundtruth": "12. Il se trouve à une campagne du pays de Vaud, près d'Aubonne, trois\nbeaux chevaux Danois à vendre, de l'âge de 4 à 5 ans, élevés au pays, sans\ntares ni défauts, l'un bay brun, bien allant, dressé pour la monture ; les 2\nautres noirs bien apareillés, & dressés pour la voiture, mais pouvant tous servir à 2 mains en cas de besoin; ceux qui souhaiteront de les acheter, s'adresseront à Mr. Megroz, commis des postes à Lausanne, qui donnera de plus amples informations.",
+    "raw_ocr": "12. Ïl fe trouve à une campagne du pays de Vaud, près d’Aubonne, trois\nbeaux chevaux Danois À vendre, de fâge de 4 à $ ans, élevés au pays, fans\ntares ni défauts, lun bay brun, bien allant, dreffé pour la monture; les 2\nautres noits bien apareillés, & dreflés pour la voiture, mais pouvant tous {er-\nvir à 2 mains en cas de befoin; ceux qui fouhaiteront de les acheter, s’adreffe.\nront à Mr. Megroz, commis des potes à Laufanne, qui donnerx-de-plus-am-\nples informations. “+ RC\n",
+    "corrected_ocr": "12. Il se trouve à une campagne du pays de Vaud, près d’Aubonne, trois\nbeaux chevaux Danois à vendre, de l'âge de 4 à 5 ans, élevés au pays, sans\ntares ni défauts, l'un bay brun, bien allant, dreffé pour la monture; les 2\nautres noirs bien appareillés, & dreffés pour la voiture, mais pouvant tous ser-\nvir à 2 mains en cas de befoin; ceux qui fouhaiteront de les acheter, s’adresse-\nront à Mr. Megroz, commis des postes à Lausanne, qui donnera de plus am-\nples informations.",
+    "wer": 0.1411764705882353,
+    "cer": 0.032119914346895075
+  },
+  {
+    "filename": "issue_7_page_2_region_1882.png",
+    "groundtruth": "13. On offre à vendre, Testament de De Beaufobre & Lenfant, 2 vol. 4.\nTraité de la vérité de la Religion Chrêtienne par Abbadie, 3 vol. 8. Grammaire allemande & françaife, de Junker, gros 8. Colloquia Erafmi. Déclinaifon grecque. Vogt. Catalogus librorum raviorum. Barbeyrac, traité du jeu,\n2 vol. 8.",
+    "raw_ocr": "13. Onoffre à vendre, Teflament dé De Beaufobre € Leufant, 2 vol. 4.\nTraité de la vérité de la Religion Chrétienne par Abbadie ; 3:01. 8. Gran.\nmaire allemande € françaife, de Junker , gros 8. Colloquia Erafini. Décli.\nnailon grecque. Vogt. Catalogus librorum rariorum. Barbeyrac, traité du jeu,\n2 vol. &. 4\n",
+    "corrected_ocr": "13. On offre à vendre, Testament de De Beausobre & Lenfant, 2 vol. 4.\nTraité de la vérité de la Religion Chrétienne par Abbadie ; 3 vol. 8. Gram-\nmaire allemande & françaife, de Junker, gros 8. Colloquia Erasmi. Décli-\naison grecque. Vogt. Catalogus librorum rariorum. Barbeyrac, traité du jeu,\n2 vol. 8.",
+    "wer": 0.18,
+    "cer": 0.033444816053511704
+  },
+  {
+    "filename": "issue_7_page_2_region_1883.png",
+    "groundtruth": "1. Les T. H. Seigrs. du Conseil de cette Ville, ayant donné le congé au\nramoneur Laurent Frison Rauche, & ensuite défendu de ramoner dans la ville\n& Messeillerie. On prie un chacun de ne lui faire ramoner aucune cheminée\nsous peine d'en répondre de payer 2 baches.",
+    "raw_ocr": "1. Les T. H. Seigrs. du Cônfeil de cette Ville, ayant .donné le congé au\nramoneur Laurent Frifon Rauche, & enfuite défendu de rämoner dans la ville\n& Mefcillerie. On prie un chacun de ne lui faire ramoner aucune cheminée\nfous peine d’en répondre de bayer 3 baches. a, — si\n",
+    "corrected_ocr": "1. Les T. H. Seigrs. du Cônfeil de cette Ville, ayant donné le congé au\nramoneur Laurent Frifon Rauche, & enfuite défendu de ramoner dans la ville\n& Mefcillerie. On prie un chacun de ne lui faire ramoner aucune cheminée\nfous peine d’en répondre de bayer 3 baches.",
+    "wer": 0.16666666666666666,
+    "cer": 0.04182509505703422
+  },
+  {
+    "filename": "issue_7_page_2_region_1884.png",
+    "groundtruth": "2. Les perfonnes qui doivent à la Société de Librairie de Mrs. François Grasset\n& Comp. dissoute depuis le 19 du mois passé, sont priées de remettre dans le\ncourant de ce mois le montant de leurs comptes à Mrs. Jules Henri Pott &\nComp. qui sont chargés de la liquidation de leurs affaires, & qui continuent\nle même commerce, en occupant le magazin sur la place de St. François,\ndans lequel étoient ci-devant établi les dits Mrs. François Grasset & Comp.",
+    "raw_ocr": "2. Les perfonnes qui doivent à la Société de Librairie de Mrs. François Graffes\n€ Comp. difloute depuis le 19, du mois paflé, font priées de remettre dans le\ncourant de ce mois le montant de leurs comptes à Mrs. Jules Henri Port €ÿ\nComp. qui font chargés de la liquidation” de leurs affaires, &-qui continuent\nle mème commerce, en occupant lé magazin fur la place de St. François,\ndâns lequel étoient ci-devant établi les dits Ars. François Gralles €j Comp.\n",
+    "corrected_ocr": "2. Les perfonnes qui doivent à la Société de Librairie de Mrs. François Grasset\n& Comp. difloute depuis le 19, du mois paflé, font priées de remettre dans le\ncourant de ce mois le montant de leurs comptes à Mrs. Jules Henri Port &\nComp. qui font chargés de la liquidation de leurs affaires, & qui continuent\nle mème commerce, en occupant le magazin fur la place de St. François,\ndans lequel étoient ci-devant établi les dits Mrs. François Grasset & Comp.",
+    "wer": 0.0975609756097561,
+    "cer": 0.022123893805309734
+  },
+  {
+    "filename": "issue_7_page_2_region_1885.png",
+    "groundtruth": "3. On demande à acheter une bonne romaine à pouvoir peser 40 à 50 livres. On s'adr. au Bureau.",
+    "raw_ocr": "3. On demande à acheter une bonne romaine à pouvoir pefer 40 à $o li.\nvres. On s’adr. au Bureau.\n",
+    "corrected_ocr": "3. On demande à acheter une bonne romaine à pouvoir pefer 40 à 50 li-\nvres. On s’adr. au Bureau.",
+    "wer": 0.21052631578947367,
+    "cer": 0.043010752688172046
+  },
+  {
+    "filename": "issue_7_page_2_region_1886.png",
+    "groundtruth": "4. On demande à acheter une bassine de confisseur.",
+    "raw_ocr": "4. On demande- à acheter une baffine de‘ confffeur. :\n",
+    "corrected_ocr": "4. On demande à acheter une baffine de conffeur.",
+    "wer": 0.2222222222222222,
+    "cer": 0.10204081632653061
+  },
+  {
+    "filename": "issue_7_page_2_region_1887.png",
+    "groundtruth": "5. Mr. Marcel sur St. François, invite la personne qui a laissé chez lui une\ncanne en jonc, de venir la retirer, il se fera un plaisir de la lui rendre.",
+    "raw_ocr": "$. Mr. Marcel fur St. François, invite la perlonne.qut a-laifie chez lui. une\ncanne en jonc, de venir la retirer, il fè fera un plaifir .de la-lui rendre.\n",
+    "corrected_ocr": "Mr. Marcel fur St. François, invite la perfonne qui a laiffé chez lui une\ncanne en jonc, de venir la retirer, il fè fera un plaifir de la lui rendre.",
+    "wer": 0.1935483870967742,
+    "cer": 0.06622516556291391
+  },
+  {
+    "filename": "issue_7_page_2_region_1889.png",
+    "groundtruth": "7. Le Sr. Mathieu Roland, de Nisme en Languedoc, logé aux 3 Pigeons\nde cette ville, donne avis qu'il a le secret d'enlever visiblement toutes taches\nsur les étoffes & foyeries, de même que sur les galons en or, ou en argent;\nil se sert d'une composition d'eau fort claire: s'il y a quelqu'un qui souhaite\nd'en voir l'expérience, n'ont qu'à le faire demander, il en débite par petite bouteille pour le public; le tout à l'épreuve, & à juste prix.",
+    "raw_ocr": "4. Le Sr. Mathieu Roland, de Nifme en Languedoc, logé aux 3 Pigeons\nde cette ville, donne avis qu Al a le fecret d’entever vif blement toutes taches\nfur les. étoffes & foyeries, de mème que fur les galons en or, ou en argent;\nn fe fert d’une compofition d'eau fort claire: s’il y. a quelqu'un qui fouhaite\nd’en voir l'expérience, n’ont qu’ a le faire demander , ilen débite par petite bou\n\nteille pour le public; le tout à l'épreuve, & à jufte prix.\n",
+    "corrected_ocr": "4. Le Sr. Mathieu Roland, de Nifme en Languedoc, logé aux 3 Pigeons\nde cette ville, donne avis qu'il a le fecret d’enlever visiblement toutes taches\nfur les étoffes & foyeries, de mème que fur les galons en or, ou en argent;\nil se fert d’une compofition d'eau fort claire: s’il y a quelqu'un qui fouhaite\nd’en voir l'expérience, n’ont qu’à le faire demander, il en débite par petite bou\nteille pour le public; le tout à l'épreuve, & à jufte prix.",
+    "wer": 0.2222222222222222,
+    "cer": 0.038288288288288286
+  },
+  {
+    "filename": "issue_7_page_3_region_1923.png",
+    "groundtruth": "CONDITIONS OFFERTES.",
+    "raw_ocr": "NDITIONS\n\nOFE\n\nERT\n\nES.\n",
+    "corrected_ocr": "CONDITIONS OFFERTES.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_7_page_3_region_1924.png",
+    "groundtruth": "8. On invite toutes personnes qui ont des droits & titres sur les biens de\nfeue Françoise Regamay, née Parisot, en son vivant marchande à Lausanne,\nde les produire au Greffe du Conseil de cette Ville dans le courant du présent mois de Juillet.",
+    "raw_ocr": "8. On invite toutes perfonnes qui ont des droits & titres fur les biens de\nfeue Françoife Regamaÿ, née Parilot, en fon vivant marchande à Laufinne,\nde les produire au Gretfe du Confeil de cette Ville dans lé courant du pré-\nfent mois de Juillet.\n",
+    "corrected_ocr": "8. On invite toutes perfonnes qui ont des droits & titres fur les biens de\nfeue Françoise Regamaÿ, née Parilot, en fon vivant marchande à Laufinne,\nde les produire au Greffe du Confeil de cette Ville dans le courant du pré-\nfent mois de Juillet.",
+    "wer": 0.20454545454545456,
+    "cer": 0.045454545454545456
+  },
+  {
+    "filename": "issue_7_page_3_region_1925.png",
+    "groundtruth": "9. On demande à acheter un fourneau en fer blanc, soit tambour.",
+    "raw_ocr": "‘9. On demandé à acheter un fourneau en fer blanc, foit tambour.\n",
+    "corrected_ocr": "9. On demande à acheter un fourneau en fer blanc, foit tambour.",
+    "wer": 0.08333333333333333,
+    "cer": 0.016129032258064516
+  },
+  {
+    "filename": "issue_7_page_3_region_1926.png",
+    "groundtruth": "1o. On demande à acheter des Rênes d'étoffe pour un ou deux chevaux;\nceux qui en ont à vendre s'adresseront au Bureau d'Avis.",
+    "raw_ocr": "” 10. On demande à acheter dés Rènes d’étotfe pour un ou deux chevaux;\nceux qui en ont à vendre s’adrefleront au Bureau d’Avis.\n",
+    "corrected_ocr": "10. On demande à acheter des Rènes d'étoffe pour un ou deux chevaux;\nceux qui en ont à vendre s’adrefleront au Bureau d’Avis.",
+    "wer": 0.17391304347826086,
+    "cer": 0.04838709677419355
+  },
+  {
+    "filename": "issue_7_page_3_region_1927.png",
+    "groundtruth": "11. On demande à acheter argent comptant un livre intitulé: Système de\nMorale & de Théologie, en XXV. Dissertations de Mr. David Constant, ci-devant Professeur dans l'Académie de Lausanne. On s'adr. au Sr. Grasset, Libraire dans la maison de Mr. le Colonel De Chandieu, au rès-de-chaussée. Le\nmême Libraire formera des Bibliotheques selon le gout des amateurs, vend,\n& achete des livres des personnes connues, & ayant l'âge compétant pour\ncela, sans quoi il est inutile de les lui offrir.",
+    "raw_ocr": "11. On demande à acheter argent comptant un livre intitulé: Syfiémne de\nMorale &$ dé Théologie, en XXV. Differtations de Mr. David Conflant, ci-de-\nvant Profeffleur dans l’Académie de Laufanne. On s’adr. au Sr. Grafet, Li\nbraire dans la maifon de Mr. le Colonel De Chandieu, au rès-de-chauflée. Le\nmême Libraire formera des Bibliotheques felon le gout des amateurs, vend,\n& achete des livres des perfonnes connués, & ayant l’âge compétant pour\ncela, fans quoi il eft inutile de les lui offrir. ,\n",
+    "corrected_ocr": "11. On demande à acheter argent comptant un livre intitulé: Système de\nMorale & de Théologie, en XXV. Differtations de Mr. David Constant, ci-de-\nvant Profeffeur dans l’Académie de Laufanne. On s’adr. au Sr. Grasset, Li\nbraire dans la maifon de Mr. le Colonel De Chandieu, au rez-de-chaussée. Le\nmême Libraire formera des Bibliotheques felon le gout des amateurs, vend,\n& achete des livres des perfonnes connues, & ayant l’âge compétant pour\ncela, fans quoi il eft inutile de les lui offrir.",
+    "wer": 0.2,
+    "cer": 0.03696098562628337
+  },
+  {
+    "filename": "issue_7_page_3_region_1928.png",
+    "groundtruth": "12. La Joly qui demeuroit ci-devant dans la maison Barrat, demeure présentement dans la boutique de la maison de Mr. de Mezery à côté du logis\nde l'Ours; elle continue son petit commerce de gateaux & patisseries, & fera\nson possible pour contenter ceux qui s'adresseront à elle.",
+    "raw_ocr": "12. La Joly. qui demeuroit ci-devant dans la maifoneBarrat, demeure pré:\nfentement dans la boutique de la maifon de Mr. de Mezery à côté du logis\nde Ours; elle continue fon petit commerce de gateaux & pâtifleries, & fera\nfon poflible pour contenter ceux qui s’edrefferont à elle.\n",
+    "corrected_ocr": "12. La Joly, qui demeuroit ci-devant dans la maifon Barrat, demeure pré-\nfentement dans la boutique de la maifon de Mr. de Mezery à côté du logis\nde Ours; elle continue fon petit commerce de gateaux & pâtifleries, & fera\nfon poflible pour contenter ceux qui s’adresseront à elle.",
+    "wer": 0.22916666666666666,
+    "cer": 0.05776173285198556
+  },
+  {
+    "filename": "issue_7_page_3_region_1929.png",
+    "groundtruth": "13. Dans six semaines il partira pour l'Angleterre & la Hollande deux carosses, dans lequels il y a encore quelques places vacantes; ceux qui souhaiteront d'en profiter, peuvent s'adresser au Sr. Dejean, hôte du logis de Secheron près de Geneve.",
+    "raw_ocr": "13. Dans fix femaines 11 partira pour lPAngléterre & la Hollande deux ca-\nrofles, dans lefquels il y a encore quelques places vacantes; ceux qui fouhai-\nteront d’en profiter, peuvent s'adreller au Sr. Dejean, hôte du logis de Seche-\nton près de Geneve. =.\n",
+    "corrected_ocr": "13. Dans fix femaines il partira pour l'Angleterre & la Hollande deux ca-\nrofles, dans lefquels il y a encore quelques places vacantes; ceux qui fouhai-\nteront d’en profiter, peuvent s'adreller au Sr. Dejean, hôte du logis de Seche-\nton près de Geneve.",
+    "wer": 0.275,
+    "cer": 0.06557377049180328
+  },
+  {
+    "filename": "issue_7_page_3_region_1930.png",
+    "groundtruth": "14. Un bourgeois de Berne bien établi, souhaiteroit de mettre en pension\nson fils âgé de 16 ans, dans une des villes du pays de Vaud, soit chez un\nCommissaire, Secrétaire ou Notaire, pour y apprendre non seulement le français, mais aussi quelques choses de ces arts, étant voué à la plume, & écrivant déja bien en français; il le donneroit aussi en change contré un garçon\nde bonne maison, qui auroit la même occasion de s'instruire dans son bureau\nde toutes sortes d'affaires civiles & criminelles. On s'adr. à Mr. Allamand\ncadet à Lausanne.",
+    "raw_ocr": "14. Un bourgeois de Berne bien etabli, louhaiteroit de mettre en penlion\nfon fils âgé de 16 ans, dans une des villes du pays de Vaud, foit chez un\nCommiflaire, Secrétaire ou Notaire, pour y apprendre non feulement le fran-\nais, mais auffi quelques chofes de ces arts, étant voué à la plume; & écri-\nvant déja bien en français; il le donneroit aufli en change contre un garçon\nde bonne-maifon, qui auroit la mème occafion de s’inftruire dans fon bureau\n\nde toutes fortes d’affaires civiles & criminelles. On s’adr. à Mr. Allamand\ncadet à Laufanne,\n",
+    "corrected_ocr": "14. Un bourgeois de Berne bien etabli, souhaiteroit de mettre en pension\nfon fils âgé de 16 ans, dans une des villes du pays de Vaud, foit chez un\nCommissaire, Secrétaire ou Notaire, pour y apprendre non feulement le fran-\nçais, mais auffi quelques chofes de ces arts, étant voué à la plume; & écri-\nvant déja bien en français; il le donneroit aufli en change contre un garçon\nde bonne-maifon, qui auroit la mème occafion de s’inftruire dans fon bureau\nde toutes fortes d’affaires civiles & criminelles. On s’adr. à Mr. Allamand\ncadet à Laufanne,",
+    "wer": 0.24210526315789474,
+    "cer": 0.04805914972273567
+  },
+  {
+    "filename": "issue_7_page_3_region_1931.png",
+    "groundtruth": "15. Mr. le Pasteur Chavannes, avertit le public, que les Regitres des Batêmes & des Mariages, sont depuis le 12 du courant jusques,\nd'Aoust, entre les mains de Mr. le Ministre Vullyamoz à l'Evéché, auquel\nles pères & les époux devront s'adresser pour avoir des billets d'enregistrement.",
+    "raw_ocr": "15. Mr. le Pafteur Chavannes, avertit le public, que les Kegitres des Ba.\ntèmes & des Mariages , font depuis le 12 du courant jufques au milieu\nd’Aouft, entre les mains de Mr. le Miniftre Vullyamoz à l’Evèché, auquel\nles pères & les époux devront s’adrefler pour avoir des billets d’enregitrement.\n",
+    "corrected_ocr": "15. Mr. le Pafteur Chavannes, avertit le public, que les Registres des Ba-\ntèmes & des Mariages, font depuis le 12 du courant jufques au milieu\nd’Aouft, entre les mains de Mr. le Miniftre Vullyamoz à l’Evèché, auquel\nles pères & les époux devront s’adrefler pour avoir des billets d’enregistrement.",
+    "wer": 0.2765957446808511,
+    "cer": 0.0912280701754386
+  },
+  {
+    "filename": "issue_7_page_3_region_1932.png",
+    "groundtruth": "16. Les personnes qui souhaiteront tenir la présente feuille d'avis, la recevront régulierement tous les Mardis, jour auquel elle se distribue, en s'inscrivant au Bureau d'Avis.",
+    "raw_ocr": "16. Les perfonnes qui fouhaitéront tenir la prélente feuille d'avis , la rece-\nvront régulierement tous les Mardis, jour auquel elle fe diftribue , en s’inf\ncrivarnit au Bureau d'Avis. ,\n",
+    "corrected_ocr": "16. Les perfonnes qui fouhaitéront tenir la prélente feuille d'avis, la rece-\nvront régulierement tous les Mardis, jour auquel elle fe diftribue, en s’ins-\ncrivant au Bureau d'Avis.",
+    "wer": 0.34615384615384615,
+    "cer": 0.0625
+  },
+  {
+    "filename": "issue_7_page_3_region_1933.png",
+    "groundtruth": "1. Un jeune homme de 26 ans, bien fait, de bonnes mœurs, parlant français & allemand, souhaiteroit trouver une condition; on pourra l'employer\nà toutes sortes d'ouvrages, soit pour voyager, soit pour domestique, On s'adr.\nà Mr. Beaud, aubergiste à l'Aigle.",
+    "raw_ocr": "1. Un jeuñe homme de 26 ans, bieñ fait, de borines mœurs, parlant tran-\ncais & allemand, fouhaiteroit trouver une condition; on pourra Pémployer\nà toutes fortes d'ouvrages, foit pour voyager ; {oit pour domeftique, On s'adr.\nà Mr. Beaud, aubersille à lAigle. :\n",
+    "corrected_ocr": "1. Un jeune homme de 26 ans, bien fait, de bonnes mœurs, parlant fran-\nçais & allemand, fouhaiteroit trouver une condition; on pourra l'employer\nà toutes fortes d'ouvrages, foit pour voyager; foit pour domeftique. On s'adr.\nà Mr. Beaud, aubergiste à l'Aigle.",
+    "wer": 0.1951219512195122,
+    "cer": 0.03529411764705882
+  },
+  {
+    "filename": "issue_7_page_3_region_1934.png",
+    "groundtruth": "2. Une jeune femme dont le lait est frais, son enfant étant mort, s'offre\npour tout de suite, pour nourisse dans une bonne maison. On s'adr. à la\nGontier au dessus de St. Jean, qui en donnera de bonnes rélations.",
+    "raw_ocr": "2. Une ‘jeune femme dont le lit eft frais, fon enfant étant mort, s'offre\nQur tout de fuite, pour hourifle dans une bonne maïfon. On s’adr. à la\nGontier au deilus de St. Jean, qui en donnera de bonnes rélations.\n",
+    "corrected_ocr": "2. Une jeune femme dont le lit eft frais, fon enfant étant mort, s'offre\npour tout de fuite, pour nourrice dans une bonne maïfon. On s’adr. à la\nGontier au dessus de St. Jean, qui en donnera de bonnes relations.",
+    "wer": 0.2,
+    "cer": 0.052132701421800945
+  },
+  {
+    "filename": "issue_7_page_3_region_1935.png",
+    "groundtruth": "3. Un garçon qui a du service, s'offre pour valet de chambre, il sait travailler à tous les ouvrages de la campagne; il s'employera à ce que l'on exi-",
+    "raw_ocr": "3. Un garçon qui a du fervice, s’offre pour valet de chambre, il fait tra.\nvailler à tous les ouvrages de la campagne , il s’'employera à te que l’on exi-\n",
+    "corrected_ocr": "3. Un garçon qui a du fervice, s’offre pour valet de chambre, il fait tra-\nvailler à tous les ouvrages de la campagne, il s'employera à ce que l’on exi-",
+    "wer": 0.2413793103448276,
+    "cer": 0.04697986577181208
+  },
+  {
+    "filename": "issue_7_page_4_region_1936.png",
+    "groundtruth": "gera; il peut aller tout de suite. On s'adr. à François Macellet à Senaclens,\nou à Lausanne chez Taillens, maitre tonnelier en Bourg.\n4. Un garçon de 26 ans, grand de 5 pieds 10 pouces, qui sait raser & friser, s'offre pour valet de chambre dès à présent; il sait lire & écrire joliment,\n& sait monté à cheval, il a de bons certificats à produire; il est logé aux\n3 Pigeons.",
+    "raw_ocr": "gera; il peut aller tout de fuite. On s’adr. à François Macellet à Senaclens ,\nou à Laufanne chez Taillens, maitte tonnélier en Bourg. ete\n\n4. Un garçon de 26 ans, grand de $ pieds 10 pouces, qui fait rafer & fri.\nfer, s’otfre pour valet de chambre dès à préfent ; il fait lire & écrire joliment,\n& fait monté à cheval, il a de bons certifigats à produire; il eft logé aux\n3 Pigeons. b Sr\n",
+    "corrected_ocr": "gera; il peut aller tout de fuite. On s'adr. à François Macellet à Senaclens,\nou à Laufanne chez Taillens, maitte tonnélier en Bourg. etc.\n4. Un garçon de 26 ans, grand de 5 pieds 10 pouces, qui fait raser & fri-\nser, s'offre pour valet de chambre dès à présent ; il fait lire & écrire joliment,\net fait monter à cheval, il a de bons certificats à produire; il est logé aux\n3 Pigeons.",
+    "wer": 0.16666666666666666,
+    "cer": 0.04825737265415549
+  },
+  {
+    "filename": "issue_7_page_4_region_1937.png",
+    "groundtruth": "CONDITION DEMANDÉE.",
+    "raw_ocr": "CONDITION DEMANDÉE\n",
+    "corrected_ocr": "CONDITION DEMANDÉE",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_7_page_4_region_1938.png",
+    "groundtruth": "1. On demande un garçon maréchal. On s'adr. au chateau d'Ouchy pour\nen apprendre les conditions.",
+    "raw_ocr": "1. On demande un garçon maréchal. On s’adr. au chateau d'Ouchy pour\nen apprendre les conditions.\n",
+    "corrected_ocr": "1. On demande un garçon maréchal. On s'adr. au chateau d'Ouchy pour\nen apprendre les conditions.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_7_page_4_region_1939.png",
+    "groundtruth": "EFFETS PERDUS.",
+    "raw_ocr": "E F FEAT SP ER D'US,\n",
+    "corrected_ocr": "EFFETS PERDUS",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_7_page_4_region_1940.png",
+    "groundtruth": "1. Dimanche dernier, Mr. le Conteiller Langin des Toises, proche Lausanne, ayant égaré un paons, prie les personnes chez qui il pourroit s'être\nretiré, ou qui pourroient l'appercevoir, de s'adreiser à lui contre une récompense.\n2. On a perdu sur le chemin tendant des Ranges à Crisser, il y a 15 jours;\nune tabatière d'agathe, en coffre, couleur rougeatre, garnie en argent doré;\non prie ceux qui l'auront trouvée, ou les personnes à qui on l'auroit présentée, de la rendre à Mr. Secretan, Chatelain de Chapitre, qui donnera une\nbonne récompense.",
+    "raw_ocr": "1. Dimanche dernier, Mr. le Conleiller Langin des Toifes , proche Lau-\nfanne, ayant égaré un paons, prie les perfonnes chez qui il pourroit s’ètre\nretiré, ou qui pourroient l’apperçcevoir , de s’adrefler à lui contre une ré:\ncompenfe, : d\n\n2. On a perdu fur le chemin tendant des Ranges à Criffier, ily a 1$ jours,\nune tabatiere d’agathe, en coffte, couleur rougeatre, garnie en argent doré;\non prie ceux qui l’auront trouvée, ou les perfonnes à qui on l’auroit préfen-\ntée, de la rendre à Mr. Secretan, Chatelain de Chapitre, qui donnera une\n\nRES SE IEP SAS CAIN eo OT EL De PU:\n",
+    "corrected_ocr": "1. Dimanche dernier, Mr. le Conseiller Langin des Toises, proche Lau-\nsanne, ayant égaré un paons, prie les personnes chez qui il pourroit s'être\nretiré, ou qui pourroient l'appercevoir, de s'adresser à lui contre une ré-\ncompense,\n2. On a perdu sur le chemin tendant des Ranges à Crissier, il y a 15 jours,\nune tabatiere d'agathe, en coste, couleur rougeâtre, garnie en argent doré;\non prie ceux qui l'auront trouvée, ou les personnes à qui on l'auroit présen-\ntée, de la rendre à Mr. Secretan, Chatelain de Chapitre, qui donnera une",
+    "wer": 0.16483516483516483,
+    "cer": 0.060550458715596334
+  },
+  {
+    "filename": "issue_7_page_4_region_1944.png",
+    "groundtruth": "Les personnes qui souhaiteront de faire insérer dans la feuille d'avis, des\narticles, sont priées de les envoyer dans le courant de la semaine. Les avis se\npayent en les apportant au Bureau.",
+    "raw_ocr": "Les perfonnes qui fouhaiteront de faire inférer dans la. feuille. d'avis, der\narticles, font priées de les envoyer dans le* courant de la femaine. Les avis fé\npayent en les apportant au Bureau, ,\n",
+    "corrected_ocr": "Les personnes qui souhaiteront de faire insérer dans la feuille d'avis, des\narticles, sont priées de les envoyer dans le courant de la semaine. Les avis se\npayent en les apportant au Bureau,",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_24_page_1_region_1956.png",
+    "groundtruth": "FEUILLE D'ANNONCES POUR LAUSANNE, MORGES & LAVAUX,\net résumé quotidien des nouvelles,\nparaitra tous les soirs (le dimanche excepté).\nà dater du 15 décembre.",
+    "raw_ocr": "FEUILLE D'ANNONCES POUR LAUSANNE, MORGES & LAVAUX,\net résumé quotidien des nouvelles,\nparaîtra tous les soirs (le dimanche excepté)\nà dater du 13 décembre.\n",
+    "corrected_ocr": "FEUILLE D'ANNONCES POUR LAUSANNE, MORGES & LAVAUX,\net résumé quotidien des nouvelles,\nparaîtra tous les soirs (le dimanche excepté)\nà dater du 13 décembre.",
+    "wer": 0.125,
+    "cer": 0.01935483870967742
+  },
+  {
+    "filename": "issue_24_page_1_region_1957.png",
+    "groundtruth": "PRIX D'ABONNEMENT:\n10 francs pour un an;\n5 fr. 50 pour six mois;\n3 francs pour trois mois.",
+    "raw_ocr": "PRIX D'ABONNEMENT :\n40 francs pour un an;\n5 fr. 50 pour six mois;\n3 francs pour trois mois.\n",
+    "corrected_ocr": "PRIX D'ABONNEMENT :\n40 francs pour un an;\n5 fr. 50 pour six mois;\n3 francs pour trois mois.",
+    "wer": 0.05555555555555555,
+    "cer": 0.011235955056179775
+  },
+  {
+    "filename": "issue_24_page_1_region_1958.png",
+    "groundtruth": "PRIX D'INSERTION:\n10 centimes la ligne.\n(Les titres comptent pour la\nplace qu'ils occupent.)",
+    "raw_ocr": "PRIX D'INSERTION :\n40 centimes la ligue. ”\n\n{Les titres comptent pour la\nplace. qu'ils occupent. j\n",
+    "corrected_ocr": "PRIX D'INSERTION :\n40 centimes la ligue.\n{Les titres comptent pour la\nplace qu'ils occupent.}",
+    "wer": 0.21428571428571427,
+    "cer": 0.03333333333333333
+  },
+  {
+    "filename": "issue_24_page_1_region_1959.png",
+    "groundtruth": "AVIS IMPORTANT.",
+    "raw_ocr": "AVIS IMPORTANT.\n",
+    "corrected_ocr": "AVIS IMPORTANT.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_24_page_1_region_1960.png",
+    "groundtruth": "Ce Numéro-spécimen et les numéros qui suivront,\njusqu'au 31 décembre, sont envoyés gratis, à titre\nd'essai. Les personnes qui les recevront sont instamment priées, puisque cela ne les engage à rien, de les\naccepter et de les lire.",
+    "raw_ocr": "Ce Numéro-spécimen et les numéros qui suivront,\njusqu’au 31 décembre, sont envoyés gratis, à titre\nd'essai. Les personnes qui les recevront sont instam-\nment priées, puisque cela ne les engage à rien, de les\naccepter et de les lire.\n",
+    "corrected_ocr": "Ce Numéro-spécimen et les numéros qui suivront,\njusqu'au 31 décembre, sont envoyés gratis, à titre\nd'essai. Les personnes qui les recevront sont instam-\nment priées, puisque cela ne les engage à rien, de les\naccepter et de les lire.",
+    "wer": 0.05263157894736842,
+    "cer": 0.008733624454148471
+  },
+  {
+    "filename": "issue_24_page_1_region_1961.png",
+    "groundtruth": "1o Pour celles qui les recevront sans bande ni\nadresse, il sera joint, au bout de quelques jours, à l'un\ndes numéros, un bulletin sur lequel toute personne\nqui désirera s'abonner (pour 3 mois, 6 mois ou un an)\nvoudra bien inscrire son nom, son adresse aussi détaillée que possible, et le temps pour lequel elle s'abonne.",
+    "raw_ocr": "1° Pour celles qui les recevront sans bande nt\nadresse, il sera joint, au bout de quelques jours, à l’un\ndes numéros, un bulletin sur lequel toute personne\nqui désirera s'abonner (pour 3 mois, 6 mois ou un an)\nvoudra bien inscrire son nom, son adresse aussi détail-\nlée que possible, et le temps pour lequel elle s'abonne.\n",
+    "corrected_ocr": "1° Pour celles qui les recevront sans bande ni\nadresse, il sera joint, au bout de quelques jours, à l'un\ndes numéros, un bulletin sur lequel toute personne\nqui désirera s'abonner (pour 3 mois, 6 mois ou un an)\nvoudra bien inscrire son nom, son adresse aussi détail-\nlée que possible, et le temps pour lequel elle s'abonne.",
+    "wer": 0.05263157894736842,
+    "cer": 0.009404388714733543
+  },
+  {
+    "filename": "issue_24_page_1_region_1962.png",
+    "groundtruth": "Ce bulletin sera réclamé le lendemain par le porteur.\nLes personnes auxquelles un porteur oublierait par\ninadvertance de remettre un ou plusieurs numéros,\nsont invitées à les réclamer à la librairie Delafontaine\net Rouge, place de la Palud 2 (bureau à gauche en\nentrant). On comprend que le cas se présentera fréquemment les premiers jours.",
+    "raw_ocr": "Ce bulletin sera réclamé le lendemain.par le porteur.\n\nLes personnes auxquelles un porteur oublierait par\ninadvertance de remettre un ou plusieurs numéros,\nsont invitées à les réclamer à la librairie Delafontaine\net Rouge, place de la Palud 2 (bureau à gauche en\nentrant). On comprend que le cas se présentera fré-\nquemment les premiers jours.\n",
+    "corrected_ocr": "Ce bulletin sera réclamé le lendemain par le porteur.\nLes personnes auxquelles un porteur oublierait par\ninadvertance de remettre un ou plusieurs numéros,\nsont invitées à les réclamer à la librairie Delafontaine\net Rouge, place de la Palud 2 (bureau à gauche en\nentrant). On comprend que le cas se présentera fré-\nquemment les premiers jours.",
+    "wer": 0.03636363636363636,
+    "cer": 0.0058997050147492625
+  },
+  {
+    "filename": "issue_24_page_1_region_1963.png",
+    "groundtruth": "De même, les personnes qui auraient été entièrement oubliées voudront bien ne pas s'en formaliser,\nmais plutôt s'annoncer à la même adresse, où l'on se\nfera un plaisir de prendre note de leurs noms.",
+    "raw_ocr": "De même, les personnes qui auraient été entière-\nment oubliées voudront bien ne pas s’en formaliser,\nmais plutôt s'annoncer à la même adresse, où l’on se\nfera un plaisir de prendre note de leurs noms.\n",
+    "corrected_ocr": "De même, les personnes qui auraient été entière-\nment oubliées voudront bien ne pas s'en formaliser,\nmais plutôt s'annoncer à la même adresse, où l'on se\nfera un plaisir de prendre note de leurs noms.",
+    "wer": 0.058823529411764705,
+    "cer": 0.01015228426395939
+  },
+  {
+    "filename": "issue_24_page_1_region_1964.png",
+    "groundtruth": "2o Les personnes qui recevront le journal sous bande\nseront considérées comme abonnées si elles ne renvoient pas au moins un des numéros qui paraîtront\nd'ici au 31 décembre.",
+    "raw_ocr": "2° Les personnes qui recevront le journal sous bande\nseront considérées comme abonnées si elles ne ren-\nvoient pas au moins un des numéros qui paraîtront\nd'ici au 31 décembre.\n",
+    "corrected_ocr": "2° Les personnes qui recevront le journal sous bande\nseront considérées comme abonnées si elles ne ren-\nvoient pas au moins un des numéros qui paraîtront\nd'ici au 31 décembre.",
+    "wer": 0.10344827586206896,
+    "cer": 0.01744186046511628
+  },
+  {
+    "filename": "issue_24_page_1_region_1965.png",
+    "groundtruth": "L'Horaire général cessant désormais de paraître\nsous son ancienne forme pour être joint à l'Estafette,\nses abonnés seront servis jusqu'au 1er janvier par ce\ndernier journal. Ceux d'entre eux qui voudront s'y\nabonner n'auront également qu'à garder les premiers\nnuméros, leur silence tenant lieu d'acceptation.",
+    "raw_ocr": "L'Horaire général cessant désormais de paraître\nsous son ancienne forme pour être joint à l'Æstafette,\nses abonnés seront servis jusqu’au 1” janvier par ce\ndernier journal. Ceux d’entre eux qui voudront s'y\nabonner n'auront également qu’à garder les premiers\nnuméros, leur silence tenant lieu d'acceptation.\n",
+    "corrected_ocr": "L'Horaire général cessant désormais de paraître\nsous son ancienne forme pour être joint à l'Æstafette,\nses abonnés seront servis jusqu’au 1” janvier par ce\ndernier journal. Ceux d’entre eux qui voudront s'y\nabonner n'auront également qu’à garder les premiers\nnuméros, leur silence tenant lieu d'acceptation.",
+    "wer": 0.1111111111111111,
+    "cer": 0.019543973941368076
+  },
+  {
+    "filename": "issue_24_page_1_region_1966.png",
+    "groundtruth": "Les ANNONCES seront reçues à moitié prix\n(5 centimes la ligne ou son espace) jusqu'à la fin de\nl'année. A l'approche du moment des étrennes, les\néditeurs espèrent que bon nombre de marchands s'empresseront de profiter de ce prix de faveur.\nPour qu'une annonce paraisse le jour même, elle\ndevra être parvenue à midi à la librairie Delafontaine\net Rouge, place de la Palud 2 (porte à gauche).",
+    "raw_ocr": "Les ANNONCES seront reçues à moitié prix\n(5 centimes la ligne ou son espace) jusqu’à la fin de\nl'année. A l'approche du moment des étrennes, les\néditeurs espèrent que bon nombre de marchands s'em-\npresseront de profiter de ce prix de faveur.\n\nPour qu'une annonce paraisse le jour même, elle\ndevra être parvenue à midi à la librairie Delafontaine\net Rouge, place de la Palud 2 (porte à gauche).\n",
+    "corrected_ocr": "Les ANNONCES seront reçues à moitié prix\n(5 centimes la ligne ou son espace) jusqu’à la fin de\nl'année. A l'approche du moment des étrennes, les\néditeurs espèrent que bon nombre de marchands s'empresseront de profiter de ce prix de faveur.\n\nPour qu'une annonce paraisse le jour même, elle\ndevra être parvenue à midi à la librairie Delafontaine\net Rouge, place de la Palud 2 (porte à gauche).",
+    "wer": 0.014705882352941176,
+    "cer": 0.002577319587628866
+  },
+  {
+    "filename": "issue_24_page_1_region_1967.png",
+    "groundtruth": "PROSPECTUS.",
+    "raw_ocr": "PROSPECTUS.\n",
+    "corrected_ocr": "PROSPECTUS.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_24_page_1_region_1968.png",
+    "groundtruth": "Encore un journal, quand il y en a déjà tant! - Et pourquoi\npas, s'il ne ressemble pas aux autres?",
+    "raw_ocr": "Encore un journal, quand il y en a déjà tant! — Et pourquoi\npas, s’il ne ressemble pas aux autres?\n",
+    "corrected_ocr": "Encore un journal, quand il y en a déjà tant! — Et pourquoi\npas, s’il ne ressemble pas aux autres?",
+    "wer": 0.1,
+    "cer": 0.020618556701030927
+  },
+  {
+    "filename": "issue_24_page_1_region_1969.png",
+    "groundtruth": "Quoi qu'il en soit, la publication nouvelle qui s'annonce aujourd'hui doit, comme ses ainées, prouver sa raison d'être, sous\npeine de se voir refuser par le public ses lettres de naturalisa-",
+    "raw_ocr": "Quoi qu'il en soit, la publication nouvelle qui s'annonce au-\njourd'hui doit, comme ses aînées, prouver sa raison d’être, sous\npeine de se voir refuser par le public ses lettres de naturalisa-\n",
+    "corrected_ocr": "Quoi qu'il en soit, la publication nouvelle qui s'annonce aujourd'hui doit, comme ses aînées, prouver sa raison d’être, sous\npeine de se voir refuser par le public ses lettres de naturalisation.",
+    "wer": 0.0967741935483871,
+    "cer": 0.031746031746031744
+  },
+  {
+    "filename": "issue_24_page_1_region_1970.png",
+    "groundtruth": "tion. C'est ce que nous allons essayer de faire en quelques mots.",
+    "raw_ocr": "tion. C'est ce que nous allons essayer de faire en quelques mots.\n",
+    "corrected_ocr": "C'est ce que nous allons essayer de faire en quelques mots.",
+    "wer": 0.08333333333333333,
+    "cer": 0.09375
+  },
+  {
+    "filename": "issue_24_page_1_region_1971.png",
+    "groundtruth": "Lausanne n'est pas et ne deviendra probablement jamais une\ngrande ville, même dans le sens élastique qui permet de donner\nce titre à Genève, par exemple, et ce n'est peut-être qu'un bien;\nmais il y a longtemps que Lausanne a cessé d'être une petite\nville, moins encore par le chiffre de sa population que par l'en-\nsemble des ressources que notre cité présente sous le rapport\ndes établissements d'instruction officiels et privés, de l'industrie et du commerce, et grâce aussi à la position privilégiée qui\nlui est faite depuis qu'elle se trouve au centre d'un réseau de\nvoies ferrées.",
+    "raw_ocr": "Lausanne n'est pas et ne deviendra probablement jamais une\ngrande ville, même dans le sens élastique qui permet de donner\nce titre à Genève, par exemple, et ce n'est peut-être qu'un bien;\nmais il y a longtemps que Lausanne a cessé d’être une petite\nville, moins encore par le chiffre de sa population que par l’en-\nsemble des ressources que notre cité présente sous le rapport\ndes établissements d'instruction officiels et privés, de l’indus-\ntrie et du commerce, et grâce aussi à la position privilégiée qui\nlui est faite depuis qu'elle se trouve au centre d'un réseau de\nvoies ferrées. |\n",
+    "corrected_ocr": "Lausanne n'est pas et ne deviendra probablement jamais une\ngrande ville, même dans le sens élastique qui permet de donner\nce titre à Genève, par exemple, et ce n'est peut-être qu'un bien;\nmais il y a longtemps que Lausanne a cessé d’être une petite\nville, moins encore par le chiffre de sa population que par l'ensemble des ressources que notre cité présente sous le rapport\ndes établissements d'instruction officiels et privés, de l'industrie et du commerce, et grâce aussi à la position privilégiée qui\nlui est faite depuis qu'elle se trouve au centre d'un réseau de\nvoies ferrées.",
+    "wer": 0.030303030303030304,
+    "cer": 0.005136986301369863
+  },
+  {
+    "filename": "issue_24_page_1_region_1972.png",
+    "groundtruth": "« Noblesse oblige ! » Il faut, quand on occupe une pareille\nposition, savoir se mettre à la hauteur des circonstances.",
+    "raw_ocr": "« Noblesse oblige ! » Il faut, quand on occupe une pareill:\nposition, savoir se mettre. à la hauteur des circonstances.\n",
+    "corrected_ocr": "« Noblesse oblige ! » Il faut, quand on occupe une pareille\nposition, savoir se mettre à la hauteur des circonstances.",
+    "wer": 0.0,
+    "cer": 0.0
+  },
+  {
+    "filename": "issue_24_page_1_region_1975.png",
+    "groundtruth": "Ceci noas amène à parler du caractère de feuille d'avis que\nnous tenons à donner à l'Estafette.",
+    "raw_ocr": "Ceci noùs amène à parler du caractère de feuille d'avis que\nnous tenons à donner à l’Estafette.\n",
+    "corrected_ocr": "Ceci nous amène à parler du caractère de feuille d'avis que\nnous tenons à donner à l’Estafette.",
+    "wer": 0.11764705882352941,
+    "cer": 0.02127659574468085
+  }
+]

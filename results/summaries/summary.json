@@ -1,0 +1,1277 @@
+[
+  {
+    "strategy": "Full_Expert_Robuste",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 8,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.09533344091679609,
+        "cer": 0.029179573569875314,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.11795442323847503,
+        "cer": 0.03883240599496573,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.07738513381650654,
+        "cer": 0.02683157278466654,
+        "num_items": 608
+      }
+    },
+    "cost": 0.0223671,
+    "overall_average_wer": 0.09689099932392588,
+    "overall_average_cer": 0.03161451744983586
+  },
+  {
+    "strategy": "Full_Intermediate",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 3,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.1191679266969689,
+        "cer": 0.03279043603832067,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.14582622635437967,
+        "cer": 0.03969055374669793,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.09015858132315777,
+        "cer": 0.027697217332898368,
+        "num_items": 608
+      }
+    },
+    "cost": 0.026249175,
+    "overall_average_wer": 0.11838424479150211,
+    "overall_average_cer": 0.03339273570597232
+  },
+  {
+    "strategy": "Full_Master_Chain_of_Thought",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 9,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.10645214821699979,
+        "cer": 0.027840359474457982,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.16418207493608022,
+        "cer": 0.046633894431745086,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.08580096177075466,
+        "cer": 0.026464667602223463,
+        "num_items": 608
+      }
+    },
+    "cost": 0.028809374999999998,
+    "overall_average_wer": 0.11881172830794488,
+    "overall_average_cer": 0.03364630716947551
+  },
+  {
+    "strategy": "Full_Intermediate_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 4,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.11311327850870685,
+        "cer": 0.03266448474878438,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.1622183531061998,
+        "cer": 0.043563681144686305,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.09706382773474037,
+        "cer": 0.03164544356248026,
+        "num_items": 608
+      }
+    },
+    "cost": 0.027987225,
+    "overall_average_wer": 0.12413181978321568,
+    "overall_average_cer": 0.03595786981865032
+  },
+  {
+    "strategy": "Full_Ultimate_Master",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 10,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.12377028510919777,
+        "cer": 0.035627846541397126,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.16184633631488815,
+        "cer": 0.048925771721041025,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.09868736216587039,
+        "cer": 0.031610938215631566,
+        "num_items": 608
+      }
+    },
+    "cost": 0.029478825,
+    "overall_average_wer": 0.12810132786331876,
+    "overall_average_cer": 0.03872151882602324
+  },
+  {
+    "strategy": "Full_Expert_Few_Shot",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 7,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.13809025608768416,
+        "cer": 0.03967692118033047,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.18903635000044738,
+        "cer": 0.0513795506766555,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.13059872541606873,
+        "cer": 0.039119357333917824,
+        "num_items": 608
+      }
+    },
+    "cost": 0.026100449999999997,
+    "overall_average_wer": 0.15257511050140007,
+    "overall_average_cer": 0.04339194306363459
+  },
+  {
+    "strategy": "Full_Advanced_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 6,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.13090284446363737,
+        "cer": 0.04181997503685956,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.1999125246133827,
+        "cer": 0.05653351011194142,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.09972453812223915,
+        "cer": 0.032306349947925084,
+        "num_items": 608
+      }
+    },
+    "cost": 0.028841625000000003,
+    "overall_average_wer": 0.14351330239975307,
+    "overall_average_cer": 0.043553278365575356
+  },
+  {
+    "strategy": "Full_Advanced",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 5,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.11345014424274702,
+        "cer": 0.03644573703089842,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.2915198863946107,
+        "cer": 0.18058590271628547,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.08875388761000612,
+        "cer": 0.03342605618199292,
+        "num_items": 608
+      }
+    },
+    "cost": 0.0223749,
+    "overall_average_wer": 0.16457463941578795,
+    "overall_average_cer": 0.08348589864305894
+  },
+  {
+    "strategy": "Full_Basic_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 2,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.140929286458555,
+        "cer": 0.03737169945594681,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4469669307145869,
+        "cer": 0.09459290024064419,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.13979253164995323,
+        "cer": 0.03756479228887265,
+        "num_items": 608
+      }
+    },
+    "cost": 0.026326425,
+    "overall_average_wer": 0.24256291627436502,
+    "overall_average_cer": 0.056509797328487876
+  },
+  {
+    "strategy": "Full_Basic",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 1,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.11852997172201699,
+        "cer": 0.032350513266503095,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.47245547422462575,
+        "cer": 0.10509914878144283,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.11496285294750874,
+        "cer": 0.030627704765545133,
+        "num_items": 608
+      }
+    },
+    "cost": 0.02570235,
+    "overall_average_wer": 0.2353160996313838,
+    "overall_average_cer": 0.056025788937830355
+  },
+  {
+    "strategy": "Selective_thr80_Intermediate",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 3,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.18215143576758117,
+        "cer": 0.05944669787874201,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.44466821091823683,
+        "cer": 0.3143801574939532,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.03588525,
+    "overall_average_wer": 0.2647059209757711,
+    "overall_average_cer": 0.13861097420229454
+  },
+  {
+    "strategy": "Selective_thr80_Advanced",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 5,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.1841468873112177,
+        "cer": 0.06473193100083664,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.44857055959451075,
+        "cer": 0.315921697037445,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.037351949999999995,
+    "overall_average_wer": 0.26667185438240787,
+    "overall_average_cer": 0.14088656509082334
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Intermediate",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 3,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.18791275441069902,
+        "cer": 0.06412966354556139,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.45258894581178005,
+        "cer": 0.3161597692281812,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.025378124999999998,
+    "overall_average_wer": 0.2692666054879915,
+    "overall_average_cer": 0.14076516666931033
+  },
+  {
+    "strategy": "Selective_thr80_Advanced_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 6,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.18697528959368404,
+        "cer": 0.06451457143548797,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4547334630035623,
+        "cer": 0.3160434480056122,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.039867150000000004,
+    "overall_average_wer": 0.26966895627958054,
+    "overall_average_cer": 0.14085469555842953
+  },
+  {
+    "strategy": "Selective_thr80_Intermediate_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 4,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19591877621258988,
+        "cer": 0.06683379036893787,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.44670747975841796,
+        "cer": 0.3142119613009807,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.03692355,
+    "overall_average_wer": 0.269974790737501,
+    "overall_average_cer": 0.14101727296803568
+  },
+  {
+    "strategy": "Selective_thr90_Intermediate",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 3,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19449150639907556,
+        "cer": 0.08950511841714126,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.45601132560348023,
+        "cer": 0.35479243902993673,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.061578974999999994,
+    "overall_average_wer": 0.2726003160813503,
+    "overall_average_cer": 0.16210120822708882
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Intermediate_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 4,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19690307824261566,
+        "cer": 0.0658010490939492,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.45384762245015264,
+        "cer": 0.31754207051456357,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.026767725000000003,
+    "overall_average_wer": 0.2726829389780879,
+    "overall_average_cer": 0.1417830622809004
+  },
+  {
+    "strategy": "Selective_thr80_Expert_Robuste",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 8,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21081544546722436,
+        "cer": 0.0652279532634606,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.44115493534759687,
+        "cer": 0.314354123645057,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.035061224999999994,
+    "overall_average_wer": 0.27308949901877216,
+    "overall_average_cer": 0.140529381380902
+  },
+  {
+    "strategy": "Selective_thr90_Advanced_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 6,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19445644795706415,
+        "cer": 0.08839984159672586,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4589648407485871,
+        "cer": 0.3563114587157743,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.06826327499999998,
+    "overall_average_wer": 0.27357313498238217,
+    "overall_average_cer": 0.16223912251556286
+  },
+  {
+    "strategy": "Selective_thr80_Basic_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 2,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.18978383563864573,
+        "cer": 0.06566314639623665,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.46391735117484645,
+        "cer": 0.31728851402337643,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.03517725,
+    "overall_average_wer": 0.2736664343516625,
+    "overall_average_cer": 0.1416525758846005
+  },
+  {
+    "strategy": "Selective_thr80_Ultimate_Master",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 10,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.2126933768223734,
+        "cer": 0.0675264163329379,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.44179775315457687,
+        "cer": 0.31431018783218584,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.040970625,
+    "overall_average_wer": 0.27392974873948184,
+    "overall_average_cer": 0.1412808904664374
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Expert_Robuste",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 8,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.20855442473522912,
+        "cer": 0.06372829857836766,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4463724958499897,
+        "cer": 0.31602634839184657,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.026116425,
+    "overall_average_wer": 0.27407501227557135,
+    "overall_average_cer": 0.14058690473480087
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Intermediate_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 4,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19554148454625503,
+        "cer": 0.09038944545972065,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4615816283443273,
+        "cer": 0.35726294237158723,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.0447054,
+    "overall_average_wer": 0.2748070763773592,
+    "overall_average_cer": 0.16321948502183212
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Intermediate",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 3,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19586102473702455,
+        "cer": 0.09019734367722096,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4623013808897967,
+        "cer": 0.35672699119357,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.043477575,
+    "overall_average_wer": 0.2751535072894388,
+    "overall_average_cer": 0.1629768007016598
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Advanced_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 6,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19318947842238451,
+        "cer": 0.08663605795427552,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4662495195578194,
+        "cer": 0.3566262823636188,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.049437075,
+    "overall_average_wer": 0.2755790380738997,
+    "overall_average_cer": 0.16175613585069426
+  },
+  {
+    "strategy": "Selective_thr90_Intermediate_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 4,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.20236158129457105,
+        "cer": 0.09114688373948414,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.460072532510051,
+        "cer": 0.3553994154331825,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.063485775,
+    "overall_average_wer": 0.27657741001537245,
+    "overall_average_cer": 0.162850788802285
+  },
+  {
+    "strategy": "Selective_thr90_Advanced",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 5,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19155908904889718,
+        "cer": 0.08633619086919975,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.47456811524684434,
+        "cer": 0.358202924160398,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.063951675,
+    "overall_average_wer": 0.27780844017907896,
+    "overall_average_cer": 0.16218172742126205
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Ultimate_Master",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 10,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21517300564595046,
+        "cer": 0.06565151144830458,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.452999978581549,
+        "cer": 0.31705134477753744,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.032027625,
+    "overall_average_wer": 0.27849036682299827,
+    "overall_average_cer": 0.14156964115334347
+  },
+  {
+    "strategy": "Selective_thr90_Expert_Robuste",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 8,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21609721238438065,
+        "cer": 0.07845599672352466,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4555243521038954,
+        "cer": 0.35529429147482455,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.0541062,
+    "overall_average_wer": 0.2796398935765904,
+    "overall_average_cer": 0.15858545181084588
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Expert_Robuste",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 8,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21494829315584535,
+        "cer": 0.07772960790299106,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.45884991835642847,
+        "cer": 0.3566191235531667,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.039817275,
+    "overall_average_wer": 0.2803654425845897,
+    "overall_average_cer": 0.15878493289678206
+  },
+  {
+    "strategy": "Selective_thr90_Ultimate_Master",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 10,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21829294761676496,
+        "cer": 0.0779544251882376,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4561556327066512,
+        "cer": 0.3558971821374734,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.0630159,
+    "overall_average_wer": 0.2805822321883038,
+    "overall_average_cer": 0.1586192248532998
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Advanced",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 5,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19683495137387907,
+        "cer": 0.08703087912511825,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.47880351985050496,
+        "cer": 0.35814390685256214,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.045058725,
+    "overall_average_wer": 0.2809788624886264,
+    "overall_average_cer": 0.1623936177372896
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Basic_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 2,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.2044835566349476,
+        "cer": 0.06695624064304298,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.47147784295800027,
+        "cer": 0.31983456242780123,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.024820424999999997,
+    "overall_average_wer": 0.2810865052781477,
+    "overall_average_cer": 0.14293229010167754
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Ultimate_Master",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 10,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21423057334497164,
+        "cer": 0.07700597261053294,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.46363771114871277,
+        "cer": 0.3577526088712625,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.048634275,
+    "overall_average_wer": 0.2817221335783932,
+    "overall_average_cer": 0.1589215495719946
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Master_Chain_of_Thought",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 9,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.20860738799158593,
+        "cer": 0.06362306746154438,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.47521998209996313,
+        "cer": 0.32085066872304746,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.028450125,
+    "overall_average_wer": 0.2837084954443481,
+    "overall_average_cer": 0.14215993447292677
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Basic_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 2,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21427629281009547,
+        "cer": 0.09426997287370228,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.47565280571382335,
+        "cer": 0.36156152164641814,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.041960625,
+    "overall_average_wer": 0.2857424049218047,
+    "overall_average_cer": 0.16594585391810293
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Master_Chain_of_Thought",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 9,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.2303144084625423,
+        "cer": 0.08910981552456093,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4703254306882558,
+        "cer": 0.36668964408899013,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.04355062500000001,
+    "overall_average_wer": 0.2893126517974311,
+    "overall_average_cer": 0.16593517561591317
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Advanced",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 5,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.2514269435652859,
+        "cer": 0.13811061102686495,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.45376987681310516,
+        "cer": 0.3165515642154232,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.025110824999999996,
+    "overall_average_wer": 0.2908316455399621,
+    "overall_average_cer": 0.1655560808254922
+  },
+  {
+    "strategy": "Selective_thr80_Expert_Few_Shot",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 7,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.1943558981499182,
+        "cer": 0.06509306888064119,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.5142565529221995,
+        "cer": 0.3236959209452117,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.03795375,
+    "overall_average_wer": 0.29197018910453765,
+    "overall_average_cer": 0.14359835235334711
+  },
+  {
+    "strategy": "Selective_thr90_Basic_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 2,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.22330434408303418,
+        "cer": 0.0961809360117139,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.487915117082496,
+        "cer": 0.3609900088575725,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.060709874999999996,
+    "overall_average_wer": 0.2928391924690085,
+    "overall_average_cer": 0.16639233736782494
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Expert_Few_Shot",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 7,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.22519843393461944,
+        "cer": 0.08183715831322286,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.48733843094302726,
+        "cer": 0.3614264720808232,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.038362049999999995,
+    "overall_average_wer": 0.29327832703971396,
+    "overall_average_cer": 0.16175656587607815
+  },
+  {
+    "strategy": "Selective_thr90_Expert_Few_Shot",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 7,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.22335916317913096,
+        "cer": 0.08059403901227939,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4905019660267633,
+        "cer": 0.3592140755523903,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.05307674999999999,
+    "overall_average_wer": 0.2937197484824632,
+    "overall_average_cer": 0.16060472726628605
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Expert_Few_Shot",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 7,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21619494113317309,
+        "cer": 0.0661885510678819,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.499029695150621,
+        "cer": 0.32132747060193706,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.025233224999999998,
+    "overall_average_wer": 0.29417425084176313,
+    "overall_average_cer": 0.14317402963466913
+  },
+  {
+    "strategy": "Selective_thr80_Basic",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 1,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.19740159494806714,
+        "cer": 0.06442490526826021,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.5306319477793464,
+        "cer": 0.3243863278100623,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.03514125,
+    "overall_average_wer": 0.29844388632296964,
+    "overall_average_cer": 0.143605766770837
+  },
+  {
+    "strategy": "SelectiveNoContext_thr90_Basic",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 1,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.22160664017069862,
+        "cer": 0.1124355997360676,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.5148201827109117,
+        "cer": 0.3724740492518373,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.04233825,
+    "overall_average_wer": 0.3012416463743685,
+    "overall_average_cer": 0.1756385720740311
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Advanced_plus",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 6,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.24877698202717896,
+        "cer": 0.135547614728528,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.4895037384904803,
+        "cer": 0.32092839183908584,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.027594524999999998,
+    "overall_average_wer": 0.3018596122530515,
+    "overall_average_cer": 0.16616069126726743
+  },
+  {
+    "strategy": "Selective_thr80_Master_Chain_of_Thought",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 9,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.21232021803222959,
+        "cer": 0.06631958890444926,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.5335892877888969,
+        "cer": 0.40497272528958933,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.040182075,
+    "overall_average_wer": 0.3044025406875406,
+    "overall_average_cer": 0.1710994604760757
+  },
+  {
+    "strategy": "SelectiveNoContext_thr80_Basic",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 1,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.24852012439574156,
+        "cer": 0.1375355114604516,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.5049624820097597,
+        "cer": 0.3228195927900704,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.022738425,
+    "overall_average_wer": 0.3069269075489988,
+    "overall_average_cer": 0.16745372382823678
+  },
+  {
+    "strategy": "Selective_thr90_Basic",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 1,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.23963565504322726,
+        "cer": 0.10208189189816383,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.5247646914041767,
+        "cer": 0.36781448142175877,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.060891375,
+    "overall_average_wer": 0.3105661542296331,
+    "overall_average_cer": 0.17063414685137035
+  },
+  {
+    "strategy": "baseline_no_llm",
+    "llm_model": "none",
+    "prompt_id": 0,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.2335319130120117,
+        "cer": 0.0632185995759856,
+        "num_items": 597
+      },
+      "easyocr": {
+        "wer": 0.5992086385954729,
+        "cer": 0.15113068898668267,
+        "num_items": 608
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.0,
+    "overall_average_wer": 0.3333462226163266,
+    "overall_average_cer": 0.0854517852656189
+  },
+  {
+    "strategy": "Selective_thr90_Master_Chain_of_Thought",
+    "llm_model": "google/gemini-3-flash-preview",
+    "prompt_id": 9,
+    "by_ocr_engine": {
+      "tesseract": {
+        "wer": 0.23249940184624426,
+        "cer": 0.08054989689793879,
+        "num_items": 620
+      },
+      "easyocr": {
+        "wer": 0.6150954541193914,
+        "cer": 0.4912280376486714,
+        "num_items": 631
+      },
+      "paddle": {
+        "wer": 0.16729811624149526,
+        "cer": 0.04200606723418841,
+        "num_items": 608
+      }
+    },
+    "cost": 0.06499755,
+    "overall_average_wer": 0.338297657402377,
+    "overall_average_cer": 0.2045946672602662
+  }
+]
