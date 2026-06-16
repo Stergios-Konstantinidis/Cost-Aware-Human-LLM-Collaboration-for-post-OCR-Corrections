@@ -1,0 +1,131 @@
+% overview_tikz.tex  –  Three-tier Human-LLM Collaboration Overview
+% Include in paper:  \resizebox{\linewidth}{!}{\input{paper/figures/overview_tikz.tex}}
+%
+% LAYOUT – uniform 1.2 cm gap between node edges:
+%   Doc stack A :  x 0.00 – 1.85   (centre 0.93)
+%   gap 1.2
+%   ML Model  B :  x 3.05 – 5.85   (centre 4.45,  width 2.8)
+%   gap 1.2
+%   Tier boxes D:  x 7.05 – 9.65   (centre 8.35,  width 2.6)
+%   gap 1.2
+%   Doc stack E :  x 10.85 – 12.70  (centre 11.63)
+%
+\begin{tikzpicture}[
+    % ── colour palette ──
+    blueMain/.style  = {draw=blue!30!black, fill=blue!6,
+                        rounded corners=8pt, line width=0.9pt},
+    blueAccent/.style= {draw=blue!30!black, fill=blue!18!white,
+                        rounded corners=8pt, line width=0.9pt},
+    orangeBox/.style = {draw=orange!40!black, fill=orange!8!white,
+                        rounded corners=8pt, line width=0.9pt},
+    keepBox/.style   = {draw=gray!60, fill=gray!5,
+                        rounded corners=8pt, line width=0.9pt},
+    % ── arrows ──
+    arr/.style       = {-{Stealth[scale=0.85]}, line width=1.1pt,
+                        blue!45!black},
+    % ── text styles ──
+    mainLabel/.style = {font=\sffamily\bfseries\small, align=center},
+    subLabel/.style  = {font=\sffamily\scriptsize, align=center,
+                        text=gray!70!black},
+]
+
+\def\midY{1.08}  % vertical centreline
+
+% =====================================================================
+% Stage A   RAW OCR CORPUS   (x = 0 – 1.85)
+% =====================================================================
+\begin{scope}[shift={(0,0)}]
+  \draw[blue!30!black, fill=blue!10, rounded corners=1.5pt, line width=0.6pt]
+    (0.3,0.3) -- (0.3,2.45) -- (1.85,2.45) -- (1.85,0.3) -- cycle;
+  \draw[blue!30!black, fill=blue!6, rounded corners=1.5pt, line width=0.6pt]
+    (0.15,0.15) -- (0.15,2.3) -- (1.7,2.3) -- (1.7,0.15) -- cycle;
+  \draw[blue!30!black, fill=white, rounded corners=1.5pt, line width=0.7pt]
+    (0,0) -- (0,2.15) -- (1.55,2.15) -- (1.55,0) -- cycle;
+  \draw[blue!30!black, fill=blue!8, line width=0.5pt]
+    (1.1,2.15) -- (1.1,1.75) -- (1.55,1.75) -- cycle;
+  \foreach \y in {0.35,0.65,0.95,1.25}{
+    \draw[blue!30, line width=1.5pt, line cap=round]
+      (0.2,\y) -- ++(0.9,0);
+  }
+\end{scope}
+\node[mainLabel, below] at (0.93,-0.15) {Raw OCR\\Corpus};
+
+% =====================================================================
+% Arrow A → B   (gap 1.2:  1.85 → 3.05)
+% =====================================================================
+\draw[arr] (2.0,\midY) -- (2.9,\midY);
+
+% =====================================================================
+% Stage B   MACHINE LEARNING MODEL   (x = 3.05 – 5.85, centre 4.45)
+% =====================================================================
+\node[blueMain, minimum width=2.8cm, minimum height=2.5cm] (mlbox)
+  at (4.45,\midY) {};
+\node[mainLabel] at (4.45,1.55) {Machine\\Learning\\Model};
+\node[subLabel]  at (4.45,0.42) {Predicts optimal\\correction tier};
+
+% =====================================================================
+% Branching junction (at ML box right edge = 5.85)
+% =====================================================================
+\fill[blue!45!black] (5.85,\midY) circle (2.5pt);
+
+% upper branch  →  LLM Correction
+\draw[arr] (5.85,\midY) .. controls (6.35,\midY) and (6.35,2.65)
+           .. (7.05,2.65);
+% middle branch  →  No Correction
+\draw[arr] (5.85,\midY) -- (7.05,\midY);
+% lower branch  →  Human Correction
+\draw[arr] (5.85,\midY) .. controls (6.35,\midY) and (6.35,-0.5)
+           .. (7.05,-0.5);
+
+% =====================================================================
+% Stage D   TIER BOXES   (x = 7.05 – 9.65, centre 8.35)
+% =====================================================================
+% LLM Correction
+\node[blueAccent, minimum width=2.6cm, minimum height=1.3cm] (llm)
+  at (8.35, 2.65) {};
+\node[mainLabel] at (8.35, 2.75) {LLM\\Correction};
+
+% No Correction
+\node[keepBox, minimum width=2.6cm, minimum height=1.3cm] (keep)
+  at (8.35, \midY) {};
+\node[mainLabel] at (8.35, 1.18) {No\\Correction};
+
+% Human Correction
+\node[orangeBox, minimum width=2.6cm, minimum height=1.3cm] (human)
+  at (8.35, -0.5) {};
+\node[mainLabel] at (8.35, -0.4) {Human\\Correction};
+
+% =====================================================================
+% Merge D → E   (gap 1.2:  9.65 → 10.85)
+% =====================================================================
+\draw[blue!45!black, line width=1.1pt]
+  (9.65,2.65) .. controls (10.15,2.65) and (10.15,\midY)
+  .. (10.55,\midY);
+\draw[blue!45!black, line width=1.1pt]
+  (9.65,\midY) -- (10.55,\midY);
+\draw[blue!45!black, line width=1.1pt]
+  (9.65,-0.5) .. controls (10.15,-0.5) and (10.15,\midY)
+  .. (10.55,\midY);
+% final arrow
+\draw[arr] (10.55,\midY) -- (10.7,\midY);
+
+% =====================================================================
+% Stage E   FINAL CORRECTED CORPUS   (x = 10.85 – 12.70)
+% =====================================================================
+\begin{scope}[shift={(10.85,0)}]
+  \draw[teal!30!black, fill=teal!12, rounded corners=1.5pt, line width=0.6pt]
+    (0.3,0.3) -- (0.3,2.45) -- (1.85,2.45) -- (1.85,0.3) -- cycle;
+  \draw[teal!30!black, fill=teal!7, rounded corners=1.5pt, line width=0.6pt]
+    (0.15,0.15) -- (0.15,2.3) -- (1.7,2.3) -- (1.7,0.15) -- cycle;
+  \draw[teal!30!black, fill=white, rounded corners=1.5pt, line width=0.7pt]
+    (0,0) -- (0,2.15) -- (1.55,2.15) -- (1.55,0) -- cycle;
+  \draw[teal!30!black, fill=teal!10, line width=0.5pt]
+    (1.1,2.15) -- (1.1,1.75) -- (1.55,1.75) -- cycle;
+  \foreach \y in {0.35,0.65,0.95,1.25}{
+    \draw[teal!40, line width=1.5pt, line cap=round]
+      (0.2,\y) -- ++(0.9,0);
+  }
+\end{scope}
+\node[mainLabel, below] at (11.63,-0.15) {Final\\Corrected\\Corpus};
+
+\end{tikzpicture}

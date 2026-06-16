@@ -292,7 +292,7 @@ def main():
 
     # (d) Oracle (perfect routing, no human corrections)
     ax.plot(oracle_pct, [v*100 for v in oracle_vals], color='#7f7f7f',
-             linestyle=':', linewidth=1.8, label='Oracle (Perfect Routing)')
+             linestyle=':', linewidth=1.8, label='Oracle (Perfect LLM Routing)')
 
     # Baseline reference line
     ax.axhline(avg_base * 100, color='black', linestyle='--', linewidth=1.2, alpha=0.6,

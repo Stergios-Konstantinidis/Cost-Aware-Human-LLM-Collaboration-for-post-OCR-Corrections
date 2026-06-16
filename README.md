@@ -1,10 +1,10 @@
-# Out of Character: Cost-Aware Human-LLM Collaboration for Historical Archives
+# Cost-Aware Human-LLM Collaboration for post-OCR Corrections in Swiss Historical Newspapers
 
 This repository contains the code, data, and LaTeX manuscript for the DocEng 2026 short paper.
 
 ## Project Overview
 
-We propose a three-tier collaboration framework that routes each OCR text segment to the most cost-effective correction path: (1) **No Correction**, (2) **LLM Correction**, or (3) **Human Correction**. A LassoCV regression model trained on 55 lightweight features extracted from the raw OCR output predicts per-document CER improvement (ΔCER), enabling regression-guided routing that closely tracks the Oracle frontier. A safeguard classifier detects cases where LLM correction would harm quality and routes them to human review.
+We propose a three-tier collaboration framework that routes each OCR text segment to the most cost-effective correction path: (1) **No Correction**, (2) **LLM Correction**, or (3) **Human Correction**. A LassoCV regression model trained on 54 lightweight features extracted from the raw OCR output predicts per-document CER improvement (ΔCER), enabling regression-guided routing that closely tracks the Oracle frontier. A safeguard classifier detects cases where LLM correction would harm quality and routes them to human review.
 
 ![Methodology Overview](paper/figures/overview.png)
 
@@ -39,7 +39,7 @@ With <5% of documents routed to human review (29 docs), the safeguard achieves *
 │   │   ├── rebuild_baselines.py          # OCR baseline reconstruction
 │   │   └── update_confidence_data.py     # OCR confidence extraction
 │   └── utils/
-│       └── regression_features.py        # 55-dimensional feature engineering
+│       └── regression_features.py        # 54-dimensional feature engineering
 ├── data/
 │   └── evaluation_dataset/               # 609 text segments + page images
 ├── paper/
@@ -120,9 +120,9 @@ Of these, 597 segments have successful OCR scans (12 failed scans return empty s
 
 ---
 
-## Feature Set (55 Features)
+## Feature Set (54 Features)
 
-The routing model uses 55 features extracted exclusively from the raw OCR text and document metadata (no ground truth required).
+The routing model uses 54 features extracted exclusively from the raw OCR text and document metadata (no ground truth required).
 
 ### Text-Surface Features (41)
 
@@ -138,7 +138,7 @@ The routing model uses 55 features extracted exclusively from the raw OCR text a
 | `ortho_integrity_word`, `ortho_integrity_char` | Fraction unchanged by French spell-checker |
 | `dict_hit_rate` | Fraction of words in French dictionary |
 
-### Metadata Features (14)
+### Metadata Features (13)
 
 | Feature | Description |
 |---|---|
@@ -146,13 +146,12 @@ The routing model uses 55 features extracted exclusively from the raw OCR text a
 | `publication_year` | Document date |
 | `newspaper_*` (9 features) | One-hot encoding of newspaper source |
 | `avg_confidence` | Per-document average OCR confidence score |
-| `low_conf_ratio` | Fraction of words below confidence threshold |
 
 ---
 
 ## LassoCV Feature Salience
 
-Only 11 of 55 features receive non-zero coefficients, confirming the Lasso's sparsity:
+Only 11 of 54 features receive non-zero coefficients, confirming the Lasso's sparsity:
 
 | Rank | Feature | Coefficient | Interpretation |
 |---|---|---|---|
