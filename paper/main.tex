@@ -2,7 +2,7 @@
 %% This is file `main.tex',
 %% Accepted!!!!!
 %%
-\documentclass[sigconf, review]{acmart}
+\documentclass[sigconf]{acmart}
 \usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{standalone}
@@ -50,8 +50,7 @@
   \country{Switzerland}}
 \email{michalis.vlachos@unil.ch}
 
-%\renewcommand{\shortauthors}{Konstantinidis et al.}
-\renewcommand{\shortauthors}{Anonymised for review}
+\renewcommand{\shortauthors}{Konstantinidis et al.}
 \begin{abstract}
 OCR transcription errors in historical archives often hinder digital search and retrieval. While Large Language Models (LLMs) can correct many of these errors, applying them indiscriminately is costly and may negatively affect already-clean text. We propose a three-tier collaboration framework that routes each text segment to one of: (1) No Correction, (2) LLM Correction, or (3) Human Correction. We introduce a regression-guided routing approach that prioritizes segments by predicted CER improvement, paired with a safeguard layer that detects harmful LLM corrections and routes uncertain segments to human review. With only $<$5\% of the corpus reviewed by human experts, our safeguard achieves a 14\% relative reduction over the All-LLM baseline, and substantially outperforms standard confidence-based approaches. By dynamically routing degraded segments to humans and fixable errors to the LLM, the collaborative framework outperforms either corrector in isolation.
 
@@ -164,7 +163,7 @@ We structure the evaluation around two research questions:
     \item \textbf{RQ1:} How effectively does regression-guided routing prioritize LLM corrections, and can a safeguard with a small human budget improve quality?
     \item \textbf{RQ2:} Can post-LLM safeguard classifiers detect and intercept harmful corrections under a fixed operational budget?
 \end{itemize}
-All code, data, prompts, and per-model results are available in an anonymized
+All code, data, prompts, and per-model results are available in our public
 repository.\footnote{\url{https://github.com/Stergios-Konstantinidis/Cost-Aware-Human-LLM-Collaboration-for-post-OCR-Corrections}}
 
 
