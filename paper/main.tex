@@ -91,7 +91,7 @@ Our main \textbf{contributions} are:
 \begin{itemize}
     \item A cost-aware routing framework coordinating OCR outputs, LLMs, and human reviewers, with a regression-guided routing strategy.
     \item A routing approach with a safeguard layer that detects when an LLM correction will deteriorate the OCR result and routes uncertain segments to human review under a small budget constraint ($<$5\% of the corpus).
-    \item An evaluation on a historical Swiss newspaper corpus (1733--1945) showing that our method achieves 2.56\% CER with only $<$5\% of the corpus reviewed by human experts, a 14\% relative reduction over the All-LLM baseline (2.98\% CER) and substantially outperforming confidence-based approaches.
+    \item An evaluation on a historical Swiss newspaper corpus (1733--1945) showing that our method achieves 2.55\% CER with only $<$5\% of the corpus reviewed by human experts, a 14\% relative reduction over the All-LLM baseline (2.98\% CER) and substantially outperforming confidence-based approaches.
 \end{itemize}
 
 
@@ -217,22 +217,26 @@ Analyzing the LassoCV coefficients (Figure~\ref{fig:lasso_features}) reveals whi
 
 \smallskip\noindent
 \textbf{RQ2: Safeguard Routing.}
-Table~\ref{tab:routing_comparison} quantifies the routing performance at key correction budgets. At every operating point, our LassoCV approach outperforms the ConfBERT baseline. Adding the safeguard, a logistic regression classifier trained on the same raw OCR features to predict $P(\Delta\text{CER} \geq 0)$, further improves quality by routing the most uncertain corrections to human review ($<$5\% of the corpus, 29 segments). At 50\% correction, the safeguard achieves \textbf{2.66\% CER} vs.\ 3.08\% without safeguard and 3.72\% for ConfBERT. At full correction, the safeguard yields \textbf{2.56\% CER}, a 14\% relative improvement over the All-LLM baseline (2.98\%), with fewer than 5\% of segments requiring expert review. These results confirm that targeted human intervention on the most uncertain cases strictly improves quality over unguarded LLM correction.
+Table~\ref{tab:routing_comparison} quantifies the routing performance at key correction budgets. At every operating point, our LassoCV approach outperforms the ConfBERT baseline. Adding the safeguard, a logistic regression classifier trained on the same raw OCR features to predict $P(\Delta\text{CER} \geq 0)$, further improves quality by routing the most uncertain corrections to human review ($<$5\% of the corpus, 29 segments). At 50\% correction, the safeguard achieves \textbf{2.66\% CER} vs.\ 3.08\% without safeguard and 3.72\% for ConfBERT. At full correction, the safeguard yields \textbf{2.55\% CER}, a 14\% relative improvement over the All-LLM baseline (2.98\%), with fewer than 5\% of segments requiring expert review. These results confirm that targeted human intervention on the most uncertain cases strictly improves quality over unguarded LLM correction.
 
 \begin{table}[h]
 \centering
-\caption{CER (\%) at key correction budgets across routing strategies on the 609-segment corpus. Ours + Safeguard routes $<$5\% of segments to human review. Oracle represents LLM correction only, no human review budget.}
+\caption{Overall CER (\%) [95\% bootstrap confidence intervals] at key correction budgets across routing strategies. Ours + Safeguard routes $<$5\% of segments to human review. Oracle represents LLM correction only. Significance comparison (Wilcoxon signed-rank test): $^{*}, ^{**}, ^{***}$ indicate $p < 0.05, 0.01, 0.001$ vs. ConfBERT; $^{\dagger\dagger\dagger}$ indicates $p < 0.001$ vs. Ours.}
 \label{tab:routing_comparison}
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{r|cccc}
 \toprule
 \textbf{\% Corrected} & \textbf{ConfBERT} & \textbf{Ours} & \textbf{Ours + Safeguard} & \textbf{Oracle} \\
 \midrule
-0\% & 6.32 & 6.32 & 6.32 & 6.32 \\
-25\% & 5.06 & 3.85 & \textbf{3.48} & 3.16 \\
-50\% & 3.72 & 3.08 & \textbf{2.66} & 2.60 \\
-75\% & 3.25 & 3.04 & \textbf{2.62} & 2.50 \\
-100\% & 2.98 & 2.98 & \textbf{2.56} & 2.98 \\
+0\% & \makecell{6.32 \\ \scriptsize [5.38, 7.37]} & \makecell{6.32 \\ \scriptsize [5.38, 7.37]} & \makecell{6.32 \\ \scriptsize [5.38, 7.37]} & \makecell{6.32 \\ \scriptsize [5.38, 7.37]} \\
+\midrule
+25\% & \makecell{5.07 \\ \scriptsize [4.23, 6.02]} & \makecell{3.85$^{*}$ \\ \scriptsize [3.20, 4.59]} & \makecell{\textbf{3.49}$^{**\dagger\dagger\dagger}$ \\ \scriptsize [2.91, 4.16]} & \makecell{3.17 \\ \scriptsize [2.61, 3.82]} \\
+\midrule
+50\% & \makecell{3.72 \\ \scriptsize [3.03, 4.51]} & \makecell{3.08 \\ \scriptsize [2.47, 3.80]} & \makecell{\textbf{2.66}$^{***\dagger\dagger\dagger}$ \\ \scriptsize [2.13, 3.30]} & \makecell{2.60 \\ \scriptsize [2.05, 3.26]} \\
+\midrule
+75\% & \makecell{3.25 \\ \scriptsize [2.58, 4.03]} & \makecell{3.04 \\ \scriptsize [2.36, 3.83]} & \makecell{\textbf{2.62}$^{***\dagger\dagger\dagger}$ \\ \scriptsize [2.01, 3.34]} & \makecell{2.50 \\ \scriptsize [1.95, 3.15]} \\
+\midrule
+100\% & \makecell{2.98 \\ \scriptsize [2.29, 3.77]} & \makecell{2.98 \\ \scriptsize [2.29, 3.77]} & \makecell{\textbf{2.55}$^{***\dagger\dagger\dagger}$ \\ \scriptsize [1.94, 3.27]} & \makecell{2.98 \\ \scriptsize [2.29, 3.77]} \\
 \bottomrule
 \end{tabular}
 }
@@ -244,7 +248,7 @@ Table~\ref{tab:routing_comparison} quantifies the routing performance at key cor
 
 The routing decisions in our framework are ultimately governed by the cost ratio between human and LLM correction. At current pricing, this ratio is striking: correcting all 609 segments with Gemini~3 Flash costs approximately \$0.24 in API fees, whereas hiring a human annotator at \$15/hour to review the same corpus at 15 segments per hour would cost roughly \$600 and require nearly 40 hours of expert time. The LLM correction cost is therefore approximately three orders of magnitude smaller than the human alternative, making the routing decision almost entirely a question of \emph{when} human intervention adds enough quality to justify the expense.
 
-Our results show that the answer is surprisingly targeted. The safeguard routes only 29 segments ($<$5\% of the corpus) to human review, yet this small allocation reduces CER from 2.98\% to 2.56\%. Each human-reviewed segment contributes disproportionately to overall quality because it replaces a case where the LLM would have introduced errors.
+Our results show that the answer is surprisingly targeted. The safeguard routes only 29 segments ($<$5\% of the corpus) to human review, yet this small allocation reduces CER from 2.98\% to 2.55\%. Each human-reviewed segment contributes disproportionately to overall quality because it replaces a case where the LLM would have introduced errors.
 
 As better LLM corrections become effectively free, the routing decision grows more complex: Should a segment go to a cost-effective model, a quality-optimized one, or a human expert? In this multi-tier setting, the safeguard's ability to predict $P(\Delta\text{CER} \geq 0)$ becomes the critical component, since it directly determines how many segments need expert review.
 
