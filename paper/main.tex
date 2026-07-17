@@ -1,6 +1,6 @@
 %%
 %% This is file `main.tex',
-%% Curated for DocEng 2026
+%% Accepted!!!!!
 %%
 \documentclass[sigconf, review]{acmart}
 \usepackage{xcolor}
@@ -21,34 +21,34 @@
 \setcopyright{acmlicensed}
 \copyrightyear{2026}
 \acmYear{2026}
-\acmDOI{XXXXXXX.XXXXXXX}
+\acmDOI{10.1145/3820755.3832797}
 \acmConference[DocEng '26]{The 26th ACM Symposium on Document Engineering}{August 25--28, 2026}{Fribourg, Switzerland}
 \acmISBN{978-1-4503-XXXX-X/26/08}
 
 \begin{document}
 
 \title{Cost-Aware Human-LLM Collaboration for post-OCR \\ Corrections in Swiss Historical Newspapers}
-\author{Anonymised for review}
-%\author{Stergios Konstantinidis}
-%\affiliation{%
-%  \institution{University of Lausanne}
-%  \city{Lausanne}
-%  \country{Switzerland}}
-%\email{stergios@unil.ch}
-%
-%\author{Hayman Lotfy}
-%\affiliation{%
-%  \institution{University of Lausanne}
-%  \city{Lausanne}
-%  \country{Switzerland}}
-%  \email{hayman.lotfy@unil.ch}
-%
-%\author{Michalis Vlachos}
-%\affiliation{%
-%  \institution{University of Lausanne}
-%  \city{Lausanne}
-%  \country{Switzerland}}
-%\email{michalis.vlachos@unil.ch}
+
+\author{Stergios Konstantinidis}
+\affiliation{%
+  \institution{University of Lausanne}
+  \city{Lausanne}
+  \country{Switzerland}}
+\email{stergios@unil.ch}
+
+\author{Hayman Lotfy}
+\affiliation{%
+  \institution{University of Lausanne}
+  \city{Lausanne}
+  \country{Switzerland}}
+  \email{hayman.lotfy@unil.ch}
+
+\author{Michalis Vlachos}
+\affiliation{%
+  \institution{University of Lausanne}
+  \city{Lausanne}
+  \country{Switzerland}}
+\email{michalis.vlachos@unil.ch}
 
 %\renewcommand{\shortauthors}{Konstantinidis et al.}
 \renewcommand{\shortauthors}{Anonymised for review}
@@ -91,8 +91,8 @@ To address these issues, we propose a three-tier collaboration framework that ro
 Our main \textbf{contributions} are:
 \begin{itemize}
     \item A cost-aware routing framework coordinating OCR outputs, LLMs, and human reviewers, with a regression-guided routing strategy.
-    \item A routing approach with a safeguard layer that detects harmful LLM corrections and routes uncertain segments to human review under a small budget constraint ($<$5\% of the corpus).
-    \item An evaluation on a historical Swiss newspaper corpus (1733--1945) showing our safeguard achieves 2.56\% CER with only $<$5\% of the corpus reviewed by human experts, a 14\% relative reduction over the All-LLM baseline (2.98\% CER) and substantially outperforming confidence-based approaches.
+    \item A routing approach with a safeguard layer that detects when an LLM correction will deteriorate the OCR result and routes uncertain segments to human review under a small budget constraint ($<$5\% of the corpus).
+    \item An evaluation on a historical Swiss newspaper corpus (1733--1945) showing that our method achieves 2.56\% CER with only $<$5\% of the corpus reviewed by human experts, a 14\% relative reduction over the All-LLM baseline (2.98\% CER) and substantially outperforming confidence-based approaches.
 \end{itemize}
 
 
@@ -103,7 +103,7 @@ Post-OCR correction is transitioning from rule-based and statistical methods, su
 OCR engine confidence scores are frequently used to locate errors. Hemmer et al. \cite{10.1007/978-3-031-70442-0_13} propose ConfBERT, which fuses token confidence scores with language representations for binary error detection. Unlike token-level error detection, our framework operates at the document-segment level to make three-class routing decisions based on surface, spelling, and metadata features.
 
 \medskip\noindent\textbf{Cost-Aware Routing.}
-As LLM adoption grows, cost-aware routers like RouteLLM \cite{Ong2025RouteLLMLT, li2025costaware} learn to route queries between strong and weak models. Similarly, bandit-based frameworks choose among multiple LLMs \cite{panda2025pilot, wang2025barp}. Complementary to this, our work addresses the binary decision of whether to invoke LLM correction at all, using lightweight, domain-specific features rather than learned embeddings.
+As LLM adoption grows, cost-aware routers like RouteLLM \cite{Ong2025RouteLLMLT, li2025costaware} learn to route queries between strong and weak models. Similarly, bandit-based frameworks choose among multiple LLMs \cite{panda2025pilot, wang2025barp}. Complementary to this, our work addresses the decision of whether a correction is needed, and \textit{if} an LLM correction is adequate.
 
 
 
@@ -134,7 +134,7 @@ We define three correction paths based on the raw and corrected error rates:
 These labels are used to characterize the ideal correction path during evaluation. At deployment time, the true error rates are unavailable; the learned router approximates these decisions using only features extracted from the raw OCR segment.
 
 \medskip\noindent\textbf{Cost Model.}
-Segments represent newspaper blocks averaging ~220 characters ($\sim$35 words). Class 0 carries zero cost. Class 1 (LLM) carries an API cost. Class 2 (Human) carries a time cost of $T_{\text{human}} = 4$ minutes per segment (15 segments/hour) to compare the OCR with the historical page image. For an hourly wage $W$, the human segment cost is $C_{\text{human}} = W / 15$ (e.g., \$1.00 at \$15/hour wage, \$2.00 at \$30/hour wage). Under current pricing, the LLM correction cost is approximately three orders of magnitude smaller than the human cost, making the routing decision almost entirely a question of human workload minimization.
+Segments represent newspaper blocks averaging ~220 characters ($\sim$35 words). Class 0 carries zero cost. Class 1 (LLM) carries an API cost. Class 2 (Human) carries an estimated time cost of $T_{\text{human}} = 4$ minutes per segment (15 segments/hour) to compare the OCR with the historical page image. For an hourly wage $W$, the human segment cost is $C_{\text{human}} = W / 15$ (e.g., \$1.00 at \$15/hour wage, \$2.00 at \$30/hour wage \footnote{ \href{https://freelancer.ypai.ai/jobs/french/annotation}{Costs reported for freelance annotators: https://freelancer.ypai.ai/jobs/french/annotation, as of April 2026}}). Under current pricing, the LLM correction cost is approximately three orders of magnitude smaller than the human cost, making the routing decision almost entirely a question of human workload minimization.
 
 \medskip\noindent\textbf{OCR, LLMs, and Prompt Design.}
 To evaluate correction generalizability, we run three OCR engines: PaddleOCR~v3~\cite{cui2025paddleocr}, EasyOCR\footnote{\url{https://github.com/JaidedAI/EasyOCR}}, and Tesseract~v5~\cite{tesseractOCR}. Post-correction is performed using six LLMs, spanning closed-source (Gemini~3 Flash, GPT-4o, Claude~3.5 Haiku)\cite{google2025gemini3flash,openai2024gpt4osystemcard, anthropic2024claude35haiku} and open-weight (Qwen~2.5-72B, Llama~3.3-70B, Gemma~4~31B) \cite{qwen2024qwen25,meta2024llama33,google2026gemma4} models. For each model, we evaluate ten distinct prompt templates of increasing complexity: (i)~\emph{Basic} (Prompts 1--2) provide direct, zero-shot instructions focused on raw text recovery, spacing, and punctuation; (ii)~\emph{Intermediate} (Prompts 3--6) introduce historical rules to preserve archaic French orthography and resolve standard typographic confusions (e.g., long `s'~\textit{f}/\textit{s} confusion); (iii)~\emph{Expert/Master} (Prompts 7--10) integrate in-context few-shot exemplars, structured Chain-of-Thought reasoning steps, and strict output formatting constraints to eliminate conversational preambles. Due to space limits, we report results using Tesseract and Gemini~3 Flash, which represent the optimal quality-cost configuration; results for other models and the full prompt ablation study are available in our code repository.
@@ -148,7 +148,7 @@ Rather than casting routing as classification, we adopt a two-step approach:
 A LassoCV regression model predicts the continuous improvement in CER ($\Delta\text{CER} = \text{CER}_{\text{raw}} - \text{CER}_{\text{corr}}$) from the raw-OCR feature vector $\phi(d_i)$. A positive $\Delta\text{CER}$ indicates that LLM correction reduces error. Segments are sorted by predicted $\Delta\text{CER}$ (most beneficial first) and corrected incrementally.
 
 \smallskip\noindent\emph{Step 2: Per-segment safeguard.}
-As each segment is processed in the priority order, a safeguard classifier decides its correction path. We train a logistic regression model under 10-fold CV to estimate $P(\Delta\text{CER} \geq 0 \mid \phi(d_i))$ the probability that LLM correction is safe (i.e., does not increase error). For each segment:
+As each segment is processed in the priority order, a safeguard classifier decides its correction path. We train a logistic regression model under 10-fold CV to estimate $P(\Delta\text{CER} \geq 0 \mid \phi(d_i))$ the probability that the LLM correction is safe (i.e., does not increase error). For each segment:
 \begin{itemize}
     \item If $P \geq 0.5$: the LLM correction is \textbf{accepted} (correction is likely safe).
     \item If $P < 0.5$ and the human budget $B$ is not exhausted: the segment is \textbf{routed to human review} (perfect correction, CER $= 0$).
@@ -165,11 +165,11 @@ We structure the evaluation around two research questions:
     \item \textbf{RQ2:} Can post-LLM safeguard classifiers detect and intercept harmful corrections under a fixed operational budget?
 \end{itemize}
 All code, data, prompts, and per-model results are available in an anonymized
-repository.\footnote{\url{https://anonymous.4open.science/r/doceng-public-A226}}
+repository.\footnote{\url{https://github.com/Stergios-Konstantinidis/Cost-Aware-Human-LLM-Collaboration-for-post-OCR-Corrections}}
 
 
 \medskip\noindent\textbf{Corpus and annotation.}
-We use a corpus drawn from nine distinct periodicals published in the Canton of Vaud between 1733 and 1945, spanning over two centuries of French-language press, from 18th-century literary journals (Mercure Suisse) to 20th-century dailies (Tribune de Lausanne) and totaling 609 text segments across 45 digitized pages. This temporal and typographic diversity ensures the evaluation covers a wide range of OCR degradation patterns, including early typefaces (see Fig.~\ref{fig:segment_example}), 19th-century serif layouts, and modern multi-column newspaper formats. Three French-speaking annotators produced fidelity-oriented
+We use a corpus drawn from nine distinct periodicals published in the Canton of Vaud between 1733 and 1945, spanning over two centuries of French-language press, from 18th-century literary journals (Mercure Suisse) to 20th-century dailies (Tribune de Lausanne) and totaling 609 text segments across 45 digitized pages. This temporal and typographic diversity ensures that the evaluation covers a wide range of OCR degradation patterns, including early typefaces (see Fig.~\ref{fig:segment_example}), 19th-century serif layouts, and modern multi-column newspaper formats. Three French-speaking annotators produced fidelity-oriented
 transcriptions that preserve historical spelling and source anomalies. We report
 WER and CER, computed after a topological normalization step that unifies
 historical character variants and spacing.
@@ -193,7 +193,7 @@ For each routing decision, we simulate the resulting text quality: segments rout
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.9\columnwidth]{paper/figures/safeguard_routing_plot.png}
+\includegraphics[width=\columnwidth]{paper/figures/safeguard_routing_plot.png}
 \vspace{-\baselineskip}
 \caption{CER routing frontier comparing our LassoCV approach (with and without safeguard), ConfBERT~\cite{10.1007/978-3-031-70442-0_13}, and Oracle (perfect routing). The safeguard routes $<$5\% of segments to human review.}
 \label{fig:safeguard_routing}
@@ -212,7 +212,7 @@ Analyzing the LassoCV coefficients (Figure~\ref{fig:lasso_features}) reveals whi
 \centering
 \includegraphics[width=\columnwidth]{paper/figures/lasso_feature_impact.png}
 \vspace{-1.5\baselineskip}
-\caption{Standardized LassoCV coefficients for predicting $\Delta$CER. Positive coefficients (blue) indicate features where LLM correction yields larger gains; negative coefficients (red) indicate features associated with smaller improvement.}
+\caption{Standardized LassoCV coefficients for predicting $\Delta$CER. Positive coefficients (blue) indicate features where the LLM correction yields larger gains; negative coefficients (red) indicate features negatively correlated with CER improvement.}
 \label{fig:lasso_features}
 \end{figure}
 
@@ -247,14 +247,17 @@ The routing decisions in our framework are ultimately governed by the cost ratio
 
 Our results show that the answer is surprisingly targeted. The safeguard routes only 29 segments ($<$5\% of the corpus) to human review, yet this small allocation reduces CER from 2.98\% to 2.56\%. Each human-reviewed segment contributes disproportionately to overall quality because it replaces a case where the LLM would have introduced errors.
 
-As better LLM corrections become effectively free, the routing decision grows more complex: should a segment go to a cost-effective model, a quality-optimized one, or a human expert? In this multi-tier setting, the safeguard's ability to predict $P(\Delta\text{CER} \geq 0)$ becomes the critical component, since it directly determines how many segments need expert review.
+As better LLM corrections become effectively free, the routing decision grows more complex: Should a segment go to a cost-effective model, a quality-optimized one, or a human expert? In this multi-tier setting, the safeguard's ability to predict $P(\Delta\text{CER} \geq 0)$ becomes the critical component, since it directly determines how many segments need expert review.
 
 Conversely, if human correction costs decrease (through crowdsourcing, semi-automated review interfaces, or improved OCR that reduces the number of degraded segments) the optimal human budget $B$ could increase, and the framework would naturally route more segments to human review. The operating-point flexibility of our approach accommodates this: practitioners can adjust $B$ as a single parameter to reflect their cost structure, without retraining the routing model. This adaptability makes the framework robust to the rapid shifts in both LLM pricing and human labor costs that characterize the current landscape.
 %\balance
 
 \section{Conclusion}
-A cost-aware, three-tier OCR text correction framework selects between: no extra correction, LLM correction, or human review. The method uses a lightweight regression-guided routing with a safeguard layer. With less than $5\%$ of the corpus reviewed by humans, it achieves a 14\% relative CER reduction over an All-LLM baseline, showing that targeted human intervention on the most uncertain cases outperforms either corrector in isolation.
+A cost-aware, three-tier OCR text correction framework selects between no extra correction, LLM correction, or human review. The method uses a lightweight regression-guided routing with a safeguard layer. With less than $5\%$ of the corpus reviewed by humans, it achieves a 14\% relative CER reduction over an All-LLM baseline, showing that targeted human intervention on the most uncertain cases outperforms either corrector in isolation.
 
+ \section*{Acknowledgments}
+This work was supported by the Swiss National Science Foundation (SNSF), Switzerland, under Grant No. 237991.\\
+% We would like to acknowledge unpublished work from Jonathan Pua from NUS demonstrating that elements with high error rates can be identified.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{main}

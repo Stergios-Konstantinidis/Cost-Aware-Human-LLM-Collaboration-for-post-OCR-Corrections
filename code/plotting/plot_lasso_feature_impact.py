@@ -164,13 +164,7 @@ def plot_feature_impact(top_features):
     ax.grid(True, axis="x", color=C_GRID, linestyle="--", linewidth=0.6, zorder=0)
     ax.set_axisbelow(True)
 
-    # Legend
-    from matplotlib.patches import Patch
-    legend_elements = [
-        Patch(facecolor=C_POS, alpha=0.9, label=r"Predicts larger $\Delta$CER (LLM helps more)"),
-        Patch(facecolor=C_NEG, alpha=0.9, label=r"Predicts smaller $\Delta$CER (LLM helps less)"),
-    ]
-    ax.legend(handles=legend_elements, loc="lower left", framealpha=0.9, fontsize=9.5)
+
 
     # Adjust limits
     max_val = max(abs(x) for x in coefficients)

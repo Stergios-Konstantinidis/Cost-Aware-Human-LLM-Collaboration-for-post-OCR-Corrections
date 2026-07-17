@@ -116,7 +116,7 @@ Generates `paper/figures/lasso_feature_impact.png` — standardized LassoCV coef
 | Mercure Suisse | 1733–1738 | 2 | 5 | 16 |
 | **Total** | **1733–1945** | **20** | **45** | **609** |
 
-Of these, 609 segments have successful OCR scans (12 failed scans return empty strings).
+Of these, 597 segments have successful OCR scans (12 failed scans return empty strings).
 
 ---
 
