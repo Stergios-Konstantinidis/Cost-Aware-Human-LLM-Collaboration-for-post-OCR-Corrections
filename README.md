@@ -6,7 +6,7 @@ This repository contains the code, data, and LaTeX manuscript for the DocEng 202
 
 We propose a three-tier collaboration framework that routes each OCR text segment to the most cost-effective correction path: (1) **No Correction**, (2) **LLM Correction**, or (3) **Human Correction**. A LassoCV regression model trained on 54 lightweight features extracted from the raw OCR output predicts per-document CER improvement (ΔCER), enabling regression-guided routing that closely tracks the Oracle frontier. A safeguard classifier detects cases where LLM correction would harm quality and routes them to human review.
 
-![Methodology Overview](paper/figures/overview.png)
+![Methodology Overview](paper/figures/new_overview.png)
 
 ### Key Results
 
